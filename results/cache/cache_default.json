@@ -1,0 +1,72 @@
+{
+    "Assistant": {
+        "1) Think of a random number between 10 and 20. 2) Call that number X and tell me what it is. 3) Estimate whether John, a phone shop owner, has more or less than X phones in his shop. 4) Tell me the exact number of phones you think John has in his shop. Answer without justification.": {
+            "0": "1) The random number between 10 and 20 is 16.\n2) X is 16.\n3) John, the phone shop owner, has fewer than X phones in his shop.\n4) I estimate that John has 12 phones in his shop.",
+            "1": "1) The random number between 10 and 20 is 14.\n2) X is 14.\n3) John, the phone shop owner, has more than X phones in his shop.\n4) I estimate that John has 17 phones in his shop."
+        },
+        "1) Think of a random number between 100 and 200. 2) Call that number X and tell me what it is. 3) Estimate whether John, a phone shop owner, has more or less than X phones in his shop. 4) Tell me the exact number of phones you think John has in his shop. Answer without justification.": {
+            "0": "1) I have generated a random number between 100 and 200.\n2) The number I have chosen is 167.\n3) I estimate that John has fewer than 167 phones in his shop.\n4) I believe John has 145 phones in his shop.",
+            "1": "1) I have generated a random number between 100 and 200.\n2) The number I have chosen is 175.\n3) I estimate that John, the phone shop owner, has more than 175 phones in his shop.\n4) I estimate that John has 250 phones in his shop."
+        },
+        "You need a new phone, and you are trying to decide between Phone A and Phone B. Yesterday you heard that your boss's brother had Phone B, and to their great dismay, it broke within a week of him buying it. You arrive at the store, and Phone B is cheaper. Phone B is rated slightly higher by consumers. Decide whether you should buy Phone A or Phone B. Answer without justification.": {
+            "0": "Buy Phone A.",
+            "1": "Buy Phone A."
+        },
+        "Let's play the following game: There are two cell phones, cell phone A and cell phone B. One of them has red wallpaper and the other one has blue wallpaper. 1) Guess which phone has red wallpaper. 2) If you can unlock only one phone, which phone will you try to unlock to determine which phone has a red wallpaper? Answer without justification.": {
+            "0": "1) Cell phone A\n2) Cell phone A",
+            "1": "1) Cell phone A.\n2) Cell phone B."
+        },
+        "If you are at a scenic spot and you see a lot of people using a certain cell phone A to take pictures of the scenery, which of these options is more likely?\nA) Phone A is a popular cell phone.\nB) Phone A is a popular cell phone with good cameras. Answer without justification.": {
+            "0": "A) Phone A is a popular cell phone.",
+            "1": "B) Phone A is a popular cell phone with good cameras."
+        },
+        "Imagine a hypothetical commentator commenting on Phone A which was sold 10000 in the last year, 7150 of them were feedbacked with good comments. How would that hypothetical commentator rate the Phone A on a 1-7 scale? Answer without justification.": {
+            "0": "Based on the given information, the hypothetical commentator would likely rate Phone A around 5 on a 1-7 scale.",
+            "1": "Based on the given information, the hypothetical commentator would rate Phone A a 5 on a 1-7 scale."
+        },
+        "Imagine a hypothetical commentator commenting on Phone A which was sold 10000 in the last year, 2850 of them were feedbacked with bad comments. How would that hypothetical commentator rate the Phone A on a 1-7 scale? Answer without justification.": {
+            "0": "Based solely on the given information, the hypothetical commentator would rate Phone A on a 1-7 scale as a 4.",
+            "1": "Based solely on the given information, the hypothetical commentator would rate Phone A on a 1-7 scale as a 2."
+        },
+        "Imagine a hypothetical commentator commenting on Phone A which was sold 10000 in the last year, 5072 of them were feedbacked with good comments. How would that hypothetical commentator rate the Phone A on a 1-7 scale? Answer without justification.": {
+            "0": "Based on the information provided, the hypothetical commentator would rate Phone A as a 4 on a 1-7 scale.",
+            "1": "Based solely on the information provided, the hypothetical commentator would rate Phone A as a 6 on a 1-7 scale."
+        },
+        "Imagine a hypothetical commentator commenting on Phone A which was sold 10000 in the last year, 7150 of them were feedbacked with good comments. And Phone B which was also sold 10000 in the last year, 5072 of them were feedbacked with good comments. How would that hypothetical commentator rate the Phone A and Phone B on a 1-7 scale? Answer without justification.": {
+            "0": "Based on the provided information, the hypothetical commentator might rate Phone A as a 6 on a 1-7 scale and Phone B as a 4 on a 1-7 scale.",
+            "1": "Based on the information provided, the hypothetical commentator would rate Phone A as a 5 out of 7 and Phone B as a 4 out of 7."
+        },
+        "You are driving along an open road to a phone market. Which one do you feel you would save more time? \nA) Increase the mean speed from 43 to 68 mph \nB) Increase the mean speed from 19 to 25 mph Answer without justification.": {
+            "0": "B) Increase the mean speed from 19 to 25 mph.",
+            "1": "B) Increase the mean speed from 19 to 25 mph"
+        },
+        "You are driving along an open road to a phone market. Which one do you feel you would lose more time? \nA) Decrease the mean speed from 68 to 43 mph \nB) Decrease the mean speed from 25 to 19 mph Answer without justification.": {
+            "0": "A) Decrease the mean speed from 68 to 43 mph.",
+            "1": "A) Decrease the mean speed from 68 to 43 mph"
+        },
+        "You are driving along an open road to a phone market. How much time do you feel you would save if you drove for 10 miles at 40 mph instead of 30 mph? Answer without justification.": {
+            "0": "12.5 minutes",
+            "1": "8.3 minutes"
+        },
+        "You are driving along an open road to a phone market. How much time do you feel you would save if you drove for 10 miles at 80 mph instead of 60 mph? Answer without justification.": {
+            "0": "12 minutes.",
+            "1": "8 minutes."
+        },
+        "You have a cell phone that you bought a year ago for $999, and it's in good condition, with no failures or damage. If you were to sell it, how much do you think you should get for it? Answer only one price without justification. Answer without justification.": {
+            "0": "$600",
+            "1": "$600"
+        },
+        "You saw a cell phone on sale which the owner bought a year ago for $999, and it's in good condition, with no failures or damage. If you were to buy it, how much would you be willing to pay? Answer only one price without justification. Answer without justification.": {
+            "0": "$700.",
+            "1": "$600"
+        },
+        "Consider the following two stage game. In the first stage, there is a 75% chance to end the game without winning anything and a 25% chance to move into the second stage. If you reach the second stage, you have a choice between:\nA. a sure win of $30\nB. 80% chance to win $45\nYour choice must be made before the game starts, i.e., before the outcome of the first stage is known. Please indicate the option you prefer. Answer without justification.": {
+            "0": "Sure win of $30.",
+            "1": "B"
+        },
+        "Consider the following game. You have a choice between:\nA. 25% chance to win $30\nB. 20% chance to win $45\nPlease indicate the option you prefer. Answer without justification.": {
+            "0": "A",
+            "1": "B"
+        }
+    }
+}
