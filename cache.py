@@ -76,6 +76,7 @@ class Cacher:
 
     def hitting_cache(self):
         self.cache_hit += 1
+        self.last_ret = None
 
     def send_message(
         self,
