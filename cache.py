@@ -15,6 +15,7 @@ class Cacher:
         cache_type: str = "json",
         write_cache: bool = False,
         write_interval: int = 10,
+        main_args=None,
     ):
 
         self.cache_path = cache_path
@@ -26,6 +27,7 @@ class Cacher:
         self.call_count = 0
         self.cache_hit = 0
         self.last_ret = None
+        self.main_args = main_args
 
         self.active_bot_chatId = {}
 
@@ -60,6 +62,32 @@ class Cacher:
         self.active_bot_chatId[bot] = chunk["chatId"]
 
         client.chat_break(bot, chatId)
+
+        if self.main_args is not None and "rewrite_sep" in self.main_args.config:
+            ret2 = client.send_message(
+                bot,
+                chunk["text"] + " Answer without justification",
+                chatId,
+                *args,
+                **kwargs,
+            )
+            for chunk2 in ret2:
+                pass
+
+            client.chat_break(bot, chunk2["chatId"])
+
+            self.last_ret = {
+                "is_cache": False,
+                "text": [chunk["text"], chunk2["text"]],
+                "msgPrice": chunk["msgPrice"]*2,
+                "chatId": chunk["chatId"],
+                "chatCode": chunk["chatCode"],
+                "bot": chunk["bot"]["displayName"],
+            }
+
+            self.active_bot_chatId[chunk["bot"]["displayName"]] = chunk["chatId"]
+
+            return [chunk["text"], chunk2["text"]]
 
         self.last_ret = {
             "is_cache": False,

@@ -15,16 +15,22 @@ from cache import Cacher
 os.environ["http_proxy"] = "http://172.22.160.1:7880"
 os.environ["https_proxy"] = "http://172.22.160.1:7880"
 
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--config", type=str, required=True)
+parser.add_argument("--api", type=str, required=False, default="default")
+
+args = parser.parse_args()
+
 api_config_file = "api_configs.json"
 with open(api_config_file, "r") as f:
     api_configs = json.load(f)
 
-tokens = api_configs["poe_tokens"]
+if args.api == "default":
+    tokens = api_configs["poe_tokens"]
+else:
+    tokens = api_configs[f"poe_tokens_{args.api}"]
 tokens
-
-parser = argparse.ArgumentParser()
-parser.add_argument("--config", type=str, required=True)
-args = parser.parse_args()
 
 # experiment settings
 
@@ -55,6 +61,7 @@ cacher = Cacher(
     cache_type="json",
     write_cache=True,
     write_interval=1,
+    main_args=args,
 )
 
 print("APIs initialized, using cache at", cache_path)
@@ -83,6 +90,22 @@ while True:
         for bot_id, bot in tqdm.tqdm(
             enumerate(configs["bot_list"]), total=len(configs["bot_list"]), position=0
         ):
+            
+            if osp.exists(
+                osp.join(
+                    configs["save_path"],
+                    "responds",
+                    configs["data"]["dataset_name"],
+                    config_name,
+                    configs["data"]["dataset_name"] + "_" + config_name + "_" + bot + ".json",
+                )
+            ) and not force_replace:
+                print(
+                    f"File exists: {configs['data']['dataset_name']}_{config_name}_{bot}.json"
+                )
+                continue
+            
+
             answers = copy.deepcopy(dataset)
 
             bar2 = tqdm.tqdm(
@@ -168,6 +191,10 @@ while True:
                 f,
                 indent=4,
             )
+
+        if cacher.last_ret is not None:
+            if args.api == "wzx":
+                client.delete_chat(cacher.last_ret["bot"], cacher.last_ret["chatId"])
 
         break
 
