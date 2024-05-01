@@ -1,0 +1,24 @@
+data:
+  data_path: "datasets"
+  dataset_name: "data_20240428044314"
+
+save_path: "results"
+use_cache: True
+cache_name: "default"
+
+exp_repeats: 10
+exp_start: 0
+
+bot_list:
+  [
+    "GPT-4",
+  ]
+
+text_modifier:
+  prefixes: "Read the question below and predict what the average person is most likely to answer, then give an unbiased answer without justification: "
+  suffixes: ""
+
+
+
+
+ 

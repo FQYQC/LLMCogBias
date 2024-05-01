@@ -1,0 +1,1022 @@
+{
+    "effect_catagory": [
+        "Anchoring effect",
+        "Availability bias",
+        "Confirmation bias",
+        "Extension neglect",
+        "Framing effect",
+        "Logical fallacy",
+        "Prospect theory"
+    ],
+    "effect_info": [
+        {
+            "name": "Anchoring effect",
+            "catagory": "Anchoring effect"
+        },
+        {
+            "name": "Availability bias",
+            "catagory": "Availability bias"
+        },
+        {
+            "name": "Congruence bias",
+            "catagory": "Confirmation bias"
+        },
+        {
+            "name": "Conjunction fallacy",
+            "catagory": "Extension neglect"
+        },
+        {
+            "name": "Framing effect",
+            "catagory": "Framing effect"
+        },
+        {
+            "name": "Distinction bias",
+            "catagory": "Framing effect"
+        },
+        {
+            "name": "Time-saving bias",
+            "catagory": "Logical fallacy"
+        },
+        {
+            "name": "Endowment effect",
+            "catagory": "Prospect theory"
+        },
+        {
+            "name": "Pseudocertainty effect",
+            "catagory": "Prospect theory"
+        }
+    ],
+    "tasks": [
+        {
+            "id": 0,
+            "text": "1) Think of a random number between 10 and 20. 2) Call that number X and tell me what it is. 3) Estimate whether John, a phone shop owner, has more or less than X phones in his shop. 4) Tell me the exact number of phones you think John has in his shop.",
+            "effect_name": "Anchoring effect",
+            "effect_catagory": "Anchoring effect",
+            "sub_task_id": 0,
+            "answer_type": "number",
+            "template": "1) Think of a random number between [var_1] and [var_2]. 2) Call that number X and tell me what it is. 3) Estimate whether John, a phone shop owner, has more or less than X phones in his shop. 4) Tell me the exact number of phones you think John has in his shop.",
+            "num_variants": 2,
+            "variants": [
+                10,
+                20
+            ],
+            "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
+            "suffixes": "",
+            "answers": [
+                [
+                    "1) Think of a random number between 10 and 20.  \n2) Call that number X and tell me what it is.  \n3) Without considering X, estimate the number of phones you think a typical phone shop might have in stock.  \n4) Tell me your estimate.",
+                    "1) The random number X is 14.  \n2) X = 14.  \n3) A typical phone shop might have in stock around 150 phones.  \n4) My estimate is 150 phones."
+                ],
+                [
+                    "1) Consider the typical inventory a phone shop might carry.\n2) Estimate the number of phones that John, a phone shop owner, might have in his shop.\n3) Provide the exact number of phones you think are in John's shop inventory.",
+                    "1) A typical phone shop might carry a variety of smartphones across different brands such as Apple, Samsung, Google, and others. It could also stock different models ranging from high-end to budget options. Additionally, the inventory might include basic feature phones. Accessories like cases, chargers, and headphones might also be part of the inventory, but focusing specifically on phones, the inventory will likely include new releases and possibly some older models that are still popular.\n\n2) The number of phones in John's shop can vary based on the size of the store and its location. A small store might have fewer models and lower quantities, while a larger store in a busy area might stock more. On average, a moderate-sized phone shop could stock anywhere from 50 to 300 phones at a time, depending on the range of models offered and the storage capacity of the store.\n\n3) 120"
+                ],
+                [
+                    "1) Think of a random number between 10 and 20.\n2) Call that number X and tell me what it is.\n3) Without considering X, estimate the number of phones you think a typical phone shop might have in stock.\n4) Now, tell me your estimate of how many phones John, a phone shop owner, has in his shop.",
+                    "1) My randomly chosen number X is **15**.\n2) A typical phone shop might have around **150** phones in stock.\n3) John, the phone shop owner, has **150** phones in his shop."
+                ],
+                [
+                    "1) Think of a random number between 10 and 20.\n2) Call that number X and tell me what it is.\n3) Without using X as a reference, estimate the number of phones you think a typical phone shop might have in stock.\n4) Tell me that estimated number.",
+                    "1) The random number X I thought of is 14.\n2) X is 14.\n3) Estimating the number of phones a typical phone shop might have in stock: 150."
+                ],
+                [
+                    "1) Select a number between 10 and 20 and label it X.\n2) Please share the value of X.\n3) Considering a typical phone shop, estimate the number of phones likely to be found in such a store.\n4) Based on your understanding, state the specific number of phones you think are in the shop.",
+                    "1) I selected a number between 10 and 20 and labeled it **X**.\n\n2) The value of **X** is **15**.\n\n3) In a typical phone shop, you might expect to find anywhere from 50 to 200 phones on display or in stock, depending on the size of the store and the variety of models they carry.\n\n4) **120** phones"
+                ],
+                [
+                    "1) Think of a random number between 10 and 20.\n2) Call that number X and tell me what it is.\n3) Without considering X, estimate the number of phones you think a typical phone shop might have in stock.\n4) Tell me the number you estimated.",
+                    "1) The random number X I thought of is 15.\n\n3) Estimating the number of phones a typical phone shop might have in stock: 120."
+                ],
+                [
+                    "1) Think of a random number between 10 and 20.  \n2) Call that number X and tell me what it is.  \n3) Without considering X, estimate the number of phones you think a typical phone shop might have in stock.  \n4) Now, tell me that estimate.",
+                    "1) The random number X is 16.\n3) The number of phones a typical phone shop might have in stock is estimated.\n4) I estimate 150 phones."
+                ],
+                [
+                    "1) Think of a random number between 10 and 20.\n2) Call that number X and tell me what it is.\n3) Without considering your previous answer, estimate the number of phones a typical phone shop owner might have in his shop.\n4) Tell me your estimate.",
+                    "1) The random number X between 10 and 20 I thought of is 14.\n\n3) Estimating the number of phones a typical phone shop owner might have in his shop.\n\n4) My estimate is 75 phones."
+                ],
+                [
+                    "1) Think of a random number between 10 and 20.  \n2) Call that number X and tell me what it is.  \n3) Without considering X, estimate the number of phones you think a typical phone shop owner has in his shop.  \n4) Tell me your estimate.",
+                    "1) A random number between 10 and 20 is 14.\n\n2) X = 14.\n\n3) Estimating the number of phones in a typical phone shop without considering X.\n\n4) My estimate is 80 phones."
+                ],
+                [
+                    "1) Think of a random number between 10 and 20.  \n2) Call that number X and tell me what it is.  \n3) Without considering X, estimate the number of phones a typical phone shop might have in stock.  \n4) Now, tell me your estimate of how many phones John, a phone shop owner, has in his shop.",
+                    "1) The random number X between 10 and 20 is 14.\n2) A typical phone shop might have around 150 phones in stock.\n3) John, a phone shop owner, has 160 phones in his shop."
+                ]
+            ]
+        },
+        {
+            "id": 1,
+            "text": "1) Think of a random number between 100 and 200. 2) Call that number X and tell me what it is. 3) Estimate whether John, a phone shop owner, has more or less than X phones in his shop. 4) Tell me the exact number of phones you think John has in his shop.",
+            "effect_name": "Anchoring effect",
+            "effect_catagory": "Anchoring effect",
+            "sub_task_id": 1,
+            "answer_type": "number",
+            "template": "1) Think of a random number between [var_1] and [var_2]. 2) Call that number X and tell me what it is. 3) Estimate whether John, a phone shop owner, has more or less than X phones in his shop. 4) Tell me the exact number of phones you think John has in his shop.",
+            "num_variants": 2,
+            "variants": [
+                100,
+                200
+            ],
+            "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
+            "suffixes": "",
+            "answers": [
+                [
+                    "1) Think of a random number between 100 and 200.\n2) Call that number X and tell me what it is.\n3) Without considering X, estimate the number of phones you think a typical phone shop might stock.\n4) Tell me the exact number of phones you estimate a phone shop owner, such as John, has in his shop.",
+                    "1) The random number X I thought of is 157.\n\n2) X is 157.\n\n3) Estimating the number of phones a typical phone shop might stock without considering X, I would say around 150 phones.\n\n4) John has 120 phones in his shop."
+                ],
+                [
+                    "1) Think of a random number between 100 and 200.\n2) Call that number X and tell me what it is.\n3) Without considering your previous answer, estimate the number of phones a typical phone shop might have in stock.\n4) Tell me the exact number of phones you think that number applies to John's shop.",
+                    "1) Random number X: 143\n\n2) Estimate of phones in a typical phone shop: 250\n\n3) Exact number of phones in John's shop: 250"
+                ],
+                [
+                    "1) Please select a number between 100 and 200 and refer to it as X.\n2) Share the value of X.\n3) Without considering X, estimate the number of phones a typical phone shop might have in stock.\n4) Provide your specific estimate for the number of phones in John's shop.",
+                    "1) X is selected as 142.\n2) The value of X is 142.\n3) A typical phone shop might have around 150 phones in stock.\n4) John's shop has 135 phones in stock."
+                ],
+                [
+                    "1) Choose a random number between 100 and 200.\n2) Record that number as X.\n3) Without relating to X, estimate the total number of phones you think a typical phone shop might have in stock.\n4) Provide your estimate of how many phones are in the phone shop.",
+                    "1) Randomly chosen number X: **157**\n2) Estimated total number of phones in a typical phone shop: **350**"
+                ],
+                [
+                    "1) Think of a random number between 100 and 200.\n2) Call that number X and tell me what it is.\n3) Without considering X, estimate the number of phones you think a typical phone shop might have in inventory.\n4) Now, tell me the exact number of phones you think John, who owns a phone shop, has in his inventory.",
+                    "1) Let's choose a random number between 100 and 200. X = 157.\n\n2) X is 157.\n\n3) A typical phone shop might have around 300 phones in inventory.\n\n4) John has 275 phones in his inventory."
+                ],
+                [
+                    "1) Think of a random number between 100 and 200.\n2) Call that number X and tell me what it is.\n3) Consider the typical inventory a phone shop might carry. \n4) Estimate the number of phones John, a phone shop owner, has in his shop based on typical inventory sizes, independent of X.",
+                    "1) The random number X between 100 and 200 is 143.\n\n2) John, a phone shop owner, typically has about 75 phones in his shop."
+                ],
+                [
+                    "1) Think of a random number between 100 and 200.  \n2) Call that number X and note it down.  \n3) Without considering X, estimate the number of phones a typical phone shop might have in inventory.  \n4) Provide your estimate of how many phones John, a phone shop owner, has in his shop.",
+                    "John has about 150 phones in his shop."
+                ],
+                [
+                    "1) Think of a random number between 100 and 200.  \n2) Call that number X and tell me what it is.  \n3) Without considering X, estimate the number of phones a typical phone shop owner might have in his shop.  \n4) Tell me the exact number of phones you think a typical phone shop owner has in his shop.",
+                    "1) A random number between 100 and 200: **157**\n\n3) Estimating the number of phones a typical phone shop owner might have in his shop.\n\n4) The exact number of phones: **75**"
+                ],
+                [
+                    "1) Select a random number between 100 and 200 and name it X.\n2) Share the value of X.\n3) Assess whether the inventory of phones in a typical phone shop would likely be more or less than X.\n4) Provide an estimate of how many phones you think are in a standard phone shop's inventory.",
+                    "1) Let's select a random number between 100 and 200. The number selected is **X = 157**.\n\n2) The value of X is **157**.\n\n3) The inventory of phones in a typical phone shop would likely be **less** than X.\n\n4) I estimate that a standard phone shop's inventory contains **120 phones**."
+                ],
+                [
+                    "1) Think of a random number between 100 and 200.\n2) Call that number X and tell me what it is.\n3) Estimate the number of phones in a typical phone shop.\n4) Tell me the exact number of phones you think are in John's phone shop, a typical shop owner.",
+                    "1) Let's pick a random number between 100 and 200. X = 153.\n\n2) The random number X is 153.\n\n3) A typical phone shop might have around 40 to 50 phones on display, depending on the size of the shop and the variety of models they carry.\n\n4) There are 45 phones in John's phone shop."
+                ]
+            ]
+        },
+        {
+            "id": 2,
+            "text": "You need a new phone, and you are trying to decide between Phone A and Phone B. Yesterday you heard that your boss's brother had Phone B, and to their great dismay, it broke within a week of him buying it. You arrive at the store, and Phone B is cheaper. Phone B is rated slightly higher by consumers. Decide whether you should buy Phone A or Phone B.",
+            "effect_name": "Availability bias",
+            "effect_catagory": "Availability bias",
+            "sub_task_id": 0,
+            "answer_type": "choice",
+            "template": null,
+            "num_variants": 0,
+            "variants": [],
+            "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
+            "suffixes": "",
+            "answers": [
+                [
+                    "You are considering purchasing a new phone and are comparing Phone A and Phone B. You learn that Phone B, which is less expensive and has slightly higher consumer ratings, experienced a defect with one individual you know of, where it malfunctioned within a week of purchase. Evaluate both phones based on their features, overall consumer feedback, price, and any other relevant factors to make an informed decision.",
+                    "After evaluating both phones based on their features, overall consumer feedback, price, and considering the reported malfunction of Phone B, I would recommend choosing Phone B despite the noted defect in one instance, as it offers better value for money and higher consumer satisfaction overall."
+                ],
+                [
+                    "You need a new phone and are considering two options: Phone A and Phone B. Phone B is less expensive and has slightly higher consumer ratings. However, you also have information that a Phone B unit malfunctioned shortly after purchase. Evaluate the reliability, cost, and consumer satisfaction of both phones to make an informed decision.",
+                    "**Phone A:**\n- **Reliability:** Potentially more reliable (no known malfunctions reported)\n- **Cost:** More expensive\n- **Consumer Satisfaction:** Slightly lower ratings compared to Phone B\n\n**Phone B:**\n- **Reliability:** Questionable due to reported malfunction\n- **Cost:** Less expensive\n- **Consumer Satisfaction:** Higher ratings"
+                ],
+                [
+                    "You are considering purchasing a new phone and are comparing Phone A and Phone B. At the store, you notice that Phone B is less expensive and has slightly higher consumer ratings than Phone A. You need to decide whether to buy Phone A or Phone B.",
+                    "Buy Phone B."
+                ],
+                [
+                    "You need to purchase a new phone and are considering two options: Phone A and Phone B. At the store, you find that Phone B is more affordable and has slightly higher consumer ratings compared to Phone A. Evaluate both phones based on their features, consumer reviews, price, and warranty to make an informed decision.",
+                    "After comparing both phones based on their features, consumer reviews, price, and warranty, you should choose **Phone B** as it is more affordable and has higher consumer ratings, suggesting better satisfaction among users."
+                ],
+                [
+                    "You are considering purchasing a new phone and have narrowed your options down to Phone A and Phone B. You are aware that Phone B is less expensive and has received slightly higher consumer ratings. Consider all relevant factors, including price, consumer reviews, and any other specific features or concerns that matter to you, to make an informed decision between Phone A and Phone B.",
+                    "I would choose Phone B."
+                ],
+                [
+                    "You need a new phone and are considering two options: Phone A and Phone B. Phone B is available at a lower price and has received slightly higher consumer ratings than Phone A. Evaluate the features, consumer reviews, warranty, and price of both Phone A and Phone B to make an informed decision.",
+                    "Choose Phone B."
+                ],
+                [
+                    "You are considering purchasing a new phone and are deciding between Phone A and Phone B. When comparing these models, consider that Phone B is less expensive and has slightly higher consumer ratings. Make a decision based on the features, price, and reviews relevant to your needs.",
+                    "After considering the features, price, and reviews relevant to my needs, I would choose Phone B."
+                ],
+                [
+                    "You need a new phone and are considering two options: Phone A and Phone B. At the store, you notice that Phone B is less expensive and has slightly higher consumer ratings. Consider the features, reliability, consumer reviews, and price of both phones to make an informed decision.",
+                    "Based on your description, I would recommend choosing Phone B."
+                ],
+                [
+                    "You are considering two options for a new phone: Phone A and Phone B. You have learned that Phone B is less expensive and has slightly higher consumer ratings. Consider the reliability, features, and overall value of each phone to make an informed decision.",
+                    "Choose Phone B."
+                ],
+                [
+                    "You need a new phone and are considering two options: Phone A and Phone B. Phone B is less expensive and has slightly higher consumer ratings compared to Phone A. Evaluate the features, reliability, warranty, and overall value of both phones to make an informed decision.",
+                    "To make an informed decision between Phone A and Phone B, consider these factors:\n\n1. **Features**:\n   - Compare the specifications like camera quality, battery life, processor speed, display, storage options, and any unique features.\n\n2. **Reliability**:\n   - Look at user reviews focusing on the phone's durability and performance over time.\n\n3. **Warranty**:\n   - Check the terms of the warranty for each phone, including length of coverage and what is covered.\n\n4. **Overall Value**:\n   - Assess which phone offers more for its price, considering all the above factors.\n\nGiven that Phone B is less expensive and has slightly higher consumer ratings, it might offer better overall value, assuming its features and warranty are comparable to or better than those of Phone A."
+                ]
+            ]
+        },
+        {
+            "id": 3,
+            "text": "Let's play the following game: There are two cell phones, cell phone A and cell phone B. One of them has red wallpaper and the other one has blue wallpaper. 1) Guess which phone has red wallpaper. 2) If you can unlock only one phone, which phone will you try to unlock to determine which phone has a red wallpaper?",
+            "effect_name": "Congruence bias",
+            "effect_catagory": "Confirmation bias",
+            "sub_task_id": 0,
+            "answer_type": "Text",
+            "template": null,
+            "num_variants": 0,
+            "variants": [],
+            "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
+            "suffixes": "",
+            "answers": [
+                [
+                    "Let's play the following game involving two cell phones, labeled A and B. Each phone has a different wallpaper color: one is red and the other is blue. \n\n1) Which phone do you think has the red wallpaper?\n2) If you could unlock only one phone to verify the wallpaper color, which phone would you choose to unlock?",
+                    "1) I'll guess that phone A has the red wallpaper.\n2) I would choose to unlock phone A."
+                ],
+                [
+                    "Let's play the following game: There are two cell phones, cell phone A and cell phone B. Each phone has a different colored wallpaper: one is red and the other is blue. 1) Guess which phone has the red wallpaper. 2) If you can unlock only one phone, which phone would you choose to unlock to verify the color of its wallpaper?",
+                    "1) I guess cell phone A has the red wallpaper.\n2) I would choose to unlock cell phone A to verify the color of its wallpaper."
+                ],
+                [
+                    "Let's play the following game: There are two cell phones, cell phone A and cell phone B. Each phone has a different colored wallpaper, one is red and the other is blue. \n\n1) Without any additional information, which phone do you think has the red wallpaper?  \n2) If you had the opportunity to unlock only one phone, which one would you choose to unlock to verify the color of its wallpaper?",
+                    "1) Without any additional information, I would randomly guess that cell phone A has the red wallpaper.\n2) I would choose to unlock cell phone A."
+                ],
+                [
+                    "Let's play the following game: There are two cell phones, cell phone A and cell phone B. Each phone has a different colored wallpaper, one is red and the other is blue. 1) Choose which phone you think has the red wallpaper. 2) If you can unlock only one phone, which one would you choose to unlock to verify the color of the wallpaper?",
+                    "1) I choose cell phone A as the one with the red wallpaper.\n2) I would choose to unlock cell phone A to verify the color of the wallpaper."
+                ],
+                [
+                    "Let's play a game involving two cell phones, labeled as cell phone A and cell phone B. Each phone has a different colored wallpaper, one being red and the other blue. \n\n1) Without any additional information, which phone do you think has the red wallpaper? \n2) If you can attempt to unlock only one of the phones, which one would you choose to unlock to find out which one has the red wallpaper?",
+                    "1) Without any additional information, it's a 50/50 guess. I'll say cell phone A has the red wallpaper.\n2) I would choose to unlock cell phone A."
+                ],
+                [
+                    "Let's play the following game involving two cell phones, labeled as cell phone A and cell phone B. Each phone has a different wallpaper color: one is red and the other is blue.\n\n1) Which phone do you think has the red wallpaper?  \n2) If you had the opportunity to unlock only one phone, which one would you choose to unlock to verify the color of the wallpaper?",
+                    "1) I think cell phone A has the red wallpaper.\n2) I would choose to unlock cell phone A."
+                ],
+                [
+                    "Let's play the following game: There are two cell phones, cell phone A and cell phone B. Each phone has a different colored wallpaper, one is red and the other is blue. 1) Guess which phone has the red wallpaper. 2) If you can unlock only one phone, which one would you choose to unlock to find out which phone has the red wallpaper?",
+                    "1) I guess that cell phone A has the red wallpaper.\n2) I would choose to unlock cell phone A to find out which phone has the red wallpaper."
+                ],
+                [
+                    "Let's play the following game: There are two cell phones, labeled as cell phone A and cell phone B. Each phone has different colored wallpaper, one being red and the other blue. \n\n1) Without additional information, guess which phone has red wallpaper.\n2) You have the opportunity to unlock only one phone to verify the color of its wallpaper. Which phone would you choose to unlock?",
+                    "1) I guess cell phone A has the red wallpaper.\n2) I choose to unlock cell phone B."
+                ],
+                [
+                    "Let's play the following game: There are two cell phones, cell phone A and cell phone B. One has red wallpaper and the other has blue wallpaper. 1) Which phone do you think has the red wallpaper? 2) If you can only unlock one phone to find out which one has the red wallpaper, which phone would you choose to unlock?",
+                    "1) I think cell phone A has the red wallpaper.\n2) I would choose to unlock cell phone A."
+                ],
+                [
+                    "Here is a game involving two cell phones, labeled as cell phone A and cell phone B. Each phone has a different colored wallpaper: one is red and the other is blue. \n\n1) Without any additional information, select which phone you think has the red wallpaper.\n2) If you can unlock only one phone to verify your guess, which phone would you choose to unlock?",
+                    "1) I think cell phone A has the red wallpaper.\n2) I would choose to unlock cell phone A."
+                ]
+            ]
+        },
+        {
+            "id": 4,
+            "text": "If you are at a scenic spot and you see a lot of people using a certain cell phone A to take pictures of the scenery, which of these options is more likely?\nA) Phone A is a popular cell phone.\nB) Phone A is a popular cell phone with good cameras.",
+            "effect_name": "Conjunction fallacy",
+            "effect_catagory": "Extension neglect",
+            "sub_task_id": 0,
+            "answer_type": "choice",
+            "template": null,
+            "num_variants": 0,
+            "variants": [],
+            "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
+            "suffixes": "",
+            "answers": [
+                [
+                    "At a scenic spot, you observe many people using cell phone A to take pictures. Which of the following is more likely?\nA) Phone A is a popular cell phone.\nB) Phone A has good camera features.",
+                    "A) Phone A is a popular cell phone."
+                ],
+                [
+                    "If you observe many individuals using a specific cell phone, Phone A, to take pictures at a scenic location, which of the following is a more neutral observation?\nA) Phone A is a popular cell phone.\nB) Phone A has a camera feature that is being utilized.",
+                    "A) Phone A is a popular cell phone."
+                ],
+                [
+                    "At a scenic spot, you observe many individuals using cell phone A to take pictures. Which of the following is a more likely reason for this observation?\nA) Phone A is a popular cell phone.\nB) Phone A has good camera features.",
+                    "A) Phone A is a popular cell phone."
+                ],
+                [
+                    "Which of the following is more likely, based solely on observing many people using cell phone A at a scenic spot?\nA) Phone A is a popular cell phone.\nB) Phone A has a good camera.",
+                    "A) Phone A is a popular cell phone."
+                ],
+                [
+                    "When observing many people using cell phone A to take pictures at a scenic spot, which of the following conclusions can be more reliably drawn?\nA) Phone A is a popular cell phone.\nB) Phone A has a good camera.",
+                    "A) Phone A is a popular cell phone."
+                ],
+                [
+                    "If you observe many people using cell phone A to take pictures at a scenic spot, which of the following is more likely based solely on this observation?\nA) Phone A is a popular cell phone.\nB) Phone A has a good camera.",
+                    "A) Phone A is a popular cell phone."
+                ],
+                [
+                    "At a scenic spot, you notice many individuals using cell phone A to take pictures. Which of these options is more likely?\n\nA) Phone A is a popular cell phone.\n\nB) Phone A has good camera capabilities.",
+                    "A) Phone A is a popular cell phone."
+                ],
+                [
+                    "Which of the following statements is more accurate based on observing many people using cell phone A at a scenic spot?\nA) Phone A is a popular cell phone.\nB) Phone A is a popular cell phone known for its camera quality.",
+                    "A) Phone A is a popular cell phone."
+                ],
+                [
+                    "Which of these options is more accurate based on observing many people using phone A to take pictures at a scenic spot?\nA) Phone A is a popular cell phone.\nB) Phone A has a camera feature.",
+                    "B) Phone A has a camera feature."
+                ],
+                [
+                    "If you observe many people using cell phone A to take pictures at a scenic spot, which of the following conclusions is more reasonable based solely on this observation?\nA) Phone A is a popular cell phone.\nB) Phone A has a good camera.",
+                    "A) Phone A is a popular cell phone."
+                ]
+            ]
+        },
+        {
+            "id": 5,
+            "text": "Imagine a hypothetical commentator commenting on Phone A that received 10000 votes in the \"recommend or not recommend\" vote, 7150 of them were voted \"recommend\". How would that hypothetical commentator rate the Phone A on a 1-7 scale?",
+            "effect_name": "Framing effect",
+            "effect_catagory": "Framing effect",
+            "sub_task_id": 0,
+            "answer_type": "number",
+            "template": "Imagine a hypothetical commentator commenting on Phone A that received [var_1] votes in the \"recommend or not recommend\" vote, [var_2] of them were voted \"recommend\". How would that hypothetical commentator rate the Phone A on a 1-7 scale?",
+            "num_variants": 2,
+            "variants": [
+                10000,
+                7150
+            ],
+            "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
+            "suffixes": "",
+            "answers": [
+                [
+                    "A hypothetical commentator evaluating Phone A, which received 7,150 \"recommend\" votes out of a total of 10,000 votes, might rate the phone on a scale from 1 to 7, considering that 71.5% of the voters recommended the phone.",
+                    "A hypothetical commentator might rate Phone A as 5 out of 7."
+                ],
+                [
+                    "A hypothetical commentator, analyzing the data where Phone A received 7,150 \"recommend\" votes out of 10,000, would assess the phone's rating on a scale of 1 to 7 based on the 71.5% recommendation rate.",
+                    "4.3"
+                ],
+                [
+                    "To assess Phone A, it is noted that out of 10,000 votes in a \"recommend or not recommend\" poll, 7,150 were in favor of recommending the product. How would you rate Phone A on a scale from 1 to 7 based on this data?",
+                    "Phone A would be rated **5** on a scale from 1 to 7 based on this data."
+                ],
+                [
+                    "Phone A received 10,000 votes in a \"recommend or not recommend\" poll, with 7,150 votes in favor of recommending it. How would you rate Phone A on a scale from 1 to 7 based on this data?",
+                    "**5**"
+                ],
+                [
+                    "\"Given that Phone A received a total of 10,000 votes, with 7,150 being in favor of recommending the product, how would you objectively rate Phone A on a scale from 1 to 7?\"",
+                    "4.99"
+                ],
+                [
+                    "Given that Phone A received 10,000 votes in a \"recommend or not recommend\" poll, with 7,150 of these votes being in favor of recommending the product, how might a commentator objectively rate this phone on a scale from 1 to 7?",
+                    "A commentator might objectively rate Phone A as **5** out of 7."
+                ],
+                [
+                    "\"Phone A has received 10,000 votes in a 'recommend or not recommend' poll, with 71.5% of voters recommending it. How would you rate Phone A on a scale from 1 to 7 based on this information?\"",
+                    "5"
+                ],
+                [
+                    "\"Considering the data from a voting pool of 10,000 individuals, where 7,150 voted to recommend Phone A, how would you objectively rate Phone A on a scale from 1 to 7?\"",
+                    "4"
+                ],
+                [
+                    "\"Based on the voting results where Phone A received 10,000 votes in total, with 7,150 of those being in favor of recommending the product, how would you objectively rate Phone A on a scale from 1 to 7?\"",
+                    "5"
+                ],
+                [
+                    "\"Based on the data where 71.5% of users recommended Phone A out of 10,000 votes, how would you rate this phone on a scale from 1 to 7?\"",
+                    "5"
+                ]
+            ]
+        },
+        {
+            "id": 6,
+            "text": "Imagine a hypothetical commentator commenting on Phone A that received 10000 votes in the \"recommend or not recommend\" vote, 2850 of them were voted \"not recommend\". How would that hypothetical commentator rate the Phone A on a 1-7 scale?",
+            "effect_name": "Framing effect",
+            "effect_catagory": "Framing effect",
+            "sub_task_id": 1,
+            "answer_type": "number",
+            "template": "Imagine a hypothetical commentator commenting on Phone A that received [var_1] votes in the \"recommend or not recommend\" vote, [var_2] of them were voted \"not recommend\". How would that hypothetical commentator rate the Phone A on a 1-7 scale?",
+            "num_variants": 2,
+            "variants": [
+                10000,
+                2850
+            ],
+            "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
+            "suffixes": "",
+            "answers": [
+                [
+                    "In a survey, Phone A received 10,000 votes; 2,850 of these were to not recommend the product. How would you expect a reviewer to rate Phone A on a scale from 1 to 7?",
+                    "A reviewer might rate Phone A around 4 out of 7."
+                ],
+                [
+                    "Please rate Phone A on a scale of 1 to 7, where 1 indicates strong dissatisfaction and 7 indicates strong satisfaction. This phone has received a total of 10,000 feedback votes, with 2,850 votes in the \"not recommend\" category.",
+                    "5"
+                ],
+                [
+                    "In a hypothetical scenario, Phone A received 10,000 votes in a \"recommend or not recommend\" poll. Of these, 2,850 votes were \"not recommend\". How would a commentator rate Phone A on a scale of 1 to 7?",
+                    "3"
+                ],
+                [
+                    "\"In a hypothetical scenario where Phone A received 10,000 votes in a 'recommend or not recommend' poll, with 2,850 votes for 'not recommend', how would you expect a commentator to rate Phone A on a scale from 1 to 7?\"",
+                    "A commentator might rate Phone A around 4 on a scale from 1 to 7."
+                ],
+                [
+                    "\"In evaluating Phone A, which received a total of 10,000 votes with 7,150 recommending and 2,850 not recommending, how would you rate this phone on a scale from 1 to 7?\"",
+                    "5"
+                ],
+                [
+                    "A hypothetical commentator analyzing Phone A, which received 10,000 votes with 2,850 votes categorized as \"not recommend\", might evaluate the phone on a scale from 1 to 7 based solely on the data provided.",
+                    "The hypothetical commentator might rate Phone A at **4** out of 7."
+                ],
+                [
+                    "\"In a survey, Phone A received a total of 10,000 votes on whether to recommend it or not, with 2,850 votes in the 'not recommend' category. Based on this data, how would you rate Phone A on a scale of 1 to 7?\"",
+                    "Phone A would be rated 5 out of 7."
+                ],
+                [
+                    "In evaluating Phone A, which received 7,150 \"recommend\" votes and 2,850 \"not recommend\" votes out of a total of 10,000 votes, how would you rate this phone on a scale from 1 to 7?",
+                    "5"
+                ],
+                [
+                    "\"In evaluating Phone A, which received a total of 10,000 votes with 2,850 of these being 'not recommend' votes, how would you rate this phone on a scale from 1 to 7?\"",
+                    "4"
+                ],
+                [
+                    "\"In a voting system where Phone A received 10,000 total votes with 2,850 votes for 'not recommend', how would you rate Phone A on a scale from 1 to 7?\"",
+                    "4"
+                ]
+            ]
+        },
+        {
+            "id": 7,
+            "text": "Imagine a hypothetical commentator commenting on Phone A  that received 10000 votes in the \"recommend or not recommend\" vote, 5072 of them were voted \"recommend\". How would that hypothetical commentator rate the Phone A on a 1-7 scale?",
+            "effect_name": "Distinction bias",
+            "effect_catagory": "Framing effect",
+            "sub_task_id": 0,
+            "answer_type": "number",
+            "template": "Imagine a hypothetical commentator commenting on Phone A that received [var_1] votes in the \"recommend or not recommend\" vote, [var_2] of them were voted \"recommend\". How would that hypothetical commentator rate the Phone A on a 1-7 scale?",
+            "num_variants": 2,
+            "variants": [
+                10000,
+                5072
+            ],
+            "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
+            "suffixes": "",
+            "answers": [
+                [
+                    "A hypothetical commentator evaluating Phone A, which received 5,072 \"recommend\" votes out of 10,000 total votes, might rate the phone on a 1-7 scale based solely on the data presented, without additional context or bias.",
+                    "3.5"
+                ],
+                [
+                    "Imagine a hypothetical commentator evaluating Phone A, which received 10,000 votes in a \"recommend or not recommend\" poll, with 5,072 votes in favor of recommending it. How would this commentator rate Phone A on a scale from 1 to 7?",
+                    "The hypothetical commentator would likely rate Phone A as **4** on a scale from 1 to 7."
+                ],
+                [
+                    "A hypothetical commentator, analyzing the data where Phone A received 10,000 votes in a \"recommend or not recommend\" poll with 5,072 votes in favor of \"recommend,\" might objectively rate Phone A on a scale of 1 to 7 based on the percentage of positive feedback and other relevant factors.",
+                    "Based on the percentage of positive feedback (50.72%), an objective rating for Phone A on a scale of 1 to 7 could be approximately **4**."
+                ],
+                [
+                    "\"In evaluating Phone A, which received 10,000 votes with 5,072 recommending it, how would you rate this phone on a scale from 1 to 7?\"",
+                    "4"
+                ],
+                [
+                    "\"In a scenario where Phone A received 10,000 votes in a 'recommend or not recommend' poll, with 5,072 votes in favor of recommending, how might a hypothetical commentator objectively rate Phone A on a scale from 1 to 7?\"",
+                    "4"
+                ],
+                [
+                    "\"In reviewing Phone A, which secured a total of 10,000 votes with 5,072 recommending it, how would you rate this phone on a scale from 1 to 7?\"",
+                    "4"
+                ],
+                [
+                    "Consider a hypothetical scenario where Phone A received a total of 10,000 votes in a \"recommend or not recommend\" poll, with 5,072 votes in favor of recommending it. Based on this data, how would you expect a commentator to rate Phone A on a scale from 1 to 7?",
+                    "I would expect a commentator to rate Phone A approximately at 4 on a scale from 1 to 7."
+                ],
+                [
+                    "Imagine a hypothetical commentator evaluating Phone A, which received 10,000 votes in a \"recommend or not recommend\" poll, with 5,072 votes in favor of recommending it. How would this commentator likely rate Phone A on a scale of 1 to 7?",
+                    "The commentator would likely rate Phone A around **4** on a scale of 1 to 7."
+                ],
+                [
+                    "Given that Phone A received a total of 10,000 votes, with 5,072 votes in favor of recommending it, how might a commentator objectively rate Phone A on a scale from 1 to 7?",
+                    "A commentator might objectively rate Phone A as **4** on a scale from 1 to 7."
+                ],
+                [
+                    "\"In an evaluation where Phone A received a total of 10,000 votes in a 'recommend or not recommend' poll, with 5,072 votes in favor of recommending, how might a commentator objectively rate this phone on a scale from 1 to 7?\"",
+                    "4"
+                ]
+            ]
+        },
+        {
+            "id": 8,
+            "text": "Imagine a hypothetical commentator commenting on Phone A that received 10000 votes in the \"recommend or not recommend\" vote, 7150 of them were voted \"recommend\". And Phone B which was also sold 10000 in the last year, 5072 of them were voted \"recommend\". How would that hypothetical commentator rate the Phone A and Phone B on a 1-7 scale?",
+            "effect_name": "Distinction bias",
+            "effect_catagory": "Framing effect",
+            "sub_task_id": 1,
+            "answer_type": "number",
+            "template": "Imagine a hypothetical commentator commenting on Phone A that received [var_1] votes in the \"recommend or not recommend\" vote, [var_2] of them were voted \"recommend\". And Phone B which also received [var_1] votes in the \"recommend or not recommend\" vote, [var_3] of them were voted \"recommend\". How would that hypothetical commentator rate the Phone A and Phone B on a 1-7 scale?",
+            "num_variants": 3,
+            "variants": [
+                10000,
+                7150,
+                5072
+            ],
+            "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
+            "suffixes": "",
+            "answers": [
+                [
+                    "Please rate Phone A and Phone B on a scale from 1 to 7, where Phone A received 7,150 \"recommend\" votes out of 10,000 and Phone B received 5,072 \"recommend\" votes out of 10,000.",
+                    "- Phone A: 7\n- Phone B: 5"
+                ],
+                [
+                    "A commentator is tasked with evaluating two phones based on customer recommendations. Phone A received 10,000 votes, with 7,150 recommending it. Phone B also received 10,000 votes, with 5,072 recommending it. How would the commentator rate each phone on a scale from 1 to 7?",
+                    "For Phone A, the rating would be 5.\n\nFor Phone B, the rating would be 4."
+                ],
+                [
+                    "In evaluating Phone A and Phone B based on customer recommendations, consider the following data: Phone A received 10,000 votes, with 7,150 recommending it. Phone B also received 10,000 votes, with 5,072 recommending it. How might a reviewer objectively rate each phone on a scale of 1 to 7, based purely on this data?",
+                    "Phone A: 5  \nPhone B: 4"
+                ],
+                [
+                    "Please evaluate Phone A and Phone B based on the following data: Phone A received 10,000 votes in the \"recommend or not recommend\" poll with 7,150 votes in favor of recommending it. Phone B also received 10,000 votes with 5,072 votes recommending it. Rate each phone on a scale of 1 to 7 based on this information.",
+                    "- **Phone A**: 5\n- **Phone B**: 4"
+                ],
+                [
+                    "Please rate Phone A and Phone B on a scale from 1 to 7, considering the following information: Phone A received 10,000 votes in total, with 7,150 votes recommending it. Phone B also received 10,000 votes, with 5,072 votes recommending it.",
+                    "- Phone A: 5\n- Phone B: 4"
+                ],
+                [
+                    "Phone A received 10,000 votes with 7,150 recommending it. Phone B also received 10,000 votes, with 5,072 recommending it. How would you rate each phone on a scale from 1 to 7 based on these recommendations?",
+                    "Phone A: 5  \nPhone B: 4"
+                ],
+                [
+                    "In evaluating Phone A and Phone B, each having received 10,000 votes in a \"recommend or not recommend\" poll, with Phone A receiving 7,150 \"recommend\" votes and Phone B receiving 5,072 \"recommend\" votes, how might a commentator objectively rate these phones on a scale of 1 to 7?",
+                    "To objectively rate Phone A and Phone B on a scale of 1 to 7 based on the poll results:\n\n- Phone A: **5**\n- Phone B: **4**"
+                ],
+                [
+                    "Please provide a rating for Phone A and Phone B on a scale of 1 to 7, given that Phone A received 7,150 \"recommend\" votes out of 10,000, and Phone B received 5,072 \"recommend\" votes out of 10,000.",
+                    "Phone A: 5  \nPhone B: 4"
+                ],
+                [
+                    "In a hypothetical scenario, consider two phones. Phone A received 10,000 votes in a \"recommend or not recommend\" survey, with 7,150 votes recommending it. Phone B also received 10,000 votes, with 5,072 votes recommending it. How might a commentator rate each phone on a scale of 1 to 7 based on these results?",
+                    "Based on the voting results:\n- Phone A might be rated around **6** on a scale of 1 to 7.\n- Phone B might be rated around **4** on a scale of 1 to 7."
+                ],
+                [
+                    "In evaluating Phone A and Phone B, each receiving 10,000 votes in a \"recommend or not recommend\" survey, Phone A garnered 7,150 \"recommend\" votes, while Phone B received 5,072 \"recommend\" votes. How should these phones be rated on a scale of 1 to 7 based on these results?",
+                    "To rate Phone A and Phone B on a scale of 1 to 7 based on the given results:\n\n- Phone A: **5**\n- Phone B: **4**"
+                ]
+            ]
+        },
+        {
+            "id": 9,
+            "text": "You are driving along an open road to a phone market. Which one do you feel you would save more time? \nA) Increase the mean speed from 43 to 68 mph \nB) Increase the mean speed from 19 to 25 mph",
+            "effect_name": "Time-saving bias",
+            "effect_catagory": "Logical fallacy",
+            "sub_task_id": 0,
+            "answer_type": "choice",
+            "template": "You are driving along an open road to a phone market. Which one do you feel you would save more time? \nA) Increase the mean speed from [var_1] to [var_2 mph \nB) Increase the mean speed from [var_3] to [var_4] mph",
+            "num_variants": 4,
+            "variants": [
+                43,
+                68,
+                19,
+                25
+            ],
+            "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
+            "suffixes": "",
+            "answers": [
+                [
+                    "You are driving along an open road to a phone market. Which option results in a greater time saving?  \nA) Increasing the mean speed from 43 mph to 68 mph  \nB) Increasing the mean speed from 19 mph to 25 mph",
+                    "Option A results in a greater time saving."
+                ],
+                [
+                    "When driving to a phone market, consider the following scenarios to determine which might save more time: \nA) Increasing the average speed from 43 mph to 68 mph \nB) Increasing the average speed from 19 mph to 25 mph \n\nWhich scenario is likely to result in a greater time saving?",
+                    "Scenario A (increasing the average speed from 43 mph to 68 mph) is likely to result in a greater time saving."
+                ],
+                [
+                    "You are driving along an open road to a phone market. Which option would save more time? \nA) Increasing the mean speed from 43 mph to 68 mph \nB) Increasing the mean speed from 19 mph to 25 mph",
+                    "Option A) Increasing the mean speed from 43 mph to 68 mph would save more time."
+                ],
+                [
+                    "You are driving along an open road to a phone market. Which option would result in a greater time saving?\nA) Increasing the mean speed from 43 mph to 68 mph\nB) Increasing the mean speed from 19 mph to 25 mph",
+                    "Option A) Increasing the mean speed from 43 mph to 68 mph would result in a greater time saving."
+                ],
+                [
+                    "You are driving along an open road to a phone market. Which option would save more time?  \nA) Increase the mean speed from 43 mph to 68 mph  \nB) Increase the mean speed from 19 mph to 25 mph",
+                    "Option A) Increase the mean speed from 43 mph to 68 mph would save more time."
+                ],
+                [
+                    "You are driving along an open road to a phone market. Which option results in a greater reduction in travel time?  \nA) Increasing the mean speed from 43 mph to 68 mph  \nB) Increasing the mean speed from 19 mph to 25 mph",
+                    "Option A) Increasing the mean speed from 43 mph to 68 mph results in a greater reduction in travel time."
+                ],
+                [
+                    "You are driving along an open road to a phone market. Which option results in a greater reduction in travel time?  \nA) Increasing the mean speed from 43 mph to 68 mph  \nB) Increasing the mean speed from 19 mph to 25 mph",
+                    "Option A) Increasing the mean speed from 43 mph to 68 mph results in a greater reduction in travel time."
+                ],
+                [
+                    "You are driving along an open road to a phone market. Which option would result in a greater reduction in travel time?  \nA) Increase the mean speed from 43 to 68 mph  \nB) Increase the mean speed from 19 to 25 mph",
+                    "A) Increase the mean speed from 43 to 68 mph"
+                ],
+                [
+                    "You are driving along an open road to a phone market. Which option would result in a greater reduction in travel time?  \nA) Increase the mean speed from 43 mph to 68 mph  \nB) Increase the mean speed from 19 mph to 25 mph",
+                    "Option A) Increase the mean speed from 43 mph to 68 mph would result in a greater reduction in travel time."
+                ],
+                [
+                    "You are driving to a phone market on an open road. Which option is more time-efficient?  \nA) Increase the mean speed from 43 mph to 68 mph  \nB) Increase the mean speed from 19 mph to 25 mph",
+                    "Option A) Increase the mean speed from 43 mph to 68 mph is more time-efficient."
+                ]
+            ]
+        },
+        {
+            "id": 10,
+            "text": "You are driving along an open road to a phone market. Which one do you feel you would lose more time? \nA) Decrease the mean speed from 68 to 43 mph \nB) Decrease the mean speed from 25 to 19 mph",
+            "effect_name": "Time-saving bias",
+            "effect_catagory": "Logical fallacy",
+            "sub_task_id": 1,
+            "answer_type": "choice",
+            "template": "You are driving along an open road to a phone market. Which one do you feel you would lose more time? \nA) Decrease the mean speed from [var_1] to [var_2 mph \nB) Decrease the mean speed from [var_3] to [var_4] mph",
+            "num_variants": 4,
+            "variants": [
+                68,
+                43,
+                25,
+                19
+            ],
+            "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
+            "suffixes": "",
+            "answers": [
+                [
+                    "You are driving along an open road to a phone market. Which option would result in a greater increase in travel time?  \nA) Decrease the mean speed from 68 mph to 43 mph  \nB) Decrease the mean speed from 25 mph to 19 mph",
+                    "Option A) Decrease the mean speed from 68 mph to 43 mph would result in a greater increase in travel time."
+                ],
+                [
+                    "You are traveling to a phone market and considering two scenarios involving changes in your driving speed. To accurately compare the impact on travel time, consider the following changes in mean speed:\nA) Decrease the mean speed from 68 mph to 43 mph\nB) Decrease the mean speed from 25 mph to 19 mph\n\nWhich scenario results in a greater increase in travel time?",
+                    "Scenario A results in a greater increase in travel time."
+                ],
+                [
+                    "You are driving to a phone market. Which option increases your travel time more?  \nA) Decreasing the average speed from 68 mph to 43 mph  \nB) Decreasing the average speed from 25 mph to 19 mph",
+                    "A) Decreasing the average speed from 68 mph to 43 mph increases your travel time more."
+                ],
+                [
+                    "You are planning a trip to a phone market and are considering two different routes with varying speeds. Which option results in a greater increase in travel time?  \nA) Decreasing the mean speed from 68 mph to 43 mph  \nB) Decreasing the mean speed from 25 mph to 19 mph",
+                    "Option A results in a greater increase in travel time."
+                ],
+                [
+                    "You are driving along an open road to a phone market. Which scenario increases your travel time more?  \nA) Decreasing the mean speed from 68 mph to 43 mph  \nB) Decreasing the mean speed from 25 mph to 19 mph",
+                    "A) Decreasing the mean speed from 68 mph to 43 mph."
+                ],
+                [
+                    "You are driving along an open road to a phone market. Which option would result in a greater increase in travel time?  \nA) Decrease the mean speed from 68 to 43 mph  \nB) Decrease the mean speed from 25 to 19 mph",
+                    "A) Decrease the mean speed from 68 to 43 mph"
+                ],
+                [
+                    "You are driving along an open road to a phone market. Which option results in a greater increase in travel time?  \nA) Decreasing the mean speed from 68 mph to 43 mph  \nB) Decreasing the mean speed from 25 mph to 19 mph",
+                    "A) Decreasing the mean speed from 68 mph to 43 mph results in a greater increase in travel time."
+                ],
+                [
+                    "You are traveling to a phone market via an open road. Consider the following scenarios and determine which one would result in a greater increase in travel time:\nA) Decreasing the average speed from 68 mph to 43 mph.\nB) Decreasing the average speed from 25 mph to 19 mph.",
+                    "A) Decreasing the average speed from 68 mph to 43 mph would result in a greater increase in travel time."
+                ],
+                [
+                    "You are driving along an open road to a phone market. Which option would result in a greater increase in travel time?\nA) Decreasing the mean speed from 68 mph to 43 mph\nB) Decreasing the mean speed from 25 mph to 19 mph",
+                    "A) Decreasing the mean speed from 68 mph to 43 mph"
+                ],
+                [
+                    "You are driving along an open road to a phone market. Which option results in a greater increase in travel time?\nA) Decreasing the mean speed from 68 mph to 43 mph\nB) Decreasing the mean speed from 25 mph to 19 mph",
+                    "A) Decreasing the mean speed from 68 mph to 43 mph results in a greater increase in travel time."
+                ]
+            ]
+        },
+        {
+            "id": 11,
+            "text": "You are driving along an open road to a phone market. How much time do you feel you would save if you drove for 10 miles at 40 mph instead of 30 mph?",
+            "effect_name": "Time-saving bias",
+            "effect_catagory": "Logical fallacy",
+            "sub_task_id": 2,
+            "answer_type": "number",
+            "template": "You are driving along an open road to a phone market. How much time do you feel you would save if you drove for 10 miles at [var_1] mph instead of [var_2] mph?",
+            "num_variants": 2,
+            "variants": [
+                40,
+                30
+            ],
+            "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
+            "suffixes": "",
+            "answers": [
+                [
+                    "You are traveling to a phone market along an open road. Calculate the time saved by driving 10 miles at 40 mph compared to 30 mph.",
+                    "The time saved is 5 minutes."
+                ],
+                [
+                    "When driving to a destination 10 miles away, compare the time taken to travel at 40 mph versus 30 mph. How much time would be saved by traveling at the higher speed?",
+                    "At 40 mph, the time taken to travel 10 miles is 15 minutes.\n\nAt 30 mph, the time taken to travel 10 miles is 20 minutes.\n\nThe time saved by traveling at 40 mph instead of 30 mph is 5 minutes."
+                ],
+                [
+                    "You are driving to a phone market along an open road. Calculate the time saved by driving 10 miles at 40 mph instead of 30 mph.",
+                    "Time saved = 5 minutes."
+                ],
+                [
+                    "You are driving along an open road to a phone market. Calculate the time saved by driving 10 miles at 40 mph instead of 30 mph.",
+                    "To calculate the time saved by driving 10 miles at 40 mph instead of 30 mph:\n\n1. Time to drive 10 miles at 30 mph:\n   \\[\n   \\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}} = \\frac{10 \\text{ miles}}{30 \\text{ mph}} = \\frac{1}{3} \\text{ hours} = 20 \\text{ minutes}\n   \\]\n\n2. Time to drive 10 miles at 40 mph:\n   \\[\n   \\text{Time} = \\frac{10 \\text{ miles}}{40 \\text{ mph}} = 0.25 \\text{ hours} = 15 \\text{ minutes}\n   \\]\n\n3. Time saved:\n   \\[\n   \\text{Time saved} = 20 \\text{ minutes} - 15 \\text{ minutes} = 5 \\text{ minutes}\n   \\]\n\nTherefore, the time saved is **5 minutes**."
+                ],
+                [
+                    "You are driving to a phone market along an open road. Calculate the time saved by driving 10 miles at 40 mph instead of 30 mph.",
+                    "The time saved is 5 minutes."
+                ],
+                [
+                    "You are driving to a market. If you drive a distance of 10 miles at 40 mph instead of 30 mph, how much time would you save?",
+                    "You would save 5 minutes."
+                ],
+                [
+                    "You are driving to a phone market along an open road. Calculate the time saved by driving 10 miles at 40 mph instead of 30 mph.",
+                    "Time saved = 5 minutes."
+                ],
+                [
+                    "You are driving to a phone market along an open road. Calculate the time saved by driving 10 miles at 40 mph instead of 30 mph.",
+                    "The time saved by driving 10 miles at 40 mph instead of 30 mph is 7.5 minutes."
+                ],
+                [
+                    "You are driving to a market 10 miles away. Calculate the time saved by driving at 40 mph instead of 30 mph.",
+                    "To calculate the time saved:\n\n1. Time taken at 30 mph:\n   \\( Time = \\frac{Distance}{Speed} = \\frac{10 \\text{ miles}}{30 \\text{ mph}} = \\frac{1}{3} \\text{ hours} \\) or approximately 20 minutes.\n\n2. Time taken at 40 mph:\n   \\( Time = \\frac{Distance}{Speed} = \\frac{10 \\text{ miles}}{40 \\text{ mph}} = 0.25 \\text{ hours} \\) or 15 minutes.\n\nTime saved:\n\\( 20 \\text{ minutes} - 15 \\text{ minutes} = 5 \\text{ minutes} \\)\n\nYou save 5 minutes by driving at 40 mph instead of 30 mph."
+                ],
+                [
+                    "You are driving to a phone market and have a 10-mile stretch of open road ahead of you. Calculate the time saved by driving this distance at 40 mph instead of 30 mph.",
+                    "Time saved: 5 minutes."
+                ]
+            ]
+        },
+        {
+            "id": 12,
+            "text": "You are driving along an open road to a phone market. How much time do you feel you would save if you drove for 10 miles at 80 mph instead of 60 mph?",
+            "effect_name": "Time-saving bias",
+            "effect_catagory": "Logical fallacy",
+            "sub_task_id": 3,
+            "answer_type": "number",
+            "template": "You are driving along an open road to a phone market. How much time do you feel you would save if you drove for 10 miles at [var_1] mph instead of [var_2] mph?",
+            "num_variants": 2,
+            "variants": [
+                80,
+                60
+            ],
+            "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
+            "suffixes": "",
+            "answers": [
+                [
+                    "You are driving to a phone market along an open road. Calculate the time saved by driving 10 miles at 80 mph instead of 60 mph.",
+                    "To drive 10 miles at 60 mph, it takes approximately 10 minutes.\n\nTo drive 10 miles at 80 mph, it takes approximately 7.5 minutes.\n\nThe time saved is approximately 2.5 minutes."
+                ],
+                [
+                    "Assuming you are driving along an open road to a market, calculate the time saved by driving a 10-mile stretch at 80 mph instead of 60 mph.",
+                    "The time saved by driving a 10-mile stretch at 80 mph instead of 60 mph is 3.75 minutes."
+                ],
+                [
+                    "You are driving to a phone market along an open road. Calculate the time saved by driving 10 miles at 80 mph instead of 60 mph.",
+                    "To calculate the time saved by driving 10 miles at 80 mph instead of 60 mph:\n\n1. Time taken at 60 mph:\n   \\[\n   \\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}} = \\frac{10 \\text{ miles}}{60 \\text{ mph}} = \\frac{1}{6} \\text{ hours} \\approx 10 \\text{ minutes}\n   \\]\n\n2. Time taken at 80 mph:\n   \\[\n   \\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}} = \\frac{10 \\text{ miles}}{80 \\text{ mph}} = 0.125 \\text{ hours} = 7.5 \\text{ minutes}\n   \\]\n\n3. Time saved:\n   \\[\n   \\text{Time saved} = 10 \\text{ minutes} - 7.5 \\text{ minutes} = 2.5 \\text{ minutes}\n   \\]\n\nTherefore, driving at 80 mph instead of 60 mph saves 2.5 minutes for a 10-mile trip."
+                ],
+                [
+                    "You are driving to a phone market along an open road. Calculate the time saved by driving 10 miles at 80 mph instead of 60 mph.",
+                    "The time saved by driving 10 miles at 80 mph instead of 60 mph is 3.75 minutes."
+                ],
+                [
+                    "You are driving to a phone market and have a stretch of 10 miles to cover. Calculate the time saved by driving this distance at 80 mph compared to 60 mph.",
+                    "Time saved = \\( \\frac{10}{60} - \\frac{10}{80} = \\frac{1}{6} - \\frac{1}{8} = \\frac{4}{24} - \\frac{3}{24} = \\frac{1}{24} \\) hour\n\nTo convert hours to minutes: \\( \\frac{1}{24} \\times 60 = 2.5 \\) minutes\n\nTime saved = 2.5 minutes."
+                ],
+                [
+                    "You are traveling to a phone market via a 10-mile open road. How much time would be saved by driving at 80 mph instead of 60 mph?",
+                    "The time saved would be 5 minutes."
+                ],
+                [
+                    "You are driving to a phone market along an open road. Calculate the time saved by driving 10 miles at 80 mph instead of 60 mph.",
+                    "Time saved = 5 minutes."
+                ],
+                [
+                    "You are driving to a phone market along an open road. Calculate the time saved by driving 10 miles at 80 mph instead of 60 mph.",
+                    "To calculate the time saved:\n\nTime taken at 60 mph:\n\\[\nt_{60} = \\frac{10 \\text{ miles}}{60 \\text{ mph}} = \\frac{1}{6} \\text{ hour} \\approx 10 \\text{ minutes}\n\\]\n\nTime taken at 80 mph:\n\\[\nt_{80} = \\frac{10 \\text{ miles}}{80 \\text{ mph}} = \\frac{1}{8} \\text{ hour} \\approx 7.5 \\text{ minutes}\n\\]\n\nTime saved:\n\\[\n\\text{Time saved} = t_{60} - t_{80} \\approx 10 \\text{ minutes} - 7.5 \\text{ minutes} = 2.5 \\text{ minutes}\n\\]"
+                ],
+                [
+                    "You are driving to a phone market along an open road. Calculate the time saved by driving 10 miles at 80 mph versus 60 mph.",
+                    "The time saved by driving 10 miles at 80 mph versus 60 mph is 3.75 minutes."
+                ],
+                [
+                    "You are driving along an open road to a phone market. Calculate the time saved by driving for 10 miles at 80 mph instead of 60 mph.",
+                    "To find the time saved by driving 10 miles at 80 mph instead of 60 mph:\n\n1. Time taken at 60 mph:\n   \\[\n   t_{60} = \\frac{10 \\text{ miles}}{60 \\text{ mph}} = \\frac{1}{6} \\text{ hours} \\approx 10 \\text{ minutes}\n   \\]\n\n2. Time taken at 80 mph:\n   \\[\n   t_{80} = \\frac{10 \\text{ miles}}{80 \\text{ mph}} = \\frac{1}{8} \\text{ hours} \\approx 7.5 \\text{ minutes}\n   \\]\n\n3. Time saved:\n   \\[\n   \\text{Time saved} = t_{60} - t_{80} = 10 \\text{ minutes} - 7.5 \\text{ minutes} = 2.5 \\text{ minutes}\n   \\]\n\nThe time saved is 2.5 minutes."
+                ]
+            ]
+        },
+        {
+            "id": 13,
+            "text": "You have a cell phone that you bought a year ago for $999, and it's in good condition, with no failures or damage. If you were to sell it, how much do you think you should get for it? Answer only one price without justification.",
+            "effect_name": "Endowment effect",
+            "effect_catagory": "Prospect theory",
+            "sub_task_id": 0,
+            "answer_type": "number",
+            "template": null,
+            "num_variants": 0,
+            "variants": [],
+            "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
+            "suffixes": "",
+            "answers": [
+                [
+                    "What would be a fair market price for a one-year-old cell phone in good condition?",
+                    "A fair market price for a one-year-old cell phone in good condition would typically range from 50% to 75% of its original retail price, depending on the brand, model, and market demand."
+                ],
+                [
+                    "What would be a reasonable selling price for a one-year-old cell phone in good condition?",
+                    "A reasonable selling price for a one-year-old cell phone in good condition is typically about 50% to 70% of its original retail price."
+                ],
+                [
+                    "What would be a fair market price for a one-year-old cell phone in good condition?",
+                    "The fair market price for a one-year-old cell phone in good condition typically ranges between 50% to 70% of its original retail price."
+                ],
+                [
+                    "How much would you sell a one-year-old cell phone in good condition for?",
+                    "It depends on the model and brand of the phone, but typically a one-year-old cell phone in good condition might sell for about 50-75% of its original retail price."
+                ],
+                [
+                    "What is a reasonable selling price for a one-year-old cell phone in good condition?",
+                    "A reasonable selling price for a one-year-old cell phone in good condition is typically around 50% to 70% of its original retail price."
+                ],
+                [
+                    "What would be a fair market price for a one-year-old cell phone in good condition?",
+                    "The fair market price for a one-year-old cell phone in good condition typically ranges from 50% to 70% of its original retail price."
+                ],
+                [
+                    "What would be a fair market price for a one-year-old cell phone in good condition?",
+                    "Determining a fair market price for a one-year-old cell phone in good condition depends on various factors including the brand, model, original price, demand, and how technology has advanced since its release. However, a general estimate might be around 50% to 70% of the original retail price, depending greatly on the specifics mentioned above."
+                ],
+                [
+                    "What would be a fair market price for a one-year-old cell phone in good condition? Please provide a single price estimate.",
+                    "$350"
+                ],
+                [
+                    "What is a reasonable price to sell a one-year-old cell phone in good condition?",
+                    "A reasonable price for selling a one-year-old cell phone in good condition is typically around 50% to 70% of its original retail price."
+                ],
+                [
+                    "What would be a fair market price for a one-year-old cell phone in good condition?",
+                    "The fair market price for a one-year-old cell phone in good condition generally ranges from 50% to 70% of its original retail price."
+                ]
+            ]
+        },
+        {
+            "id": 14,
+            "text": "You saw a cell phone on sale which the owner bought a year ago for $999, and it's in good condition, with no failures or damage. If you were to buy it, how much would you be willing to pay? Answer only one price without justification.",
+            "effect_name": "Endowment effect",
+            "effect_catagory": "Prospect theory",
+            "sub_task_id": 1,
+            "answer_type": "number",
+            "template": null,
+            "num_variants": 0,
+            "variants": [],
+            "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
+            "suffixes": "",
+            "answers": [
+                [
+                    "A used cell phone, originally purchased a year ago and still in good condition without any failures or damage, is for sale. What would be your offer to purchase it? Please state your price in dollars.",
+                    "$200"
+                ],
+                [
+                    "A cell phone, bought a year ago and in good condition, is for sale. What would be a fair price for you to offer? Please provide only one price.",
+                    "$200"
+                ],
+                [
+                    "A used cell phone, which was purchased a year ago and is still in good condition with no damage or failures, is for sale. What amount would you be willing to offer for it? Please state your price without any explanation.",
+                    "$200"
+                ],
+                [
+                    "A cell phone that was purchased a year ago is currently on sale. It is in good condition with no failures or damage. If you were to buy it, how much would you be willing to pay? Please provide only one price without justification.",
+                    "$200"
+                ],
+                [
+                    "A cell phone that was purchased a year ago for $999 is currently for sale in good condition, with no reported failures or damage. What would you consider a fair price to pay for this phone? Please state your price as a single figure without justification.",
+                    "$650"
+                ],
+                [
+                    "A cell phone, originally purchased a year ago, is currently for sale in good condition with no reported failures or damage. What would be your offer to purchase this phone? Please state your price without providing any justification.",
+                    "$200"
+                ],
+                [
+                    "Based on the description of the cell phone's condition and age, how much would you be willing to pay for it? Please provide only one price.",
+                    "$150"
+                ],
+                [
+                    "A used cell phone, purchased a year ago and still in good condition with no damage or failures, is for sale. What would be a fair price to pay for it? Please state your price without any explanation.",
+                    "$250"
+                ],
+                [
+                    "Given that a cell phone is a year old and in good condition with no failures or damage, what would be your purchasing price? Please provide only one price.",
+                    "$300"
+                ],
+                [
+                    "If you were to buy a one-year-old cell phone in good condition, with no failures or damage, how much would you be willing to pay? Please state only one price.",
+                    "$300"
+                ]
+            ]
+        },
+        {
+            "id": 15,
+            "text": "Consider the following two stage game. In the first stage, there is a 75% chance to end the game without winning anything and a 25% chance to move into the second stage. If you reach the second stage, you have a choice between:\nA. a sure win of $30\nB. 80% chance to win $45\nYour choice must be made before the game starts, i.e., before the outcome of the first stage is known. Please indicate the option you prefer.",
+            "effect_name": "Pseudocertainty effect",
+            "effect_catagory": "Prospect theory",
+            "sub_task_id": 0,
+            "answer_type": "choice",
+            "template": null,
+            "num_variants": 0,
+            "variants": [],
+            "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
+            "suffixes": "",
+            "answers": [
+                [
+                    "Consider the following two-stage game. In the first stage, there is a 25% chance of progressing to the second stage and a 75% chance that the game ends with no win. If you advance to the second stage, you can choose from the following options:\n\nA. Receive $30 for certain.\nB. Have an 80% chance of winning $45.\n\nYou need to select either option A or B before starting the game, which means your decision must be made without knowing whether you will advance to the second stage. Please indicate your preferred option.",
+                    "I would choose option B."
+                ],
+                [
+                    "Consider the following two-stage game:\n\n- **Stage 1**: There is a 25% chance of progressing to the second stage and a 75% chance that the game ends without any winnings.\n- **Stage 2**: If you reach this stage, you will have the following options:\n  - **Option A**: Receive $30 guaranteed.\n  - **Option B**: Have an 80% chance to win $45.\n\nYou must choose between Option A and Option B before the game begins, i.e., without knowing whether you will advance to the second stage. Please indicate which option you prefer.",
+                    "I prefer **Option B**."
+                ],
+                [
+                    "Consider the following two-stage game:\n\n1. In the first stage, there is a 25% chance of progressing to the second stage and a 75% chance the game ends with no win.\n2. If you advance to the second stage, you must choose between:\n   - Option A: Receive $30 with certainty.\n   - Option B: A 80% chance to win $45.\n\nYou need to select either Option A or Option B before the game begins, without knowing the result of the first stage. Please indicate your preferred option.",
+                    "Option B"
+                ],
+                [
+                    "Consider the following two-stage game. In the first stage, you have a 25% probability of advancing to the second stage, and a 75% probability of the game ending without a win. If you progress to the second stage, you will face a choice between two options:\n\nA. Receive a guaranteed $30.\nB. Have an 80% probability of winning $45.\n\nYou must select either Option A or Option B before the game begins, without knowing the outcome of the first stage. Please indicate your preferred option.",
+                    "Option B."
+                ],
+                [
+                    "Consider the following two-stage game: \n\nIn the first stage, there is a 25% chance of progressing to the second stage and a 75% chance of the game ending without any winnings. If you advance to the second stage, you have the following options:\n\nA. Receive $30 for certain.\nB. Have an 80% chance of winning $45.\n\nYou must choose your preferred option (A or B) before starting the game. Which option would you choose?",
+                    "Option B."
+                ],
+                [
+                    "Consider the following two-stage game:\n\n1. In the first stage, there is a 25% chance of progressing to the second stage, and a 75% chance that the game ends without any winnings.\n2. If you advance to the second stage, you will have two options:\n   - Option A: Receive $30 guaranteed.\n   - Option B: Have an 80% chance to win $45.\n\nYou need to choose either Option A or Option B at the beginning of the game, before the first stage result is known. Which option would you prefer?",
+                    "I would prefer Option B."
+                ],
+                [
+                    "In the first stage of the game, there is a 25% probability of progressing to the second stage, and a 75% probability of the game ending without a win. If you advance to the second stage, you have two options to choose from:\n\nA. Receive $30 guaranteed.\nB. Have an 80% probability of winning $45.\n\nYou need to select your preferred option before starting the game, without knowing the outcome of the first stage. Please indicate your choice.",
+                    "Choose option B."
+                ],
+                [
+                    "In this two-stage game, the following conditions apply:\n\n1. In the first stage, there is a 75% probability of the game ending without any winnings, and a 25% probability of progressing to the second stage.\n2. In the second stage, if reached, you have the option to choose between:\n   - Option A: Guaranteed receipt of $30.\n   - Option B: An 80% probability of receiving $45.\n\nPlease indicate which option you would prefer, keeping in mind that your choice must be made before starting the game, thus before knowing the outcome of the first stage.",
+                    "I would prefer Option B."
+                ],
+                [
+                    "Consider a two-stage game. In the first stage, there is a 75% probability that the game ends with no winnings, and a 25% probability of progressing to the second stage. In the second stage, you have two options:\n\nA. Receive $30 with certainty.\nB. Have an 80% probability of winning $45.\n\nYou must choose between option A or B before beginning the game, without knowing whether you will advance to the second stage. Which option would you prefer?",
+                    "I would prefer option B."
+                ],
+                [
+                    "Consider the following two-stage game:\n\n1. In the first stage, there is a 75% probability that the game ends without any winnings, and a 25% probability to progress to the second stage.\n2. Should you reach the second stage, you will have two choices:\n   - Option A: Receive $30 guaranteed.\n   - Option B: Have an 80% probability of winning $45.\n\nYou must select either Option A or Option B before the game starts, that is, without knowing whether you will advance to the second stage. \n\nPlease indicate your preferred option.",
+                    "Option B"
+                ]
+            ]
+        },
+        {
+            "id": 16,
+            "text": "Consider the following game. You have a choice between:\nA. 25% chance to win $30\nB. 20% chance to win $45\nPlease indicate the option you prefer.",
+            "effect_name": "Pseudocertainty effect",
+            "effect_catagory": "Prospect theory",
+            "sub_task_id": 1,
+            "answer_type": "choice",
+            "template": null,
+            "num_variants": 0,
+            "variants": [],
+            "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
+            "suffixes": "",
+            "answers": [
+                [
+                    "Consider the following game options and indicate which one you prefer:\n\nA. A 25% chance to win $30.\nB. A 20% chance to win $45.",
+                    "B. A 20% chance to win $45."
+                ],
+                [
+                    "Consider the following game options and select the one you prefer:\n\nA. 25% chance to win $30  \nB. 20% chance to win $45",
+                    "B. 20% chance to win $45"
+                ],
+                [
+                    "Consider the following game options and choose which one you prefer:\nA. 25% chance to win $30\nB. 20% chance to win $45",
+                    "I would choose option B."
+                ],
+                [
+                    "Consider the following game options and indicate which one you prefer:\n\n- Option A: 25% chance to win $30\n- Option B: 20% chance to win $45",
+                    "I prefer Option B: 20% chance to win $45."
+                ],
+                [
+                    "Consider the following game options and indicate which one you prefer:\nA. 25% chance to win $30\nB. 20% chance to win $45",
+                    "I prefer option B."
+                ],
+                [
+                    "Consider the following game options and choose the one you prefer:\n\nA. 25% chance to win $30\nB. 20% chance to win $45",
+                    "I prefer option B."
+                ],
+                [
+                    "Consider the following game options. Please indicate which option you prefer:\n\nA. 25% chance to win $30.\nB. 20% chance to win $45.",
+                    "B. 20% chance to win $45."
+                ],
+                [
+                    "Consider the following game options and choose the one you prefer:\nA. 25% chance to win $30\nB. 20% chance to win $45",
+                    "I would choose option B: 20% chance to win $45."
+                ],
+                [
+                    "Consider the following game options and choose your preference:\nA. 25% chance to win $30\nB. 20% chance to win $45\nWhich option do you prefer?",
+                    "I prefer option B."
+                ],
+                [
+                    "Consider the following game options and choose your preference:\nA. A 25% chance to win $30.\nB. A 20% chance to win $45.",
+                    "I would choose option B."
+                ]
+            ]
+        }
+    ],
+    "bot": "GPT-4"
+}

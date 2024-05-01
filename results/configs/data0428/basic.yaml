@@ -1,0 +1,25 @@
+data:
+  data_path: "datasets"
+  dataset_name: "data_20240428044314"
+
+save_path: "results"
+use_cache: True
+cache_name: "default"
+
+exp_repeats: 10
+exp_start: 0
+
+bot_list:
+  [
+    "GPT-4",
+    "GPT-3.5-Turbo",
+    "Gemini-1.5-Pro",
+    "Gemini-Pro",
+    "Claude-3-Sonnet",
+    "Claude-2",
+    "Claude-instant",
+  ]
+
+text_modifier:
+  prefixes: ""
+  suffixes: " Answer without justification."

@@ -4,7 +4,7 @@ data:
 
 save_path: "results"
 use_cache: True
-cache_name: "default_para1"
+cache_name: "default"
 
 exp_repeats: 10
 exp_start: 0
