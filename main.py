@@ -39,6 +39,8 @@ force_replace = False
 config_path = "results/configs"
 config_name = args.config
 config_path = osp.join(config_path, config_name + ".yaml")
+if "/" in config_name:
+    config_name = config_name.split("/")[-1]
 
 configs = yaml.load(open(config_path, "r"), Loader=yaml.FullLoader)
 
@@ -78,11 +80,12 @@ while True:
         with open(dataset_path, "r") as f:
             dataset = json.load(f)
 
-
-
         os.makedirs(
             osp.join(
-                configs["save_path"], "responds", configs["data"]["dataset_name"], config_name
+                configs["save_path"],
+                "responds",
+                configs["data"]["dataset_name"],
+                config_name,
             ),
             exist_ok=True,
         )
@@ -90,21 +93,28 @@ while True:
         for bot_id, bot in tqdm.tqdm(
             enumerate(configs["bot_list"]), total=len(configs["bot_list"]), position=0
         ):
-            
-            if osp.exists(
-                osp.join(
-                    configs["save_path"],
-                    "responds",
-                    configs["data"]["dataset_name"],
-                    config_name,
-                    configs["data"]["dataset_name"] + "_" + config_name + "_" + bot + ".json",
+
+            if (
+                osp.exists(
+                    osp.join(
+                        configs["save_path"],
+                        "responds",
+                        configs["data"]["dataset_name"],
+                        config_name,
+                        configs["data"]["dataset_name"]
+                        + "_"
+                        + config_name
+                        + "_"
+                        + bot
+                        + ".json",
+                    )
                 )
-            ) and not force_replace:
+                and not force_replace
+            ):
                 print(
                     f"File exists: {configs['data']['dataset_name']}_{config_name}_{bot}.json"
                 )
                 continue
-            
 
             answers = copy.deepcopy(dataset)
 
@@ -122,8 +132,12 @@ while True:
                     + configs["text_modifier"]["suffixes"]
                 )
 
-                answers["tasks"][task_id]["prefixes"] = configs["text_modifier"]["prefixes"]
-                answers["tasks"][task_id]["suffixes"] = configs["text_modifier"]["suffixes"]
+                answers["tasks"][task_id]["prefixes"] = configs["text_modifier"][
+                    "prefixes"
+                ]
+                answers["tasks"][task_id]["suffixes"] = configs["text_modifier"][
+                    "suffixes"
+                ]
                 answers["tasks"][task_id]["answers"] = []
 
                 for i in range(configs["exp_start"], configs["exp_repeats"]):
@@ -156,7 +170,12 @@ while True:
                     "responds",
                     configs["data"]["dataset_name"],
                     config_name,
-                    configs["data"]["dataset_name"] + "_" + config_name + "_" + bot + ".json",
+                    configs["data"]["dataset_name"]
+                    + "_"
+                    + config_name
+                    + "_"
+                    + bot
+                    + ".json",
                 ),
                 "w",
             ) as f:
@@ -169,7 +188,6 @@ while True:
             config_name,
             "meta.json",
         )
-
 
         with open(
             osp.join(
@@ -200,9 +218,11 @@ while True:
 
     except Exception as e:
         print(e)
+        print(cacher.active_bot_chatId)
         print("Error, retrying...")
         continue
 
-
-
-
+    except KeyboardInterrupt:
+        print("Interrupted, saving cache...")
+        cacher.save_cache()
+        break
