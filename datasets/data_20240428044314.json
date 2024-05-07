@@ -172,7 +172,7 @@
             "effect_catagory": "Logical fallacy",
             "sub_task_id": 0,
             "answer_type": "choice",
-            "template": "You are driving along an open road to a phone market. Which one do you feel you would save more time? \nA) Increase the mean speed from [var_1] to [var_2 mph \nB) Increase the mean speed from [var_3] to [var_4] mph",
+            "template": "You are driving along an open road to a phone market. Which one do you feel you would save more time? \nA) Increase the mean speed from [var_1] to [var_2] mph \nB) Increase the mean speed from [var_3] to [var_4] mph",
             "num_variants": 4,
             "variants": [
                 43,
@@ -188,7 +188,7 @@
             "effect_catagory": "Logical fallacy",
             "sub_task_id": 1,
             "answer_type": "choice",
-            "template": "You are driving along an open road to a phone market. Which one do you feel you would lose more time? \nA) Decrease the mean speed from [var_1] to [var_2 mph \nB) Decrease the mean speed from [var_3] to [var_4] mph",
+            "template": "You are driving along an open road to a phone market. Which one do you feel you would lose more time? \nA) Decrease the mean speed from [var_1] to [var_2] mph \nB) Decrease the mean speed from [var_3] to [var_4] mph",
             "num_variants": 4,
             "variants": [
                 68,
