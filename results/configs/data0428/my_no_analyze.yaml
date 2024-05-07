@@ -12,6 +12,8 @@ exp_start: 0
 bot_list:
   [
     "GPT-4",
+    "Gemini-1.5-Pro",
+    "Claude-3-Sonnet",
   ]
 
 text_modifier:

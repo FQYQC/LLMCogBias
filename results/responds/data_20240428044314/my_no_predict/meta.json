@@ -1,6 +1,6 @@
 {
-    "request_times": 1193,
-    "cache_hit": 1023,
-    "hit_rate": 0.8575020955574183,
-    "tot_price": 59500
+    "request_times": 2575,
+    "cache_hit": 2255,
+    "hit_rate": 0.8757281553398059,
+    "tot_price": 86500
 }
