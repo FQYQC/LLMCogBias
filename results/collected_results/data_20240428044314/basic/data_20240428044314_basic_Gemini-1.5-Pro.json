@@ -1,0 +1,524 @@
+{
+    "effect_catagory": [
+        "Anchoring effect",
+        "Availability bias",
+        "Confirmation bias",
+        "Extension neglect",
+        "Framing effect",
+        "Logical fallacy",
+        "Prospect theory"
+    ],
+    "effect_info": [
+        {
+            "name": "Anchoring effect",
+            "catagory": "Anchoring effect"
+        },
+        {
+            "name": "Availability bias",
+            "catagory": "Availability bias"
+        },
+        {
+            "name": "Congruence bias",
+            "catagory": "Confirmation bias"
+        },
+        {
+            "name": "Conjunction fallacy",
+            "catagory": "Extension neglect"
+        },
+        {
+            "name": "Framing effect",
+            "catagory": "Framing effect"
+        },
+        {
+            "name": "Distinction bias",
+            "catagory": "Framing effect"
+        },
+        {
+            "name": "Time-saving bias",
+            "catagory": "Logical fallacy"
+        },
+        {
+            "name": "Endowment effect",
+            "catagory": "Prospect theory"
+        },
+        {
+            "name": "Pseudocertainty effect",
+            "catagory": "Prospect theory"
+        }
+    ],
+    "tasks": [
+        {
+            "id": 0,
+            "text": "1) Think of a random number between 10 and 20. 2) Call that number X and tell me what it is. 3) Estimate whether John, a phone shop owner, has more or less than X phones in his shop. 4) Tell me the exact number of phones you think John has in his shop.",
+            "effect_name": "Anchoring effect",
+            "effect_catagory": "Anchoring effect",
+            "sub_task_id": 0,
+            "answer_type": "number",
+            "template": "1) Think of a random number between [var_1] and [var_2]. 2) Call that number X and tell me what it is. 3) Estimate whether John, a phone shop owner, has more or less than X phones in his shop. 4) Tell me the exact number of phones you think John has in his shop.",
+            "num_variants": 2,
+            "variants": [
+                10,
+                20
+            ],
+            "prefixes": "",
+            "suffixes": " Answer without justification.",
+            "answers": [
+                37,
+                42,
+                38,
+                78,
+                37,
+                37,
+                38,
+                37,
+                247,
+                38
+            ]
+        },
+        {
+            "id": 1,
+            "text": "1) Think of a random number between 100 and 200. 2) Call that number X and tell me what it is. 3) Estimate whether John, a phone shop owner, has more or less than X phones in his shop. 4) Tell me the exact number of phones you think John has in his shop.",
+            "effect_name": "Anchoring effect",
+            "effect_catagory": "Anchoring effect",
+            "sub_task_id": 1,
+            "answer_type": "number",
+            "template": "1) Think of a random number between [var_1] and [var_2]. 2) Call that number X and tell me what it is. 3) Estimate whether John, a phone shop owner, has more or less than X phones in his shop. 4) Tell me the exact number of phones you think John has in his shop.",
+            "num_variants": 2,
+            "variants": [
+                100,
+                200
+            ],
+            "prefixes": "",
+            "suffixes": " Answer without justification.",
+            "answers": [
+                284,
+                284,
+                72,
+                27,
+                75,
+                215,
+                284,
+                203,
+                284
+            ]
+        },
+        {
+            "id": 2,
+            "text": "You need a new phone, and you are trying to decide between Phone A and Phone B. Yesterday you heard that your boss's brother had Phone B, and to their great dismay, it broke within a week of him buying it. You arrive at the store, and Phone B is cheaper. Phone B is rated slightly higher by consumers. Decide whether you should buy Phone A or Phone B.",
+            "effect_name": "Availability bias",
+            "effect_catagory": "Availability bias",
+            "sub_task_id": 0,
+            "answer_type": "choice",
+            "template": null,
+            "num_variants": 0,
+            "variants": [],
+            "prefixes": "",
+            "suffixes": " Answer without justification.",
+            "answers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "id": 3,
+            "text": "Let's play the following game: There are two cell phones, cell phone A and cell phone B. One of them has red wallpaper and the other one has blue wallpaper. 1) Guess which phone has red wallpaper. 2) If you can unlock only one phone, which phone will you try to unlock to determine which phone has a red wallpaper?",
+            "effect_name": "Congruence bias",
+            "effect_catagory": "Confirmation bias",
+            "sub_task_id": 0,
+            "answer_type": "Text",
+            "template": null,
+            "num_variants": 0,
+            "variants": [],
+            "prefixes": "",
+            "suffixes": " Answer without justification.",
+            "answers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "id": 4,
+            "text": "If you are at a scenic spot and you see a lot of people using a certain cell phone A to take pictures of the scenery, which of these options is more likely?\nA) Phone A is a popular cell phone.\nB) Phone A is a popular cell phone with good cameras.",
+            "effect_name": "Conjunction fallacy",
+            "effect_catagory": "Extension neglect",
+            "sub_task_id": 0,
+            "answer_type": "choice",
+            "template": null,
+            "num_variants": 0,
+            "variants": [],
+            "prefixes": "",
+            "suffixes": " Answer without justification.",
+            "answers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "id": 5,
+            "text": "Imagine a hypothetical commentator commenting on Phone A that received 10000 votes in the \"recommend or not recommend\" vote, 7150 of them were voted \"recommend\". How would that hypothetical commentator rate the Phone A on a 1-7 scale?",
+            "effect_name": "Framing effect",
+            "effect_catagory": "Framing effect",
+            "sub_task_id": 0,
+            "answer_type": "number",
+            "template": "Imagine a hypothetical commentator commenting on Phone A that received [var_1] votes in the \"recommend or not recommend\" vote, [var_2] of them were voted \"recommend\". How would that hypothetical commentator rate the Phone A on a 1-7 scale?",
+            "num_variants": 2,
+            "variants": [
+                10000,
+                7150
+            ],
+            "prefixes": "",
+            "suffixes": " Answer without justification.",
+            "answers": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                6
+            ]
+        },
+        {
+            "id": 6,
+            "text": "Imagine a hypothetical commentator commenting on Phone A that received 10000 votes in the \"recommend or not recommend\" vote, 2850 of them were voted \"not recommend\". How would that hypothetical commentator rate the Phone A on a 1-7 scale?",
+            "effect_name": "Framing effect",
+            "effect_catagory": "Framing effect",
+            "sub_task_id": 1,
+            "answer_type": "number",
+            "template": "Imagine a hypothetical commentator commenting on Phone A that received [var_1] votes in the \"recommend or not recommend\" vote, [var_2] of them were voted \"not recommend\". How would that hypothetical commentator rate the Phone A on a 1-7 scale?",
+            "num_variants": 2,
+            "variants": [
+                10000,
+                2850
+            ],
+            "prefixes": "",
+            "suffixes": " Answer without justification.",
+            "answers": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                5
+            ]
+        },
+        {
+            "id": 7,
+            "text": "Imagine a hypothetical commentator commenting on Phone A  that received 10000 votes in the \"recommend or not recommend\" vote, 5072 of them were voted \"recommend\". How would that hypothetical commentator rate the Phone A on a 1-7 scale?",
+            "effect_name": "Distinction bias",
+            "effect_catagory": "Framing effect",
+            "sub_task_id": 0,
+            "answer_type": "number",
+            "template": "Imagine a hypothetical commentator commenting on Phone A that received [var_1] votes in the \"recommend or not recommend\" vote, [var_2] of them were voted \"recommend\". How would that hypothetical commentator rate the Phone A on a 1-7 scale?",
+            "num_variants": 2,
+            "variants": [
+                10000,
+                5072
+            ],
+            "prefixes": "",
+            "suffixes": " Answer without justification.",
+            "answers": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ]
+        },
+        {
+            "id": 8,
+            "text": "Imagine a hypothetical commentator commenting on Phone A that received 10000 votes in the \"recommend or not recommend\" vote, 7150 of them were voted \"recommend\". And Phone B which was also sold 10000 in the last year, 5072 of them were voted \"recommend\". How would that hypothetical commentator rate the Phone A and Phone B on a 1-7 scale?",
+            "effect_name": "Distinction bias",
+            "effect_catagory": "Framing effect",
+            "sub_task_id": 1,
+            "answer_type": "number",
+            "template": "Imagine a hypothetical commentator commenting on Phone A that received [var_1] votes in the \"recommend or not recommend\" vote, [var_2] of them were voted \"recommend\". And Phone B which also received [var_1] votes in the \"recommend or not recommend\" vote, [var_3] of them were voted \"recommend\". How would that hypothetical commentator rate the Phone A and Phone B on a 1-7 scale?",
+            "num_variants": 3,
+            "variants": [
+                10000,
+                7150,
+                5072
+            ],
+            "prefixes": "",
+            "suffixes": " Answer without justification.",
+            "answers": [
+                [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6
+                ],
+                [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ]
+            ]
+        },
+        {
+            "id": 9,
+            "text": "You are driving along an open road to a phone market. Which one do you feel you would save more time? \nA) Increase the mean speed from 43 to 68 mph \nB) Increase the mean speed from 19 to 25 mph",
+            "effect_name": "Time-saving bias",
+            "effect_catagory": "Logical fallacy",
+            "sub_task_id": 0,
+            "answer_type": "choice",
+            "template": "You are driving along an open road to a phone market. Which one do you feel you would save more time? \nA) Increase the mean speed from [var_1] to [var_2 mph \nB) Increase the mean speed from [var_3] to [var_4] mph",
+            "num_variants": 4,
+            "variants": [
+                43,
+                68,
+                19,
+                25
+            ],
+            "prefixes": "",
+            "suffixes": " Answer without justification.",
+            "answers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "id": 10,
+            "text": "You are driving along an open road to a phone market. Which one do you feel you would lose more time? \nA) Decrease the mean speed from 68 to 43 mph \nB) Decrease the mean speed from 25 to 19 mph",
+            "effect_name": "Time-saving bias",
+            "effect_catagory": "Logical fallacy",
+            "sub_task_id": 1,
+            "answer_type": "choice",
+            "template": "You are driving along an open road to a phone market. Which one do you feel you would lose more time? \nA) Decrease the mean speed from [var_1] to [var_2 mph \nB) Decrease the mean speed from [var_3] to [var_4] mph",
+            "num_variants": 4,
+            "variants": [
+                68,
+                43,
+                25,
+                19
+            ],
+            "prefixes": "",
+            "suffixes": " Answer without justification.",
+            "answers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "id": 11,
+            "text": "You are driving along an open road to a phone market. How much time do you feel you would save if you drove for 10 miles at 40 mph instead of 30 mph?",
+            "effect_name": "Time-saving bias",
+            "effect_catagory": "Logical fallacy",
+            "sub_task_id": 2,
+            "answer_type": "number",
+            "template": "You are driving along an open road to a phone market. How much time do you feel you would save if you drove for 10 miles at [var_1] mph instead of [var_2] mph?",
+            "num_variants": 2,
+            "variants": [
+                40,
+                30
+            ],
+            "prefixes": "",
+            "suffixes": " Answer without justification.",
+            "answers": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ]
+        },
+        {
+            "id": 12,
+            "text": "You are driving along an open road to a phone market. How much time do you feel you would save if you drove for 10 miles at 80 mph instead of 60 mph?",
+            "effect_name": "Time-saving bias",
+            "effect_catagory": "Logical fallacy",
+            "sub_task_id": 3,
+            "answer_type": "number",
+            "template": "You are driving along an open road to a phone market. How much time do you feel you would save if you drove for 10 miles at [var_1] mph instead of [var_2] mph?",
+            "num_variants": 2,
+            "variants": [
+                80,
+                60
+            ],
+            "prefixes": "",
+            "suffixes": " Answer without justification.",
+            "answers": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ]
+        },
+        {
+            "id": 13,
+            "text": "You have a cell phone that you bought a year ago for $999, and it's in good condition, with no failures or damage. If you were to sell it, how much do you think you should get for it? Answer only one price without justification.",
+            "effect_name": "Endowment effect",
+            "effect_catagory": "Prospect theory",
+            "sub_task_id": 0,
+            "answer_type": "number",
+            "template": null,
+            "num_variants": 0,
+            "variants": [],
+            "prefixes": "",
+            "suffixes": " Answer without justification.",
+            "answers": [
+                450,
+                450,
+                450,
+                450,
+                450,
+                450,
+                450,
+                450,
+                450,
+                450
+            ]
+        },
+        {
+            "id": 14,
+            "text": "You saw a cell phone on sale which the owner bought a year ago for $999, and it's in good condition, with no failures or damage. If you were to buy it, how much would you be willing to pay? Answer only one price without justification.",
+            "effect_name": "Endowment effect",
+            "effect_catagory": "Prospect theory",
+            "sub_task_id": 1,
+            "answer_type": "number",
+            "template": null,
+            "num_variants": 0,
+            "variants": [],
+            "prefixes": "",
+            "suffixes": " Answer without justification.",
+            "answers": [
+                450,
+                450,
+                450,
+                450,
+                450,
+                450,
+                450,
+                450,
+                450,
+                450
+            ]
+        },
+        {
+            "id": 15,
+            "text": "Consider the following two stage game. In the first stage, there is a 75% chance to end the game without winning anything and a 25% chance to move into the second stage. If you reach the second stage, you have a choice between:\nA. a sure win of $30\nB. 80% chance to win $45\nYour choice must be made before the game starts, i.e., before the outcome of the first stage is known. Please indicate the option you prefer.",
+            "effect_name": "Pseudocertainty effect",
+            "effect_catagory": "Prospect theory",
+            "sub_task_id": 0,
+            "answer_type": "choice",
+            "template": null,
+            "num_variants": 0,
+            "variants": [],
+            "prefixes": "",
+            "suffixes": " Answer without justification.",
+            "answers": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "id": 16,
+            "text": "Consider the following game. You have a choice between:\nA. 25% chance to win $30\nB. 20% chance to win $45\nPlease indicate the option you prefer.",
+            "effect_name": "Pseudocertainty effect",
+            "effect_catagory": "Prospect theory",
+            "sub_task_id": 1,
+            "answer_type": "choice",
+            "template": null,
+            "num_variants": 0,
+            "variants": [],
+            "prefixes": "",
+            "suffixes": " Answer without justification.",
+            "answers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        }
+    ],
+    "bot": "Gemini-1.5-Pro"
+}
