@@ -1,0 +1,132 @@
+[
+    {
+        "name": "task1",
+        "func": "d",
+        "data": {
+            "A": null,
+            "B": null
+        },
+        "target": null,
+        "morethan": null
+    },
+    {
+        "name": "task2",
+        "func": "l",
+        "data": {
+            "A": null,
+            "B": null
+        },
+        "target": 0,
+        "morethan": 0
+    },
+    {
+        "name": "task3",
+        "func": "l",
+        "data": {
+            "A": null,
+            "B": null
+        },
+        "target": 1,
+        "morethan": "other"
+    },
+    {
+        "name": "task4",
+        "func": "l",
+        "data": {
+            "A": null,
+            "B": null
+        },
+        "target": 0,
+        "morethan": 0
+    },
+    {
+        "name": "task5",
+        "func": "d",
+        "data": {
+            "A": null,
+            "B": null
+        },
+        "target": null,
+        "morethan": null
+    },
+    {
+        "name": "task6.1",
+        "func": "d",
+        "data": {
+            "A": null,
+            "B": null
+        },
+        "target": null,
+        "morethan": null
+    },
+    {
+        "name": "task6.2",
+        "func": "d",
+        "data": {
+            "A": null,
+            "B": null
+        },
+        "target": null,
+        "morethan": null
+    },
+    {
+        "name": "task7.1",
+        "func": "l",
+        "data": {
+            "A": null,
+            "B": null
+        },
+        "target": 1,
+        "morethan": 0
+    },
+    {
+        "name": "task7.2",
+        "func": "l",
+        "data": {
+            "A": null,
+            "B": null
+        },
+        "target": 1,
+        "morethan": 0
+    },
+    {
+        "name": "task7.3",
+        "func": "d",
+        "data": {
+            "A": null,
+            "B": [5]
+        },
+        "target": null,
+        "morethan": null
+    },
+    {
+        "name": "task7.4",
+        "func": "d",
+        "data": {
+            "A": [2.5],
+            "B": null
+        },
+        "target": null,
+        "morethan": null
+    },
+    {
+        "name": "task8",
+        "func": "d",
+        "data": {
+            "A": null,
+            "B": null
+        },
+        "target": null,
+        "morethan": null
+    },
+    {
+        "name": "task9",
+        "func": "l",
+        "data": {
+            "A": null,
+            "B": null
+        },
+        "target": 1,
+        "morethan": "other"
+    }
+]
