@@ -86,7 +86,7 @@ def evaluate_dataset(output, savepath, name):
 if __name__ == "__main__":
     eva_root = "results/collected_results/data_20240428044314/"
     save_root = "analysis/stat_results"
-    folder = "basic"
+    folder = "basic_sbs"
     eva_folder = osp.join(eva_root, folder)
     save_folder = osp.join(save_root, folder)
 

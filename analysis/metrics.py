@@ -30,6 +30,8 @@ def compute_linear_l(A, target=1, morethan="other", tot=40):
     else:
         n_B = 0
 
+    if tot == 0:
+        return 0
     l = 2 * (n_A - n_B) / tot
     return np.clip(l, 0, 2)
 
