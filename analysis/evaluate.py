@@ -39,9 +39,9 @@ def evaluate_dataset(output, savepath, name):
         [1] * np_and_remove_null(output[15]["answers"]).sum()
         + [0] * (np_and_remove_null(output[16]["answers"]).sum())
     )
-    results[12]["data"]["A"] = task9data  # task9
+    results[12]["data"]["A"] = task9data.tolist()  # task9
 
-    for i in range(len(results)):
+    for i in range(len(results) - 1):
         if results[i]["func"] == "d":
             results[i]["result"] = compute_clip_cohen_d(
                 results[i]["data"]["A"], results[i]["data"]["B"]
@@ -52,12 +52,19 @@ def evaluate_dataset(output, savepath, name):
                 results[i]["data"]["A"],
                 target=results[i]["target"],
                 morethan=results[i]["morethan"],
-                tot=len(results[i]["data"]["A"]) if i == 12 else 10,
+                tot=len(results[i]["data"]["A"]),
             )
         if isinstance(results[i]["data"]["A"], np.ndarray):
             results[i]["data"]["A"] = results[i]["data"]["A"].tolist()
         if isinstance(results[i]["data"]["B"], np.ndarray):
             results[i]["data"]["B"] = results[i]["data"]["B"].tolist()
+
+    results[12]["result"] = 2 * (
+        np_and_remove_null(output[15]["answers"]).sum()
+        / len(np_and_remove_null(output[15]["answers"]))
+        - np_and_remove_null(output[16]["answers"]).sum()
+        / len(np_and_remove_null(output[16]["answers"]))
+    ).clip(0, 1)
 
     dl = [r["result"] for r in results]
     e = [
@@ -86,18 +93,31 @@ def evaluate_dataset(output, savepath, name):
 if __name__ == "__main__":
     eva_root = "results/collected_results/data_20240428044314/"
     save_root = "analysis/stat_results"
-    folder = "basic_sbs"
-    eva_folder = osp.join(eva_root, folder)
-    save_folder = osp.join(save_root, folder)
+    folders = [
+        "basic",
+        # "basic_sbs",
+        #   "basic_mindful_awj",
+        #   "basic_rewrite_sep"
+        "my_full",
+    ]
 
-    os.makedirs(save_folder, exist_ok=True)
+    for folder in folders:
+        eva_folder = osp.join(eva_root, folder)
+        save_folder = osp.join(save_root, folder)
 
-    files = os.listdir(eva_folder)
-    for file in files:
-        if file.startswith("meta"):
-            continue
-        save_path = osp.join(save_folder, "eva_" + file)
-        with open(osp.join(eva_folder, file), "r") as f:
-            output = json.load(f)
-        print(file)
-        evaluate_dataset(output, savepath=save_path, name=folder)
+        os.makedirs(save_folder, exist_ok=True)
+
+        files = os.listdir(eva_folder)
+        for file in files:
+            if file.startswith("meta"):
+                continue
+
+            if folder in ["basic_rewrite_sep", "my_full"] and not (
+                "Claude-3" in file or "Gemini-1.5" in file or "GPT-4" in file
+            ):
+                continue
+            save_path = osp.join(save_folder, "eva_" + file)
+            with open(osp.join(eva_folder, file), "r") as f:
+                output = json.load(f)
+            print(file)
+            evaluate_dataset(output, savepath=save_path, name=folder)
