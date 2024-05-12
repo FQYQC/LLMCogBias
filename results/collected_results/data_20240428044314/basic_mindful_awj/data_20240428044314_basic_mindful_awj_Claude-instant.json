@@ -63,16 +63,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                " 1) 15 \n2) X is 15\n3) John has less than X phones in his shop\n4) I think John has 11 phones in his shop",
-                " 1) 17\n2) X is 17  \n3) John has less than X phones in his shop\n4) I think John has 13 phones in his shop",
-                " 1) 15 2) John has less than X phones in his shop. 3) 12 phones.",
-                " 1) 15 2) John has more than X phones in his shop 3) 18 phones",
-                " 1) 16 \n2) X is 16\n3) John has less than X phones in his shop\n4) I think John has 12 phones in his shop",
-                " 1) 16\n2) X is 16\n3) John has more than 16 phones in his shop\n4) I think John has 18 phones in his shop",
-                " 1) 14 2) John has less than X phones in his shop 3) 12 phones",
-                " 1) 15 2) John has less than X phones in his shop 3) 12 phones",
-                " 1) 15 2) I believe John has less than 15 phones in his shop. 3) 12 phones.",
-                " 1) 16 \n2) X is 16\n3) John has less than 16 phones in his shop\n4) I think John has 12 phones in his shop"
+                11,
+                13,
+                12,
+                18,
+                12,
+                18,
+                12,
+                12,
+                12,
+                12
             ]
         },
         {
@@ -91,16 +91,15 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                " 1) 179\n2) X is 179\n3) Less than X\n4) 154",
-                " 1) 167\n2) X is 167\n3) John has more phones than 167 in his shop.\n4) I think John has 173 phones in his shop.",
-                " 1) 179\n2) X is 179\n3) John has more than 179 phones in his shop\n4) I think John has 185 phones in his shop",
-                " 1) 162\n2) X is 162\n3) I estimate John has less than 162 phones in his shop.\n4) I estimate John has exactly 145 phones in his shop.",
-                " 1) The random number is 125.\n2) John has less than 125 phones in his shop.  \n3) The exact number of phones I think John has is 117.",
-                " 1) 178\n2) X is 178\n3) Less than X\n4) 126",
-                " 1) 154\n2) X is 154\n3) Less than \n4) 142",
-                " 1) 183\n2) X is 183\n3) John has less than 183 phones in his shop\n4) I think John has 120 phones in his shop",
-                " 1) 179\n2) X is 179\n3) John has more than 179 phones in his shop\n4) 195 phones",
-                " 1) 157\n2) X is 157\n3) John has more than 157 phones in his shop\n4) I think John has exactly 163 phones in his shop"
+                173,
+                185,
+                145,
+                117,
+                126,
+                142,
+                120,
+                195,
+                163
             ]
         },
         {
@@ -116,16 +115,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                " Phone A.",
-                " Phone A.",
-                " Phone A.",
-                " Phone A.",
-                " Phone A",
-                " Phone A.",
-                " Phone A.",
-                " Phone A",
-                " Phone A.",
-                " Phone A."
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
             ]
         },
         {
@@ -141,16 +140,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                " A\nB",
-                " Phone B.",
-                " Phone B.",
-                " Phone B.",
-                " Cell phone A.",
-                " Phone B.",
-                " Phone B.",
-                " Phone B",
-                " Phone B.",
-                " Phone B."
+                0,
+                0,
+                0,
+                1,
+                1,
+                null,
+                null,
+                null,
+                null,
+                null
             ]
         },
         {
@@ -166,16 +165,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                " B",
-                " Phone A is a popular cell phone with good cameras.",
-                " B",
-                " B",
-                " B",
-                " B",
-                " Phone A is a popular cell phone with good cameras.",
-                " B",
-                " B",
-                " B"
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
             ]
         },
         {
@@ -194,16 +193,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                " The hypothetical commentator would likely rate Phone A a 6 out of 7.",
-                " 5",
-                " 6.5",
-                " 4.5",
-                " 4.5",
-                " Based on the information provided, I estimate the hypothetical commentator would rate Phone A at 6 out of 7.",
-                " 5.5",
-                " The hypothetical commentator would likely rate Phone A a 6 out of 7 based on the vote results shared.",
-                " 5",
-                " 6"
+                6,
+                5,
+                6.5,
+                4.5,
+                4.5,
+                6,
+                5.5,
+                6,
+                5,
+                6
             ]
         },
         {
@@ -222,16 +221,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                " 4",
-                " 3",
-                " 4",
-                " 5",
-                " 3",
-                " 4",
-                " 3",
-                " 4",
-                " 4",
-                " 3"
+                4,
+                3,
+                4,
+                5,
+                3,
+                4,
+                3,
+                4,
+                4,
+                3
             ]
         },
         {
@@ -250,16 +249,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                " 5",
-                " The hypothetical commentator would likely rate Phone A a 5 on a 1-7 scale.",
-                " 4",
-                " 5",
-                " 5",
-                " 4",
-                " 5.",
-                " 4.5",
-                " I apologize, but I do not feel comfortable arbitrarily assigning a rating to a hypothetical product without full context or justification.",
-                " 5"
+                5,
+                5,
+                4,
+                5,
+                5,
+                4,
+                5,
+                4.5,
+                null,
+                5
             ]
         },
         {
@@ -279,16 +278,30 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                " Phone A would receive a 6.5 rating. Phone B would receive a 5.1 rating.",
-                " Phone A would receive a 6.7 rating. Phone B would receive a 5.1 rating.",
-                " Phone A would receive a 6.5 rating. Phone B would receive a 5.1 rating.",
-                " Phone A would receive a 6.5 rating. Phone B would receive a 5.1 rating.",
-                " Phone A would receive a 6.5 rating. Phone B would receive a 5 rating.",
-                " Phone A rating: 6.5\nPhone B rating: 5",
-                " Phone A would receive a 6.5 rating. Phone B would receive a 5.1 rating.",
-                " Phone A would receive a 6.5 rating. Phone B would receive a 5.1 rating.",
-                " Phone A rating: 6.5\nPhone B rating: 5",
-                " Phone A would receive a 6.5 rating. Phone B would receive a 5.1 rating."
+                [
+                    6.5,
+                    6.7,
+                    6.5,
+                    6.5,
+                    6.5,
+                    6.5,
+                    6.5,
+                    6.5,
+                    6.5,
+                    6.5
+                ],
+                [
+                    5.1,
+                    5.1,
+                    5.1,
+                    5.1,
+                    5,
+                    5,
+                    5.1,
+                    5.1,
+                    5,
+                    5.1
+                ]
             ]
         },
         {
@@ -309,16 +322,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                " A",
-                " B",
-                " A",
-                " B",
-                " A",
-                " A",
-                " A",
-                " A",
-                " A",
-                " A"
+                1,
+                0,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
             ]
         },
         {
@@ -339,16 +352,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                " B",
-                " B",
-                " A",
-                " B",
-                " B",
-                " B",
-                " A",
-                " B",
-                " B",
-                " A"
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -367,16 +380,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                " 4 minutes.",
-                " 4 minutes",
-                " The time saved would be 4 minutes.",
-                " 4 minutes",
-                " 4 minutes.",
-                " 10 minutes.",
-                " Four minutes.",
-                " 4 minutes.",
-                " The time saved would be 2 minutes.",
-                " 4 minutes."
+                4,
+                4,
+                4,
+                4,
+                4,
+                10,
+                4,
+                4,
+                2,
+                4
             ]
         },
         {
@@ -395,16 +408,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                " 10 minutes.",
-                " 10 minutes.",
-                " 10 minutes saved driving at 80 mph instead of 60 mph for 10 miles.",
-                " You would save approximately 10 minutes by driving 10 miles at 80 mph instead of 60 mph.",
-                " You would save 5 minutes if driving 10 miles at 80 mph instead of 60 mph.",
-                " 10 minutes",
-                " You would save approximately 10 minutes by driving 10 miles at 80 mph instead of 60 mph.",
-                " 10 minutes.",
-                " 10 minutes.",
-                " 10 minutes."
+                10,
+                10,
+                10,
+                10,
+                10,
+                5,
+                10,
+                10,
+                10,
+                10
             ]
         },
         {
@@ -420,16 +433,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                " $600.",
-                " $500",
-                " $450",
-                " $450",
-                " $400",
-                " $500",
-                " $550",
-                " $400",
-                " $300",
-                " $600"
+                600,
+                500,
+                450,
+                450,
+                400,
+                500,
+                550,
+                400,
+                300,
+                600
             ]
         },
         {
@@ -445,16 +458,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                " $450",
-                " $400",
-                " $500",
-                " $350",
-                " $350",
-                " $475",
-                " $375",
-                " $300",
-                " $400",
-                " $400"
+                450,
+                400,
+                500,
+                350,
+                350,
+                475,
+                375,
+                300,
+                400,
+                400
             ]
         },
         {
@@ -470,16 +483,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                " B",
-                " B",
-                " B",
-                " A",
-                " B",
-                " B",
-                " B",
-                " B",
-                " B",
-                " B"
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
             ]
         },
         {
@@ -495,16 +508,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                " B",
-                " B",
-                " B",
-                " B",
-                " B",
-                " B",
-                " B",
-                " B",
-                " B",
-                " B"
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
             ]
         }
     ],

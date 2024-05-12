@@ -63,16 +63,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "1) Okay, I have a number.\n2) X is 16.\n3) More than X\n4) 24 \n",
-                "1) Alright, I've chosen a number.\n2) Let's call it X, which is 13 this time.\n3) More than X\n4) 32 \n",
-                "1 & 2) X is 16.\n3) More than X.\n4) 38. \n",
-                "1 & 2) X is 16. \n3) More. \n4) 347. \n",
-                "1) & 2)  X is 16. \n3) More than X.\n4) 37 \n",
-                "1 & 2) X is 16. \n3) More than X.\n4) 32. \n",
-                "1 & 2) X is 16. \n3) More than X.\n4) 37 \n",
-                "1) & 2)  X is 16. \n3) More than X\n4) 34 \n",
-                "1) Okay, I have a number.\n2) X is 16.\n3) More than X. \n4) 247 \n",
-                "1) & 2)  X is 16. \n3) More than X\n4) 37 \n"
+                24,
+                32,
+                38,
+                347,
+                37,
+                32,
+                37,
+                34,
+                247,
+                37
             ]
         },
         {
@@ -91,16 +91,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "1) Okay, I've chosen a number.\n2) X = 157\n3) More \n4) 245 \n",
-                "1) & 2) X = 147\n3) More than X\n4) 215 \n",
-                "1) Okay, I have my number.\n2) X = 153\n3) More than X \n4) 247 \n",
-                "1) Okay, I've thought of a number.\n2) X = 157\n3) More than X\n4) 245 \n",
-                "1) & 2)  X = 157\n3) More than X\n4) 245 \n",
-                "1) & 2) X = 137\n3) More than X \n4) 245 \n",
-                "1) Okay, I've thought of a number.\n2) X = 157\n3) More than X\n4) 245 \n",
-                "1) Okay, I've chosen a number.\n2) X = 147\n3) More than X\n4) 215 \n",
-                "1) Okay, I've thought of a number.\n2) X = 147\n3) More than X\n4) 215 \n",
-                "1) & 2) X = 137\n3) More\n4) 248 \n"
+                245,
+                215,
+                247,
+                245,
+                245,
+                245,
+                245,
+                215,
+                215,
+                248
             ]
         },
         {
@@ -116,16 +116,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "Phone B. \n",
-                "Phone B. \n",
-                "Phone B \n",
-                "Phone B \n",
-                "Phone B. \n",
-                "Phone B. \n",
-                "Phone B. \n",
-                "Phone B. \n",
-                "Phone B. \n",
-                "Phone B. \n"
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
             ]
         },
         {
@@ -141,16 +141,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "1. Cell phone A\n2. Cell phone A \n",
-                "1. Cell phone A\n2. Cell phone A \n",
-                "1. Cell phone A\n2. Cell phone A \n",
-                "1. Cell phone A\n2. Cell phone A \n",
-                "1. Cell phone A\n2. Cell phone A \n",
-                "1. Cell phone A \n2. Cell phone A \n",
-                "1. Cell phone A\n2. Cell phone A \n",
-                "1. Cell phone A\n2. Cell phone A \n",
-                "1. Cell phone A\n2. Cell phone A \n",
-                "1. Cell phone A\n2. Cell phone A \n"
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
             ]
         },
         {
@@ -166,16 +166,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "B) Phone A is a popular cell phone with good cameras. \n",
-                "B) Phone A is a popular cell phone with good cameras. \n",
-                "B) Phone A is a popular cell phone with good cameras. \n",
-                "B) Phone A is a popular cell phone with good cameras. \n",
-                "B) Phone A is a popular cell phone with good cameras. \n",
-                "B) Phone A is a popular cell phone with good cameras. \n",
-                "B) Phone A is a popular cell phone with good cameras. \n",
-                "B) Phone A is a popular cell phone with good cameras. \n",
-                "B) Phone A is a popular cell phone with good cameras. \n",
-                "B) Phone A is a popular cell phone with good cameras. \n"
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
             ]
         },
         {
@@ -194,16 +194,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "5 \n",
-                "5 \n",
-                "5 \n",
-                "5 \n",
-                "5 \n",
-                "5 \n",
-                "5 \n",
-                "5 \n",
-                "5 \n",
-                "5 \n"
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
             ]
         },
         {
@@ -222,16 +222,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "5 \n",
-                "5 \n",
-                "5 \n",
-                "4 \n",
-                "5 \n",
-                "5 \n",
-                "5 \n",
-                "5 \n",
-                "4 \n",
-                "4 \n"
+                5,
+                5,
+                5,
+                4,
+                5,
+                5,
+                5,
+                5,
+                4,
+                4
             ]
         },
         {
@@ -250,16 +250,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "5 \n",
-                "5 \n",
-                "5 \n",
-                "5 \n",
-                "5 \n",
-                "5 \n",
-                "5 \n",
-                "5 \n",
-                "5/7 \n",
-                "5/7 \n"
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
             ]
         },
         {
@@ -279,16 +279,30 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "Phone A: 6 \nPhone B: 4 \n",
-                "Phone A: 6 \nPhone B: 4 \n",
-                "Phone A: 6\nPhone B: 4 \n",
-                "Phone A: 6\nPhone B: 4 \n",
-                "Phone A: 6 \nPhone B: 4 \n",
-                "Phone A: 6\nPhone B: 4 \n",
-                "Phone A: 6\nPhone B: 4 \n",
-                "Phone A: 6\nPhone B: 4 \n",
-                "Phone A: 6\nPhone B: 4 \n",
-                "Phone A: 6\nPhone B: 4 \n"
+                [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6
+                ],
+                [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ]
             ]
         },
         {
@@ -309,16 +323,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "A) \n",
-                "A) \n",
-                "A) \n",
-                "A) \n",
-                "A) \n",
-                "A) \n",
-                "A) \n",
-                "A) \n",
-                "A) \n",
-                "A) \n"
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
             ]
         },
         {
@@ -339,16 +353,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "A) \n",
-                "## A \n",
-                "## A) \n",
-                "## A \n",
-                "## A \n",
-                "## A \n",
-                "## A \n",
-                "A) \n",
-                "A) \n",
-                "## A \n"
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
             ]
         },
         {
@@ -367,16 +381,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "5 minutes \n",
-                "5 minutes \n",
-                "5 minutes \n",
-                "5 minutes \n",
-                "5 minutes \n",
-                "5 minutes \n",
-                "5 minutes \n",
-                "5 minutes  ",
-                "5 minutes \n",
-                "5 minutes \n"
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
             ]
         },
         {
@@ -395,16 +409,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "4 minutes 15 seconds \n",
-                "4 minutes 15 seconds \n",
-                "5 minutes \n",
-                "4 minutes 15 seconds \n",
-                "4 minutes 15 seconds \n",
-                "5 minutes \n",
-                "4 minutes 15 seconds \n",
-                "5 minutes \n",
-                "5 minutes \n",
-                "4 minutes 15 seconds \n"
+                4.25,
+                4.25,
+                5,
+                4.25,
+                4.25,
+                5,
+                4.25,
+                5,
+                5,
+                4.25
             ]
         },
         {
@@ -420,16 +434,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "$450 \n",
-                "$450 \n",
-                "$450 \n",
-                "$450 \n",
-                "$450 \n",
-                "$450 \n",
-                "$450 \n",
-                "$450 \n",
-                "$450 \n",
-                "$450 \n"
+                450,
+                450,
+                450,
+                450,
+                450,
+                450,
+                450,
+                450,
+                450,
+                450
             ]
         },
         {
@@ -445,16 +459,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "$450 \n",
-                "$450 \n",
-                "$450 \n",
-                "\\$450 \n",
-                "\\$450 \n",
-                "$450 \n",
-                "\\$450 \n",
-                "$450 \n",
-                "\\$450 \n",
-                "\\$450 \n"
+                450,
+                450,
+                450,
+                450,
+                450,
+                450,
+                450,
+                450,
+                450,
+                450
             ]
         },
         {
@@ -470,16 +484,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "B. 80% chance to win $45 \n",
-                "B. 80% chance to win $45 \n",
-                "B. 80% chance to win $45 \n",
-                "B. 80% chance to win $45 \n",
-                "B. 80% chance to win $45 \n",
-                "B. 80% chance to win $45 \n",
-                "B. 80% chance to win $45 \n",
-                "B. 80% chance to win $45 \n",
-                "B. 80% chance to win \\$45 \n",
-                "B. 80% chance to win $45 \n"
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
             ]
         },
         {
@@ -495,16 +509,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "A. \n",
-                "A. \n",
-                "B. \n",
-                "A. 25% chance to win $30 \n",
-                "A. \n",
-                "A. \n",
-                "A. \n",
-                "B. \n",
-                "A. \n",
-                "A. \n"
+                1,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                1
             ]
         }
     ],

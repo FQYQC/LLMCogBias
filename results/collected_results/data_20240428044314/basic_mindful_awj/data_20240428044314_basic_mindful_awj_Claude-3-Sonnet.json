@@ -63,16 +63,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "1) Okay, I've thought of a random number between 10 and 20.\n\n2) Let's call that number X = 14.\n\n3) I estimate that John, the phone shop owner, has more than 14 phones in his shop.\n\n4) I think John has 27 phones in his shop.",
-                "1) Okay, I've thought of a new random number between 10 and 20.\n\n2) Let's call that number X = 17.\n\n3) I estimate that John, the phone shop owner, has more than 17 phones in his shop.\n\n4) I think John has 32 phones in his shop.",
-                "1) Okay, I have a random number X between 10 and 20 in mind.\n\n2) X = 17\n\n3) I estimate that John has less than 17 phones in his shop.\n\n4) 12",
-                "1) Okay, I've thought of a random number between 10 and 20.\n\n2) Let's call that number 14, so X = 14.\n\n3) I estimate that John, the phone shop owner, has more than 14 phones in his shop.\n\n4) I think John has 27 phones in his shop.",
-                "1) X = 14\n\n2) The number X is 14.\n\n3) I estimate that John has less than 14 phones in his shop.\n\n4) I think John has 9 phones in his shop.",
-                "1) Okay, I've thought of a random number between 10 and 20.\n\n2) Let's call that number X = 14.\n\n3) I estimate that John, the phone shop owner, has more than 14 phones in his shop.\n\n4) I think John has 27 phones in his shop.",
-                "1) X = 17\n\n2) The random number X is 17.\n\n3) I estimate that John has less than 17 phones in his shop.\n\n4) I estimate that John has 12 phones in his shop.",
-                "1) Okay, I've thought of a random number between 10 and 20.\n\n2) Let's call that number X = 14.\n\n3) I estimate that John, the phone shop owner, has less than 14 phones in his shop.\n\n4) I think John has 11 phones in his shop.",
-                "1) I have thought of a random number between 10 and 20.\n2) Let's call that number X = 14.\n3) I estimate that John, the phone shop owner, has less than 14 phones in his shop.\n4) I think John has 9 phones in his shop.",
-                "1) Okay, I have thought of a random number between 10 and 20.\n\n2) Let's call that number X = 17.\n\n3) I estimate that John, the phone shop owner, has more than 17 phones in his shop.\n\n4) I think John has 28 phones in his shop."
+                27,
+                32,
+                12,
+                27,
+                9,
+                27,
+                12,
+                11,
+                9,
+                28
             ]
         },
         {
@@ -91,16 +91,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "1) Okay, I have thought of a random number between 100 and 200.\n\n2) Let's call that number X = 173.\n\n3) I estimate that John, the phone shop owner, has less than 173 phones in his shop.\n\n4) I think John has 126 phones in his shop.",
-                "1) I have randomly selected a number between 100 and 200.\n\n2) Let's call that number X = 176.\n\n3) Based on my general knowledge of phone shop inventory, I would estimate that John, the phone shop owner, likely has more than 176 phones in his shop.\n\n4) I estimate that John has approximately 250 phones in his shop.",
-                "1) Okay, I've thought of a random number between 100 and 200.\n\n2) Let's call that number X = 147.\n\n3) I estimate that John, the phone shop owner, has less than 147 phones in his shop.\n\n4) I think John has 93 phones in his shop.",
-                "1) A random number between 100 and 200 has been generated.\n\n2) X = 147\n\n3) John has less than 147 phones in his shop.\n\n4) 83",
-                "1) Okay, I've thought of a random number between 100 and 200.\n\n2) Let's call that number X = 173.\n\n3) I estimate that John, the phone shop owner, has less than 173 phones in his shop.\n\n4) I think John has 127 phones in his shop.",
-                "1) Okay, I've thought of a random number between 100 and 200.\n\n2) Let's call that number X = 172.\n\n3) I estimate that John, the phone shop owner, has less than 172 phones in his shop.\n\n4) I think John has 125 phones in his shop.",
-                "1) [Randomly selects a number between 100 and 200] X = 142\n\n2) X = 142\n\n3) I estimate that John, the phone shop owner, has less than 142 phones in his shop.\n\n4) 87",
-                "1) Okay, I've thought of a random number between 100 and 200.\n\n2) Let's call that number X = 142.\n\n3) I estimate that John, the phone shop owner, has less than 142 phones in his shop.\n\n4) I think John has 115 phones in his shop.",
-                "1) I have thought of a random number between 100 and 200.\n\n2) Let's call that number X = 172.\n\n3) Based on typical phone shop inventory levels, I estimate that John has less than 172 phones in his shop.\n\n4) I think John has 127 phones in his shop.",
-                "1) I have thought of a random number X between 100 and 200.\n\n2) X = 173\n\n3) I estimate that John, the phone shop owner, has less than 173 phones in his shop.\n\n4) I think John has approximately 120 phones in his shop."
+                126,
+                250,
+                93,
+                83,
+                127,
+                125,
+                87,
+                115,
+                127,
+                120
             ]
         },
         {
@@ -116,16 +116,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "Phone A",
-                "Phone A",
-                "Phone A",
-                "Phone A",
-                "Phone A.",
-                "Phone A",
-                "Phone A",
-                "Phone A.",
-                "Phone A",
-                "Phone A."
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
             ]
         },
         {
@@ -141,16 +141,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "1) Cell phone A\n2) Cell phone B",
-                "1) Cell phone A\n2) Cell phone B",
-                "1) Cell phone B\n2) Cell phone A",
-                "1) Cell phone A\n2) Cell phone B",
-                "1) Cell phone A\n2) Cell phone B",
-                "1) Cell phone A\n2) Cell phone B",
-                "1) Cell phone A\n2) Cell phone B",
-                "1) Cell phone B\n2) Cell phone A",
-                "1) Cell phone A\n2) Cell phone B",
-                "1) Cell phone B has red wallpaper.\n2) Cell phone A."
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
             ]
         },
         {
@@ -166,16 +166,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "B) Phone A is a popular cell phone with good cameras.",
-                "B) Phone A is a popular cell phone with good cameras.",
-                "B) Phone A is a popular cell phone with good cameras.",
-                "B) Phone A is a popular cell phone with good cameras.",
-                "B) Phone A is a popular cell phone with good cameras.",
-                "B) Phone A is a popular cell phone with good cameras.",
-                "B) Phone A is a popular cell phone with good cameras.",
-                "B) Phone A is a popular cell phone with good cameras.",
-                "B) Phone A is a popular cell phone with good cameras.",
-                "B) Phone A is a popular cell phone with good cameras."
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
             ]
         },
         {
@@ -194,16 +194,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "6",
-                "5",
-                "5",
-                "5",
-                "5",
-                "5",
-                "5",
-                "6",
-                "5",
-                "5"
+                6,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                5,
+                5
             ]
         },
         {
@@ -222,16 +222,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "5",
-                "5",
-                "4",
-                "5",
-                "5",
-                "5",
-                "5",
-                "5",
-                "5",
-                "5"
+                5,
+                5,
+                4,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
             ]
         },
         {
@@ -250,16 +250,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "4",
-                "4",
-                "4",
-                "4",
-                "4",
-                "4",
-                "4",
-                "5",
-                "4",
-                "4"
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                5,
+                4,
+                4
             ]
         },
         {
@@ -279,16 +279,30 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "Phone A: 5\nPhone B: 4",
-                "For Phone A with 7150 out of 10000 \"recommend\" votes:\nRating: 5\n\nFor Phone B with 5072 out of 10000 \"recommend\" votes:\nRating: 4",
-                "Phone A: 5\nPhone B: 4",
-                "Phone A: 5\nPhone B: 4",
-                "Phone A: 5\nPhone B: 4",
-                "Phone A: 5\nPhone B: 4",
-                "Phone A: 5\nPhone B: 4",
-                "Phone A: 5\nPhone B: 4",
-                "Phone A: 5\nPhone B: 4",
-                "Phone A: 5\nPhone B: 3"
+                [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    3
+                ]
             ]
         },
         {
@@ -309,16 +323,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "B) Increase the mean speed from 19 to 25 mph",
-                "B) Increase the mean speed from 19 to 25 mph.",
-                "B) Increase the mean speed from 19 to 25 mph.",
-                "B) Increase the mean speed from 19 to 25 mph",
-                "A) Increase the mean speed from 43 to 68 mph",
-                "B) Increase the mean speed from 19 to 25 mph.",
-                "B) Increase the mean speed from 19 to 25 mph.",
-                "B) Increase the mean speed from 19 to 25 mph",
-                "B) Increase the mean speed from 19 to 25 mph",
-                "B) Increase the mean speed from 19 to 25 mph"
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
             ]
         },
         {
@@ -339,16 +353,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "B) Decrease the mean speed from 25 to 19 mph",
-                "B) Decrease the mean speed from 25 to 19 mph",
-                "B) Decrease the mean speed from 25 to 19 mph.",
-                "B) Decrease the mean speed from 25 to 19 mph",
-                "B) Decrease the mean speed from 25 to 19 mph",
-                "B) Decrease the mean speed from 25 to 19 mph",
-                "B) Decrease the mean speed from 25 to 19 mph",
-                "B) Decrease the mean speed from 25 to 19 mph",
-                "B) Decrease the mean speed from 25 to 19 mph.",
-                "B) Decrease the mean speed from 25 to 19 mph"
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
             ]
         },
         {
@@ -367,16 +381,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "The time saved by driving 10 miles at 40 mph instead of 30 mph is 1/6 hour or 10 minutes.",
-                "Driving 10 miles at 40 mph instead of 30 mph would save 5 minutes of travel time.",
-                "The time saved by driving 10 miles at 40 mph instead of 30 mph is 1/6 hour, or 10 minutes.",
-                "Driving 10 miles at 40 mph instead of 30 mph would save 6 minutes and 40 seconds.",
-                "The time saved by driving 10 miles at 40 mph instead of 30 mph is 1 hour.",
-                "1 hour",
-                "If you drive 10 miles at 40 mph instead of 30 mph, you would save 10 minutes.",
-                "The time saved by driving 10 miles at 40 mph instead of 30 mph is 1 hour.",
-                "2 minutes",
-                "Driving 10 miles at 40 mph instead of 30 mph would save 0.25 hours or 15 minutes."
+                10,
+                5,
+                10,
+                6.667,
+                60,
+                60,
+                10,
+                60,
+                2,
+                15
             ]
         },
         {
@@ -395,16 +409,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "Driving 10 miles at 80 mph instead of 60 mph would save you 1 minute and 15 seconds.",
-                "Driving 10 miles at 80 mph instead of 60 mph would save approximately 4.17 minutes.",
-                "Driving 10 miles at 80 mph instead of 60 mph would save 3 minutes and 20 seconds.",
-                "Driving 10 miles at 80 mph instead of 60 mph would save you 3 minutes and 20 seconds.",
-                "If you drove 10 miles at 80 mph instead of 60 mph, you would save approximately 3 minutes and 20 seconds.",
-                "The time saved by driving 10 miles at 80 mph instead of 60 mph is 0.125 hours or 7.5 minutes.",
-                "Driving 10 miles at 80 mph instead of 60 mph would save approximately 3 minutes and 20 seconds.",
-                "Driving 10 miles at 80 mph instead of 60 mph would save you 3 minutes and 20 seconds.",
-                "The time saved by driving 10 miles at 80 mph instead of 60 mph would be 1 hour.",
-                "The time saved by driving 10 miles at 80 mph instead of 60 mph is 0.125 hours or 7.5 minutes."
+                1.25,
+                4.17,
+                3.33,
+                3.33,
+                3.33,
+                7.5,
+                3.33,
+                3.33,
+                60,
+                7.5
             ]
         },
         {
@@ -420,16 +434,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "$550",
-                "$550",
-                "$450",
-                "$550",
-                "$550",
-                "$549",
-                "$499",
-                "$600",
-                "$549",
-                "$500"
+                550,
+                550,
+                450,
+                550,
+                550,
+                549,
+                499,
+                600,
+                549,
+                500
             ]
         },
         {
@@ -445,16 +459,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "$500",
-                "$500",
-                "$450",
-                "$500",
-                "$400",
-                "$450",
-                "$450",
-                "$600",
-                "$400",
-                "$600"
+                500,
+                500,
+                450,
+                500,
+                400,
+                450,
+                450,
+                600,
+                400,
+                600
             ]
         },
         {
@@ -470,16 +484,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "Option B: 80% chance to win $45.",
-                "Option B. 80% chance to win $45",
-                "I would choose option B (80% chance to win $45) for the second stage before the game starts.",
-                "B. 80% chance to win $45",
-                "Option B (80% chance to win $45)",
-                "Option B. 80% chance to win $45.",
-                "Option B. 80% chance to win $45.",
-                "Option B (80% chance to win $45)",
-                "Option B. 80% chance to win $45.",
-                "Option B."
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
             ]
         },
         {
@@ -495,16 +509,16 @@
             "prefixes": "",
             "suffixes": " Answer without justification, but be mindful to not be biased by cognitive bias.",
             "answers": [
-                "B. 20% chance to win $45",
-                "B. 20% chance to win $45",
-                "B. 20% chance to win $45",
-                "B. 20% chance to win $45",
-                "B. 20% chance to win $45",
-                "B. 20% chance to win $45",
-                "B. 20% chance to win $45",
-                "B. 20% chance to win $45",
-                "Option A. 25% chance to win $30.",
-                "B. 20% chance to win $45"
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         }
     ],

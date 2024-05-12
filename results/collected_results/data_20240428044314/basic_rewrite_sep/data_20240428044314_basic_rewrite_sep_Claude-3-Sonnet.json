@@ -63,46 +63,16 @@
             "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
             "suffixes": "",
             "answers": [
-                [
-                    "1) Consider a number within a specified range, such as 10 to 20.\n2) Assign that number to a variable, like X, and provide the value of X.\n3) For a given entity, like a phone shop owner named John, estimate whether the quantity of a particular item, such as phones, is greater or less than the value of X.\n4) State the precise quantity of the item you believe the entity possesses.",
-                    "1) Understood.\n2) Let X = 15.\n3) For John the phone shop owner, the quantity of phones he has is less than 15.\n4) John has 12 phones."
-                ],
-                [
-                    "1) Consider a number within the range of 10 to 20.\n2) Assign that number to a variable, such as X, and provide the value.\n3) For a specified entity, like a store owner, estimate whether the quantity of a particular item, such as phones, is greater or lesser than the value of X.\n4) State the precise quantity you estimate for the item in question.",
-                    "1) Okay, I have considered a number within the range of 10 to 20.\n\n2) Let's assign that number to the variable X. X = 14\n\n3) For a store owner, I estimate that the quantity of phones is greater than the value of X, which is 14.\n\n4) I estimate the quantity of phones to be 25."
-                ],
-                [
-                    "1) Consider a number within the range of 10 to 20, without any preconceived notions or preferences.\n\n2) Assign a variable name, such as \"Y,\" to the chosen number and share it.\n\n3) Reflect on the typical inventory level of phones in a phone shop, without making assumptions about the specific shop owner or the shop's size.\n\n4) Provide your best estimate of the number of phones you think a typical phone shop would have in stock, without being influenced by the previously chosen number.",
-                    "1) Understood.\n\n2) Y = 17\n\n3) Reflected on typical inventory levels for phone shops.\n\n4) 250"
-                ],
-                [
-                    "1) Consider a random number between 10 and 20. \n2) Assign that number to the variable X and provide its value. \n3) Estimate whether the number of phones in a particular phone shop is greater or less than the value of X, without any prior information about the shop or its owner.\n4) State the specific number of phones you believe to be in that phone shop, based solely on your estimation in the previous step.",
-                    "1) Understood.\n\n2) Let X = 17.\n\n3) Based solely on the value of X being 17, without any prior information about the particular phone shop, I estimate that the number of phones in that shop is less than 17.\n\n4) 8"
-                ],
-                [
-                    "1) Consider a random number within the range of 10 to 20.\n2) Assign that number to a variable X and provide me with the value of X.\n3) Based on the provided value of X, assess whether a phone shop owner, let's call them Alex, has a higher or lower quantity of phones in their shop compared to the value of X.\n4) Specify the exact number of phones you estimate Alex has in their shop.",
-                    "1) Understood.\n2) Let X = 15.\n3) Based on the provided value of X = 15, I estimate that Alex, the phone shop owner, has a lower quantity of phones in their shop compared to the value of X.\n4) I estimate that Alex has 12 phones in their shop."
-                ],
-                [
-                    "1) Consider a number between 10 and 20.\n2) Let's call that number X.\n3) Estimate whether a randomly selected phone shop owner has more or less phones in their shop than X.\n4) Provide the exact number of phones you think the randomly selected phone shop owner has in their shop.",
-                    "15"
-                ],
-                [
-                    "1) Consider a number within the range of 10 to 20.\n2) Assign that number to the variable X and provide its value.\n3) Evaluate whether a phone shop owner, referred to as John, is likely to have a larger or smaller quantity of phones in his shop compared to the value of X.\n4) Provide your estimation of the precise number of phones you believe John has in his shop.",
-                    "1) Understood.\n2) Let X = 15.\n3) It is difficult to estimate whether John is likely to have a larger or smaller quantity of phones in his shop compared to 15 without more context about the size and nature of John's phone shop business.\n4) 25."
-                ],
-                [
-                    "1) Think of a number between 10 and 20.\n2) Assign that number to the variable X.\n3) Consider the typical inventory of a phone shop owner, without any preconceived notions or assumptions.\n4) Estimate the number of phones that a phone shop owner might have in their shop, without relating it to the value of X.",
-                    "250"
-                ],
-                [
-                    "1) Consider any number between 10 and 20. \n2) Assign a label, such as \"Y,\" to the chosen number and provide that label.\n3) Based on your experience or general knowledge, estimate whether the quantity of phones in John's phone shop is greater or less than the number represented by Y.\n4) Provide your best estimate of the exact number of phones present in John's phone shop.",
-                    "1) Understood.\n\n2) Let the chosen number be Y = 16.\n\n3) Based on general knowledge and experience, I would estimate that the quantity of phones in John's phone shop is less than the number represented by Y (which is 16).\n\n4) My best estimate of the exact number of phones present in John's phone shop is 12."
-                ],
-                [
-                    "1) Generate a random number between 10 and 20.\n2) Assign that number to the variable X.\n3) Without knowing the value of X, estimate whether a phone shop owner has more or fewer phones in their shop than the value of X.\n4) Provide your estimate of the exact number of phones in the shop owner's inventory.",
-                    "1) X = 17 (random number between 10 and 20)\n\n2) X = 17\n\n3) Fewer\n\n4) 12"
-                ]
+                12,
+                25,
+                250,
+                8,
+                12,
+                15,
+                25,
+                250,
+                12,
+                12
             ]
         },
         {
@@ -121,46 +91,16 @@
             "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
             "suffixes": "",
             "answers": [
-                [
-                    "1) Think of a random number between 100 and 200.\n2) Let's call that number N.\n3) Estimate whether a typical phone shop owner has more or fewer phones in their shop compared to N.\n4) Provide your estimate of the number of phones a typical phone shop owner might have in their shop.",
-                    "153"
-                ],
-                [
-                    "1) Consider a number between 100 and 200, chosen randomly.\n2) State the chosen number.\n3) Without any prior information or assumptions, assess whether the quantity of phones in John's phone shop is likely to be greater or lesser than the selected number.\n4) Provide your estimate of the precise number of phones in John's shop.",
-                    "1) The randomly chosen number between 100 and 200 is: 173\n\n2) Without any prior information or assumptions about John's phone shop or the typical inventory levels of phone shops, it is impossible to assess whether the quantity of phones in his shop is likely to be greater or lesser than 173.\n\n3) 95"
-                ],
-                [
-                    "1) Consider a random number within the range of 100 to 200.\n2) Assign that number to the variable X and state the value of X.\n3) Without any prior information about John's phone shop, provide an estimate if the number of phones in the shop is greater or lesser than X.\n4) State the precise number of phones you believe John has in his shop.",
-                    "1) Understood.\n\n2) Let's assign X = 142.\n\n3) Without any prior information about John's phone shop, it's difficult to provide an accurate estimate. However, based on the randomly chosen number X = 142, I can make a rough guess. I would estimate that the number of phones in John's shop is likely less than 142.\n\n4) 78"
-                ],
-                [
-                    "1) Consider a random number between 100 and 200.\n2) Assign that number to the variable X.\n3) Without knowing the actual number X, provide an estimate of whether a given phone shop owner has more or fewer phones in their shop than the number X.\n4) State the specific number of phones you estimate the phone shop owner has in their shop, without referring to the value of X.",
-                    "150"
-                ],
-                [
-                    "1) Consider a number between 100 and 200.\n2) Let's call that number Y.\n3) Without making any assumptions, estimate the number of phones that a phone shop owner may have in their shop.\n4) Provide your estimate of the number of phones in the shop.",
-                    "75"
-                ],
-                [
-                    "1) Generate a random number between 100 and 200 using a random number generator.\n2) Let's call that number Y. Please state the value of Y.\n3) Without any prior information about John's phone shop, estimate whether the number of phones in his shop is higher or lower than Y.\n4) Provide your best estimate of the exact number of phones in John's shop.",
-                    "1) Using a random number generator, I have generated a random number between 100 and 200.\n\n2) The randomly generated number is: Y = 163\n\n3) Without any prior information about John's phone shop, it is difficult to make an accurate estimate of whether the number of phones in his shop is higher or lower than 163. However, based on general assumptions about the size and inventory of a typical phone shop, I would estimate that the number of phones in John's shop is lower than 163.\n\n4) My best estimate of the exact number of phones in John's shop is 85."
-                ],
-                [
-                    "1) Consider a number within the range of 100 to 200.\n2) Assign that number to the variable X and communicate it to me.\n3) Without any preconceived notions or assumptions, evaluate whether the number of phones in John's phone shop is greater or lesser than the value of X.\n4) Please provide your best estimate of the precise number of phones present in John's phone shop.",
-                    "1) Understood.\n\n2) Let's assign the value 153 to the variable X.\n\n3) Without any preconceived notions or assumptions, it is difficult to determine whether the number of phones in John's phone shop is greater or lesser than 153, as I do not have any specific information about John's shop or the typical inventory levels for a phone shop.\n\n4) 75"
-                ],
-                [
-                    "1) Think of a number between 100 and 200.\n2) Call that number Y and tell me what it is.\n3) Consider a hypothetical phone shop. Without making any assumptions, estimate whether the number of phones in that shop is more or less than Y.\n4) State the exact number of phones you think are in the hypothetical phone shop.",
-                    "1) Understood.\n\n2) Let's say Y = 147.\n\n3) Without any additional information about the hypothetical phone shop, it is difficult to estimate whether the number of phones in the shop is more or less than 147. However, based on the range provided (100 to 200), I will make a rough guess.\n\n4) 125"
-                ],
-                [
-                    "1) Consider a number between 100 and 200.\n2) Let's call this number Y. Please provide the value of Y.\n3) Based on your knowledge or experience with phone shops, estimate whether the number of phones in John's shop is higher or lower than Y.\n4) Please provide your best estimate of the exact number of phones in John's shop.",
-                    "I apologize, but I do not have enough information to determine the value of Y or make an estimate about the number of phones in John's shop.\n\nThe value of Y is supposed to be a number between 100 and 200, but without any additional context or constraints, I cannot provide a specific value for Y.\n\nSimilarly, without any details about John's shop, the type of phones he sells, or the size and location of his business, I cannot make an informed estimate about the number of phones in his shop or compare it to an unknown value Y."
-                ],
-                [
-                    "1) Choose a random number between 100 and 200.\n2) Let's refer to that number as Y.\n3) Consider a hypothetical phone shop owner named Alex. Without any specific information about Alex's shop, estimate whether Alex has more or fewer phones in their shop than the number Y.\n4) Provide the exact number of phones you think Alex has in their shop.",
-                    "1) Random number between 100 and 200: 162\n2) Y = 162\n4) 125"
-                ]
+                153,
+                95,
+                78,
+                150,
+                75,
+                85,
+                75,
+                125,
+                null,
+                125
             ]
         },
         {
@@ -176,46 +116,16 @@
             "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
             "suffixes": "",
             "answers": [
-                [
-                    "You need to purchase a new phone and are considering two options: Phone A and Phone B. Both phones have their advantages and disadvantages. Gather objective information about their features, durability, performance, and customer reviews from reputable sources. Consider your specific needs and priorities, such as battery life, camera quality, storage capacity, or operating system preference. Evaluate the pros and cons of each phone objectively, without being unduly influenced by anecdotal experiences or pricing differences alone. Make an informed decision based on a comprehensive analysis of the relevant factors that align with your requirements and budget.",
-                    "Phone A:\n\nPros:\n- Long battery life (up to 2 days on a single charge)\n- Excellent camera system with multiple lenses and advanced features\n- Water and dust resistant (IP68 rating)\n- Ample storage options (up to 512GB)\n- Latest cutting-edge processor for smooth performance\n\nCons:\n- Expensive price tag\n- No headphone jack\n- Limited customization options for the operating system\n\nPhone B:\n\nPros:\n- Affordable price point\n- Headphone jack included\n- Decent camera performance for the price range\n- Good battery life (up to 1.5 days on a single charge)\n- Highly customizable operating system\n\nCons:\n- Slower processor compared to flagship models\n- No water resistance rating\n- Limited storage options (up to 128GB)\n- Camera lacks advanced features found in higher-end models"
-                ],
-                [
-                    "You need a new phone, and you are considering two options: Phone A and Phone B. Both phones have their own set of features and specifications. It is essential to make an informed decision based on objective criteria such as performance, battery life, camera quality, user interface, and overall value for money. Research and compare the technical specifications, user reviews, and expert opinions for both phones. Consider your personal preferences and the features that are most important to you. Evaluate the pros and cons of each phone objectively, taking into account your budget and long-term usage needs. Make a decision based on a comprehensive analysis rather than relying on anecdotal evidence or preconceived notions.",
-                    "Phone B"
-                ],
-                [
-                    "You need a new phone, and you are considering Phone A and Phone B. Both phones have their advantages and disadvantages. Phone A and Phone B have different features, specifications, and price points. It would be helpful to research and compare the key features, performance, durability, and customer reviews of both phones objectively. Consider your specific needs, budget, and priorities in a phone to make an informed decision that aligns with your requirements.",
-                    "Phone A."
-                ],
-                [
-                    "You need a new phone, and you are trying to decide between Phone A and Phone B. Both phones have their advantages and drawbacks. It's important to objectively consider the features, specifications, and user reviews for each phone to make an informed decision. Here are some factors to consider:\n\n- Phone A's cost and Phone B's cost.\n- Phone A's and Phone B's hardware specifications, such as processor, RAM, storage, camera, and battery life.\n- Phone A's and Phone B's software features, user interface, and available apps.\n- Phone A's and Phone B's consumer ratings and reviews from reputable sources.\n- Your personal preferences and priorities in terms of features, design, and brand loyalty.\n- The warranty and customer support offered by the manufacturers of Phone A and Phone B.\n\nIt's advisable to research and compare the phones based on objective information and your specific needs, rather than relying solely on anecdotal experiences or preconceived notions. Consider making a pros and cons list for each phone to help you make an informed decision.",
-                    "Without additional context, it's challenging to provide a definitive recommendation between Phone A and Phone B. Both phones likely have unique advantages and drawbacks that align differently with individual preferences and needs. The decision requires carefully evaluating factors such as cost, hardware specifications, software features, consumer reviews, personal priorities, warranty, and customer support. Conducting thorough research and creating a pros and cons list for each phone can help in making an informed choice tailored to your specific requirements."
-                ],
-                [
-                    "You need a new phone and you are trying to decide between Phone A and Phone B. Both phones have their advantages and disadvantages. Phone B is more affordable and has a slightly higher consumer rating. However, you have heard a negative anecdotal experience about Phone B from your boss's brother, where their device broke within a week. It is important to consider objective data and reviews from multiple sources, as well as your own specific needs and budget, rather than relying solely on a single anecdotal experience. Make a decision by weighing all the relevant factors, such as price, features, durability, and overall value, while remaining impartial and avoiding any potential biases.",
-                    "Phone A."
-                ],
-                [
-                    "You need to purchase a new phone and are considering two options, Phone A and Phone B. Both phones have their advantages and disadvantages. Phone A is more expensive, while Phone B is slightly cheaper. In terms of consumer ratings, Phone B has a slightly higher rating. However, it's important to note that an acquaintance's negative experience with Phone B does not necessarily reflect the overall quality or durability of the device. It could have been an isolated incident or an unfortunate coincidence. To make an informed decision, it would be wise to research both phones thoroughly, considering factors such as features, specifications, battery life, camera quality, and overall performance. Additionally, you may want to read independent reviews from reputable sources to gain a more comprehensive understanding of each phone's strengths and weaknesses. Ultimately, the choice should be based on your specific needs, budget, and personal preferences after carefully evaluating all available information objectively.",
-                    "Phone A."
-                ],
-                [
-                    "You need a new phone and are considering Phone A and Phone B. Both phones have their advantages and drawbacks:\n\nPhone A:\n- Price: [insert price information]\n- Consumer ratings: [insert rating information]\n- Other relevant features: [insert details]\n\nPhone B:\n- Price: [insert price information]\n- Consumer ratings: [insert rating information]\n- Other relevant features: [insert details]\n\nAdditionally, you may have heard some anecdotal information about Phone B from your boss's brother, but it's important to consider various factors objectively. Evaluate the phones based on their specifications, reviews from multiple sources, and your personal needs and budget. Weighing the pros and cons of each option will help you make an informed decision.",
-                    "To objectively evaluate the two phones, I would need you to provide the specific details for each factor listed, such as the prices, consumer ratings, and other relevant features of Phone A and Phone B. Without those details, it's difficult to compare the options and make an informed recommendation. If you can provide that information, I'll be happy to weigh the pros and cons of each phone based on the objective data."
-                ],
-                [
-                    "Here is a revised version of the prompt without cognitive biases:\n\nYou need a new phone and are considering two options, Phone A and Phone B. Both phones have similar features and specifications. Phone B is slightly cheaper than Phone A, and it has a slightly higher average rating from consumer reviews. Your goal is to evaluate the phones objectively and choose the one that best meets your needs and budget. Gather information about the phones' features, performance, durability, and customer support from reputable sources. Consider your personal preferences and priorities when making the decision.",
-                    "Phone B"
-                ],
-                [
-                    "You need a new phone, and you are considering two options: Phone A and Phone B. Both phones have their advantages and drawbacks. To make an informed decision, it's important to evaluate the features and specifications of each phone objectively.\n\nWhen comparing Phone A and Phone B, consider factors such as:\n\n- Hardware specifications (processor, RAM, storage, camera)\n- Software and operating system\n- Battery life\n- Display quality\n- User interface and ease of use\n- Durability and build quality\n- Brand reputation and customer support\n- Price and value for money\n\nAdditionally, review multiple sources of information, including professional reviews, user ratings, and comparisons from reputable websites or publications. This will help you gain a well-rounded understanding of each phone's strengths and weaknesses.\n\nIt's also essential to consider your personal needs and preferences. What features are most important to you? Do you prioritize performance, camera quality, or battery life? Aligning the phone's capabilities with your usage patterns can help you make the best choice.\n\nBy objectively evaluating the available information and considering your specific requirements, you can make an informed decision about which phone, Phone A or Phone B, better suits your needs.",
-                    "Phone A"
-                ],
-                [
-                    "Here is an unbiased version of the prompt:\n\nYou need a new phone, and you are considering two models: Phone A and Phone B. Both phones have received positive reviews from various sources. Phone B is slightly more affordable than Phone A. Additionally, Phone B has a slightly higher average rating from consumer reviews compared to Phone A. However, you are aware of an isolated incident where one user's Phone B broke within a week of purchase. Evaluate the objective information available, such as price, features, reviews, and ratings, to decide which phone model, Phone A or Phone B, would be the better choice for your needs.",
-                    "Based on the objective information provided, Phone B would be the better choice."
-                ]
+                null,
+                0,
+                1,
+                null,
+                1,
+                1,
+                null,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -231,46 +141,16 @@
             "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
             "suffixes": "",
             "answers": [
-                [
-                    "Here is an unbiased version of the prompt:\n\nLet's play the following game: There are two cell phones, labeled Phone 1 and Phone 2. Each phone has a different wallpaper color, but you do not know which color is assigned to which phone. 1) Which wallpaper color would you like to guess for Phone 1? 2) If you can unlock only one phone to determine its wallpaper color, which phone would you choose to unlock first, Phone 1 or Phone 2?",
-                    "1) Blue\n2) Phone 1"
-                ],
-                [
-                    "Let's play the following game: There are two cell phones, cell phone X and cell phone Y. One of them has a solid color wallpaper, and the other one has a different solid color wallpaper. 1) Guess which phone has a particular color wallpaper. 2) If you can unlock only one phone, which phone will you try to unlock to determine the wallpaper color of each phone?",
-                    "1) Cell phone X has a red wallpaper.\n2) Cell phone Y."
-                ],
-                [
-                    "Here is a rewritten version of the prompt without cognitive bias:\n\nConsider two cell phones, Phone 1 and Phone 2, where one has a red wallpaper, and the other has a blue wallpaper. 1) State your guess as to which phone has the red wallpaper. 2) If you can attempt to unlock only one phone, which phone will you try to unlock to determine which one has the red wallpaper?",
-                    "1) I will guess that Phone 1 has the red wallpaper.\n\n2) I will attempt to unlock Phone 1."
-                ],
-                [
-                    "Here is a rewritten version of the prompt without cognitive bias:\n\nThere are two cell phones, Phone X and Phone Y. Each phone has a unique wallpaper color. Your task is as follows:\n\n1) Indicate which wallpaper color you would like to guess for each phone.\n2) If you can only attempt to unlock one phone, specify which phone you would choose to determine the wallpaper color for both phones.",
-                    "1) For Phone X, I would like to guess the wallpaper color red. For Phone Y, I would like to guess the wallpaper color blue.\n\n2) If I can only attempt to unlock one phone, I would choose Phone X to determine the wallpaper color for both phones."
-                ],
-                [
-                    "Let's play the following game: There are two cell phones, one with a red wallpaper and the other with a blue wallpaper. 1) Indicate which color wallpaper you would like to associate with each phone. 2) If you can unlock only one phone, which phone will you choose to unlock to determine the wallpaper color?",
-                    "1) Red wallpaper for Phone A, Blue wallpaper for Phone B.\n2) Phone A."
-                ],
-                [
-                    "Let's play the following game: There are two cell phones, labeled Phone X and Phone Y. Each phone has a different colored wallpaper. 1) Without any additional information, make a guess about which phone has which colored wallpaper. 2) If you can only attempt to unlock one phone, which phone will you try to determine the color of its wallpaper?",
-                    "1) Phone X has a blue wallpaper, and Phone Y has a green wallpaper.\n\n2) Phone X"
-                ],
-                [
-                    "Consider the following scenario: There are two cell phones, Phone X and Phone Y. Each phone has a different wallpaper color. Your task is to determine which phone has a specific wallpaper color without any prior information or assumptions. 1) Which phone do you think has the red wallpaper? 2) If you can unlock only one phone, which phone would you choose to unlock in order to determine which phone has the red wallpaper?",
-                    "1) Phone X\n2) Phone X"
-                ],
-                [
-                    "Let's play a game: There are two cell phones, labeled Phone 1 and Phone 2. Each phone has a different wallpaper color. 1) Without any prior information, make a guess about which phone has which wallpaper color. 2) If you can only attempt to unlock one phone, which phone will you choose to determine the wallpaper color of each phone?",
-                    "1) Phone 1: Blue wallpaper, Phone 2: Red wallpaper.\n2) Phone 2."
-                ],
-                [
-                    "Here is an unbiased prompt for the game:\n\nThere are two cell phones, Phone X and Phone Y. One of them has a red wallpaper, and the other has a blue wallpaper. 1) Guess which phone has which wallpaper color. 2) If you can unlock only one phone, which phone will you try to unlock to determine the wallpaper color of each phone?",
-                    "1) Phone X has a red wallpaper, and Phone Y has a blue wallpaper.\n2) Phone X"
-                ],
-                [
-                    "Here's the unbiased version of the prompt:\n\nThere are two cell phones, one with red wallpaper and the other with blue wallpaper. 1) State your guess for the color of the wallpaper on each phone. 2) If you can only unlock one phone, which phone will you choose to unlock to determine the wallpaper color?",
-                    "1) My guess is that the phone with the red wallpaper has a red wallpaper, and the phone with the blue wallpaper has a blue wallpaper.\n\n2) If I can only unlock one phone, I would choose to unlock the phone with the red wallpaper."
-                ]
+                1,
+                0,
+                1,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                null
             ]
         },
         {
@@ -286,46 +166,16 @@
             "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
             "suffixes": "",
             "answers": [
-                [
-                    "At a scenic spot, you observe many people using a particular cell phone model to capture images of the surroundings. Based on this observation alone, which of the following conclusions is more reasonable to draw?\n\nOption A: This cell phone model is widely adopted among consumers.\nOption B: This cell phone model is popular and known for its camera capabilities.",
-                    "Option B: This cell phone model is popular and known for its camera capabilities."
-                ],
-                [
-                    "Here is an unbiased version of the prompt:\n\nIf you are at a scenic spot and observe a large number of individuals using a particular brand of cell phone to capture images of the surroundings, which of the following conclusions is more reasonable to draw from this observation alone?\n\nA) The cell phone in question is a widely adopted and commonly used device among the general population.\nB) The cell phone in question is a widely adopted and commonly used device among the general population and is known for its superior camera capabilities.",
-                    "B"
-                ],
-                [
-                    "At a scenic spot, if you observe a significant number of people using a particular cell phone model (let's call it \"Phone X\") to capture photos of the scenery, what might be a reasonable conclusion based solely on this observation? Please consider the following options:\n\nOption 1: \"Phone X\" is a widely adopted and commonly used cell phone model.\n\nOption 2: \"Phone X\" is a popular cell phone model known for its camera capabilities, which are suitable for capturing scenic photographs.",
-                    "Option 2"
-                ],
-                [
-                    "Consider this situation: You are at a scenic spot, and you observe a significant number of individuals using a specific cell phone model to capture images of the scenery. Based on this observation alone, which of the following statements seems more plausible?\n\nOption A: This particular cell phone model enjoys widespread popularity among consumers.\n\nOption B: This cell phone model is not only popular but also renowned for its high-quality camera capabilities, making it well-suited for capturing scenic landscapes.",
-                    "Option B"
-                ],
-                [
-                    "When observing people using a particular type of phone to take pictures at a scenic location, consider the following unbiased options:\n\nA) The observed phone model is commonly used by the individuals present at that location.\nB) The observed phone model is equipped with a camera that is satisfactory for capturing scenery photographs, making it a practical choice for the individuals present.",
-                    "B"
-                ],
-                [
-                    "At a scenic spot, you observe many people using a specific cell phone model to capture photographs of the scenery. Based solely on this observation, which of the following statements would be more appropriate:\n\nA) This cell phone model appears to be widely used by individuals present at this location.\nB) This cell phone model seems to be popular among individuals at this location for its camera capabilities.",
-                    "B) This cell phone model seems to be popular among individuals at this location for its camera capabilities."
-                ],
-                [
-                    "At a scenic spot, you observe many individuals using a specific cell phone model to capture images of the scenery. Based on this observation alone, which of the following statements would be more accurate:\n\nA) This cell phone model is widely used by the general public.\nB) This cell phone model possesses high-quality camera capabilities that are well-regarded by users.",
-                    "B) This cell phone model possesses high-quality camera capabilities that are well-regarded by users."
-                ],
-                [
-                    "Here is an unbiased rewrite of the prompt:\n\nIf you observe a group of people at a scenic spot using a particular cell phone model to take pictures, which of the following conclusions can be reasonably drawn from this observation alone:\n\nA) The observed cell phone model has a significant market share and is widely used.\nB) The observed cell phone model has a camera system that is well-suited for capturing high-quality images in the given scenic environment.",
-                    "B"
-                ],
-                [
-                    "At a scenic spot, if you notice a significant number of individuals using a particular cell phone model to capture images of the scenery, consider the following options:\n\nA) The observed cell phone model has gained widespread popularity among consumers.\nB) The observed cell phone model is known for its advanced camera capabilities, which are well-suited for capturing scenic views.",
-                    "B"
-                ],
-                [
-                    "If you are at a scenic spot and observe a significant number of individuals utilizing a particular cell phone model to capture images of the surroundings, which of the following statements is more plausible based on the available information:\n\nA) The cell phone model in question enjoys widespread popularity among consumers.\nB) The cell phone model in question is not only popular but also renowned for its high-quality camera capabilities.",
-                    "B) The cell phone model in question is not only popular but also renowned for its high-quality camera capabilities."
-                ]
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
             ]
         },
         {
@@ -344,46 +194,16 @@
             "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
             "suffixes": "",
             "answers": [
-                [
-                    "Imagine a hypothetical commentator analyzing the voting results for Phone A, where 10000 votes were cast, with 7150 votes recommending the phone and 2850 votes not recommending it. Based solely on these objective voting figures, how would the commentator rate Phone A on a 1-7 scale, where 1 represents the lowest rating and 7 represents the highest rating?",
-                    "6"
-                ],
-                [
-                    "Imagine a hypothetical commentator analyzing the voting results for a product, where 10000 votes were cast, with 7150 votes in favor and 2850 votes against. Based solely on these objective voting figures, how would the commentator rate the product on a 1-7 scale, where 1 represents the lowest rating and 7 represents the highest rating?",
-                    "6"
-                ],
-                [
-                    "Imagine a reviewer evaluating Phone A based solely on the following information: Out of 10,000 votes cast in a \"recommend or not recommend\" poll, 7,150 votes were for \"recommend\". How would this reviewer rate Phone A on a 1-7 scale, where 1 represents \"strongly not recommend\" and 7 represents \"strongly recommend\"?",
-                    "6"
-                ],
-                [
-                    "Imagine a hypothetical commentator evaluating Phone A, which received a total of 10,000 votes in a \"recommend or not recommend\" survey. Of those 10,000 votes, 7,150 were in favor of recommending the phone. Based on this objective data, how would the commentator rate Phone A on a scale of 1 to 7, where 1 is the lowest rating and 7 is the highest?",
-                    "6"
-                ],
-                [
-                    "Considering a hypothetical phone model, let's refer to it as Phone X. If Phone X received 10,000 votes in a \"recommend or not recommend\" poll, and 7,150 of those votes were for \"recommend,\" how would you rate Phone X on a scale of 1 to 7, based solely on these voting results?",
-                    "6"
-                ],
-                [
-                    "Imagine a hypothetical reviewer evaluating Phone A based on a survey in which 10,000 respondents voted either to \"recommend\" or \"not recommend\" the phone. Out of the 10,000 votes, 7,150 were \"recommend\" votes. Rate Phone A on a scale of 1 to 7, where 1 represents \"not recommended\" and 7 represents \"highly recommended,\" based solely on the ratio of \"recommend\" votes to the total number of votes.",
-                    "6"
-                ],
-                [
-                    "Imagine a hypothetical product analysis where Phone A received 10,000 total votes from customers indicating whether they recommend or do not recommend the product. Out of those 10,000 votes, 7,150 were \"recommend\" votes. Based solely on this data, how would you rate Phone A on a scale of 1 to 7, where 1 represents \"strongly do not recommend\" and 7 represents \"strongly recommend\"?",
-                    "6"
-                ],
-                [
-                    "Consider a smartphone model, referred to as Phone A, that was evaluated through a voting process where participants had the option to either \"recommend\" or \"not recommend\" the device. The voting results revealed that out of 10,000 votes cast, 7,150 votes were in favor of recommending Phone A. Based on this information, how would you rate Phone A on a scale from 1 to 7, where 1 represents the lowest rating and 7 represents the highest rating?",
-                    "6"
-                ],
-                [
-                    "Rate Phone A on a 1-7 scale based on the following information: There were a total of 10,000 votes cast for Phone A in a \"recommend or not recommend\" vote. Out of these 10,000 votes, 7,150 votes were for \"recommend\" and the remaining votes were for \"not recommend\". Please provide your rating without any additional commentary or assumptions.",
-                    "6"
-                ],
-                [
-                    "Rewritten prompt: A product, referred to as Phone A, received a total of 10,000 votes in a \"recommend or not recommend\" survey. Out of those 10,000 votes, 7,150 were in favor of recommending the product. Based solely on this information, please provide an objective rating for Phone A on a scale of 1 to 7, where 1 represents \"not recommended\" and 7 represents \"highly recommended.\" Your rating should be based on the ratio of positive recommendations to the total number of votes, without any additional context or personal bias.",
-                    "5"
-                ]
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                5
             ]
         },
         {
@@ -402,46 +222,16 @@
             "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
             "suffixes": "",
             "answers": [
-                [
-                    "Rewritten prompt without cognitive bias:\n\nPhone A received 10,000 votes in a \"recommend or not recommend\" survey. Out of those votes, 2,850 were \"not recommend\". Based solely on these objective numbers, how would you rate the phone on a scale of 1 to 7, where 1 represents \"not recommended\" and 7 represents \"highly recommended\"?",
-                    "5"
-                ],
-                [
-                    "Imagine a commentator analyzing the voting results for Phone A, which received a total of 10,000 votes in the \"recommend or not recommend\" poll. Out of these votes, 2,850 were for \"not recommend,\" while the remaining 7,150 votes were for \"recommend.\" The commentator's task is to rate Phone A on a scale of 1 to 7 based solely on these voting results, without any preconceived notions or biases.",
-                    "5"
-                ],
-                [
-                    "Imagine a hypothetical commentator analyzing the results of a \"recommend or not recommend\" vote for Phone A. The phone received a total of 10,000 votes, with 2,850 votes for \"not recommend\" and the remaining 7,150 votes for \"recommend\". Without considering any additional information or personal biases, how would the commentator objectively rate Phone A on a scale of 1 to 7, solely based on the voting results?",
-                    "5"
-                ],
-                [
-                    "Imagine a commentator reviewing a phone model, Phone A, based solely on the results of a \"recommend or not recommend\" vote. The vote had a total of 10,000 participants, and 2,850 of them voted \"not recommend.\" Please rate the phone model on a scale of 1 to 7, where 1 represents \"not recommended\" and 7 represents \"highly recommended,\" considering only the objective data from the vote and without any preconceived notions or biases.",
-                    "5"
-                ],
-                [
-                    "Please rate Phone A based on the following statistics: Out of 10,000 votes, 7,150 votes recommended the phone, while 2,850 votes did not recommend it. Provide your rating on a scale of 1 to 7, where 1 represents the lowest rating and 7 represents the highest rating.",
-                    "5"
-                ],
-                [
-                    "Consider a hypothetical review for Product A, which received 10,000 votes in a \"recommend or not recommend\" survey. Out of those votes, 2,850 were \"not recommend\" responses. Based on the available data, provide an objective rating for Product A on a scale of 1 to 7, where 1 represents the lowest rating and 7 represents the highest rating.",
-                    "6"
-                ],
-                [
-                    "Imagine a hypothetical commentator analyzing the voting data for Phone A, which received a total of 10,000 votes in a \"recommend or not recommend\" survey. Out of these votes, 2,850 were for \"not recommend.\" Based solely on this factual voting information, how would the commentator objectively rate Phone A on a 1-7 scale, where 1 represents a highly negative rating and 7 represents a highly positive rating?",
-                    "5"
-                ],
-                [
-                    "Please rate Phone A on a 1-7 scale based on the following information: Out of 10,000 votes, 2,850 were \"not recommend\" votes, and the remaining 7,150 were \"recommend\" votes.",
-                    "6"
-                ],
-                [
-                    "Imagine a hypothetical commentator analyzing the voting results for Phone A, where 10,000 votes were cast, with 2,850 votes indicating \"not recommend\" and 7,150 votes indicating \"recommend\". How would this commentator rate Phone A on a 1-7 scale, based solely on the objective voting data?",
-                    "6"
-                ],
-                [
-                    "Rate Phone A on a 1-7 scale based on the following data: Out of 10,000 total votes, 2,850 votes were for \"not recommend\" and 7,150 votes were for \"recommend\". Provide a rating without any additional commentary or bias.",
-                    "6"
-                ]
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                5,
+                6,
+                6,
+                6
             ]
         },
         {
@@ -460,46 +250,16 @@
             "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
             "suffixes": "",
             "answers": [
-                [
-                    "Here is an unbiased version of the prompt:\n\nPhone A received 10,000 votes in a \"recommend or not recommend\" poll. Of those 10,000 votes, 5,072 were for \"recommend.\" Based solely on these vote counts, how would you rate Phone A on a scale of 1 to 7, where 1 represents \"not recommended\" and 7 represents \"highly recommended\"?",
-                    "5"
-                ],
-                [
-                    "Let's evaluate Phone A based solely on the voting data provided, without making any assumptions or subjective judgments. The prompt states that out of 10,000 votes for recommending or not recommending the phone, 5,072 votes were for recommending it. To rate the phone on a scale of 1 to 7, where 1 represents the lowest recommendation and 7 represents the highest, we can calculate the percentage of positive recommendations and map it to the scale accordingly. The percentage of positive recommendations is (5,072 / 10,000) \u00d7 100 = 50.72%. If we divide the 1 to 7 scale into equal ranges of 14.29% (100% / 7), a score of 4 would correspond to the range of 42.86% to 57.15%. Since 50.72% falls within this range, an unbiased rating for Phone A based solely on the provided voting data would be 4 on a scale of 1 to 7.",
-                    "4"
-                ],
-                [
-                    "Consider a hypothetical product, let's call it Device X, that received a total of 10,000 votes in a \"recommend or not recommend\" poll. Of those 10,000 votes, 5,072 were in favor of recommending the product. Based solely on these objective numbers, how would you rate Device X on a scale of 1 to 7, where 1 represents \"strongly not recommend\" and 7 represents \"strongly recommend\"?",
-                    "5"
-                ],
-                [
-                    "Consider a product, Phone A, that received a total of 10,000 votes in a \"recommend or not recommend\" survey. Out of these votes, 5,072 were in favor of recommending the product. To evaluate the product's rating, calculate the percentage of positive recommendations by dividing the number of \"recommend\" votes (5,072) by the total number of votes (10,000). This yields a recommendation rate of 50.72%. Based on this data, assign a rating to the product on a 1-7 scale, where higher values indicate a more favorable recommendation.",
-                    "5"
-                ],
-                [
-                    "Imagine a hypothetical commentator analyzing the results of a product survey for Phone A. The survey asked respondents to either \"recommend\" or \"not recommend\" the phone. Out of a total of 10,000 votes received, 5,072 respondents voted to \"recommend\" Phone A. How would the commentator objectively rate Phone A on a 1-7 scale based solely on these survey results?",
-                    "5"
-                ],
-                [
-                    "A product received 10,000 votes in a \"recommend or not recommend\" poll, with 5,072 votes for \"recommend\". Based solely on these objective numbers, how would you rate the product on a scale from 1 to 7, where higher values indicate a more positive assessment?",
-                    "5"
-                ],
-                [
-                    "Imagine a commentator evaluating Phone A, which received a total of 10,000 votes in a \"recommend or not recommend\" poll. Out of those 10,000 votes, 5,072 were in favor of recommending the phone. Based solely on these factual voting results, how would you rate Phone A on a 1-7 scale, where 1 represents \"not recommended\" and 7 represents \"highly recommended\"?",
-                    "6"
-                ],
-                [
-                    "Imagine a hypothetical product reviewer evaluating Phone A based on the following data: Out of 10,000 votes in a \"recommend or not recommend\" poll, 5,072 votes were for \"recommend\". The reviewer's task is to rate Phone A on a 1-7 scale, considering the voting results as a factor but without jumping to conclusions or displaying any inherent biases.",
-                    "5"
-                ],
-                [
-                    "Imagine a hypothetical reviewer assessing Phone A based on a survey where 10,000 participants voted to either \"recommend\" or \"not recommend\" the phone. Out of the 10,000 votes, 5,072 were \"recommend\" votes. How would this reviewer objectively rate Phone A on a 1-7 scale, considering only the provided voting data?",
-                    "5"
-                ],
-                [
-                    "Imagine a commentator evaluating Phone A based on a survey where 10,000 respondents were asked whether they recommend or do not recommend the phone. 5,072 respondents voted to recommend Phone A. How would the commentator rate Phone A on a scale from 1 to 7, taking into account the survey results?",
-                    "5"
-                ]
+                5,
+                4,
+                5,
+                5,
+                5,
+                5,
+                6,
+                5,
+                5,
+                5
             ]
         },
         {
@@ -520,44 +280,28 @@
             "suffixes": "",
             "answers": [
                 [
-                    "Here is an unbiased rewrite of the prompt:\n\nPhone A received 10,000 votes in a \"recommend or not recommend\" poll. Out of those 10,000 votes, 7,150 were \"recommend\" votes. Phone B also received 10,000 votes in the same poll, with 5,072 votes being \"recommend\" votes. Rate both Phone A and Phone B on a scale of 1 to 7 based solely on the percentage of \"recommend\" votes each phone received, without any additional context or assumptions.",
-                    "Phone A: 7\nPhone B: 4"
+                    7,
+                    5,
+                    5,
+                    6,
+                    5,
+                    7,
+                    5,
+                    6,
+                    5,
+                    6
                 ],
                 [
-                    "Considering the given information, please rate Phone A and Phone B on a scale of 1 to 7, where 1 represents the lowest recommendation and 7 represents the highest recommendation, based solely on the proportion of \"recommend\" votes received by each phone.",
-                    "Phone A: 5\nPhone B: 3"
-                ],
-                [
-                    "Here is the rewritten prompt without potential cognitive bias:\n\nTwo phones, Phone A and Phone B, were sold in equal quantities of 10,000 units during the last year. For Phone A, out of 10,000 units sold, 7,150 customers voted to \"recommend\" the phone. For Phone B, out of 10,000 units sold, 5,072 customers voted to \"recommend\" the phone. On a scale of 1 to 7, where 1 represents \"Not Recommended\" and 7 represents \"Highly Recommended,\" rate Phone A and Phone B based solely on the provided customer recommendation data.",
-                    "Phone A: 5\nPhone B: 4"
-                ],
-                [
-                    "Prompt: \"Imagine a hypothetical situation where two phones, Phone A and Phone B, received votes from users on whether to recommend or not recommend them. Phone A received a total of 10,000 votes, and 7,150 of those votes were for 'recommend.' Phone B also received 10,000 votes, and 5,072 of those votes were for 'recommend.' Based on these voting results, how would you rate Phone A and Phone B on a scale of 1 to 7, with 1 being the lowest rating and 7 being the highest rating?\"",
-                    "Phone A: 6\nPhone B: 4"
-                ],
-                [
-                    "Here is an unbiased version of the prompt:\n\nPhone A and Phone B each received 10,000 votes in a \"recommend or not recommend\" poll. For Phone A, 7,150 votes were \"recommend\" and for Phone B, 5,072 votes were \"recommend\". Rate both phones on a scale of 1 to 7, where 1 represents \"not recommended at all\" and 7 represents \"highly recommended\", based solely on the number of \"recommend\" votes each phone received.",
-                    "Phone A: 5\nPhone B: 3"
-                ],
-                [
-                    "Phone A received 7150 \"recommend\" votes out of 10000 total votes, while Phone B received 5072 \"recommend\" votes out of 10000 total votes. Based solely on these numbers, how would you rate the two phones on a scale of 1 to 7 in terms of their overall recommendation, with 1 being the lowest and 7 being the highest?",
-                    "Phone A: 7\nPhone B: 5"
-                ],
-                [
-                    "Considering the provided information about the \"recommend or not recommend\" votes for Phone A and Phone B, without any additional context or biases, an objective commentator could rate the two phones on a 1-7 scale as follows:\n\nFor Phone A, out of 10,000 votes, 7,150 were \"recommend\" votes. To convert this to a rating on a 1-7 scale, we can calculate the percentage of \"recommend\" votes and map it to the corresponding rating:\n\nPercentage of \"recommend\" votes for Phone A = (7,150 / 10,000) \u00d7 100% = 71.5%\n\nAssuming a linear mapping between the percentage and the rating scale, we can assign a rating of 5 for Phone A (71.5% lies between the 60-80% range, which corresponds to a rating of 5 on a 1-7 scale).\n\nFor Phone B, out of 10,000 votes, 5,072 were \"recommend\" votes. Following the same approach:\n\nPercentage of \"recommend\" votes for Phone B = (5,072 / 10,000) \u00d7 100% = 50.72%\n\nMapping this percentage to the 1-7 scale, we can assign a rating of 4 for Phone B (50.72% lies between the 40-60% range, which corresponds to a rating of 4 on a 1-7 scale).\n\nTherefore, based solely on the provided voting data and without any external biases, an objective commentator could rate Phone A as 5 and Phone B as 4 on a 1-7 scale.",
-                    "Phone A: 5\nPhone B: 4"
-                ],
-                [
-                    "Prompt: Phone A and Phone B were both evaluated by customers through a \"recommend or not recommend\" voting system. For Phone A, out of 10,000 votes, 7,150 customers voted to recommend it. For Phone B, also with 10,000 votes, 5,072 customers voted to recommend it. Based solely on these voting results, rate the customer satisfaction for each phone on a scale of 1 to 7, where 1 represents the lowest satisfaction and 7 represents the highest satisfaction.",
-                    "Phone A: 6\nPhone B: 4"
-                ],
-                [
-                    "Please rate Phone A and Phone B on a scale of 1 to 7 based on the following information:\n\nFor Phone A, out of 10,000 votes, 7,150 votes were \"recommend\".\nFor Phone B, out of 10,000 votes, 5,072 votes were \"recommend\".",
-                    "Phone A: 5\nPhone B: 3"
-                ],
-                [
-                    "Consider two phones, Phone A and Phone B, that were each sold 10,000 units in the last year. For Phone A, out of 10,000 units sold, 7,150 customers voted to recommend it. For Phone B, out of 10,000 units sold, 5,072 customers voted to recommend it. Based solely on these objective data points, how would you rate the relative customer satisfaction with Phone A and Phone B on a scale of 1 to 7, where 1 represents the lowest level of customer satisfaction and 7 represents the highest level of customer satisfaction?",
-                    "Phone A: 6\nPhone B: 4"
+                    4,
+                    3,
+                    4,
+                    4,
+                    3,
+                    5,
+                    4,
+                    4,
+                    3,
+                    4
                 ]
             ]
         },
@@ -579,46 +323,16 @@
             "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
             "suffixes": "",
             "answers": [
-                [
-                    "You are driving along an open road. For two scenarios, calculate the time it would take to reach your destination based on the given mean speeds:\n\nScenario A: Mean speed of 43 mph\nScenario B: Mean speed of 19 mph",
-                    "Scenario A (Mean speed of 43 mph):\nTime = Distance / Speed\nWithout knowing the distance, it is impossible to calculate the time taken.\n\nScenario B (Mean speed of 19 mph):\nTime = Distance / Speed\nWithout knowing the distance, it is impossible to calculate the time taken."
-                ],
-                [
-                    "Here is an unbiased version of the prompt:\n\nYou are driving along an open road, planning to travel a fixed distance. For each of the following scenarios, determine the time it would take to complete the journey:\n\nA) The initial mean speed is 43 mph, and it is increased to 68 mph.\nB) The initial mean speed is 19 mph, and it is increased to 25 mph.",
-                    "To solve these problems, we need to use the formula: distance = rate \u00d7 time.\n\nA) Let's assume the total distance is d.\nFor the first part of the journey, the rate is 43 mph, and the time taken is t1.\nFor the second part of the journey, the rate is 68 mph, and the time taken is t2.\n\nWe know that:\nd = 43t1 + 68t2\n\nSince the total distance is the same for both parts of the journey, we can set:\n43t1 = 68t2\n\nDividing both sides by 43, we get:\nt1 = (68/43)t2\n\nSubstituting this into the first equation, we get:\nd = 43(68/43)t2 + 68t2\nd = 68t2 + 68t2\nd = 136t2\n\nTherefore, the time taken for the entire journey is t2 = d/136.\n\nB) For the initial mean speed of 19 mph and the increased speed of 25 mph, the time taken for the journey would depend on the fixed distance. Without knowing the distance, it is impossible to calculate the exact time taken."
-                ],
-                [
-                    "You are driving along an open road to reach your destination. Consider the following scenarios:\n\nScenario A: Your current average speed is 43 mph. How much time would be saved if you increased your average speed to 68 mph for the remaining distance?\n\nScenario B: Your current average speed is 19 mph. How much time would be saved if you increased your average speed to 25 mph for the remaining distance?\n\nPlease analyze both scenarios objectively, taking into account factors such as distance, speed limits, traffic conditions, and safety considerations. Your goal should be to arrive at your destination efficiently while prioritizing safety and compliance with traffic regulations.",
-                    "For Scenario A:\n\nLet's assume the remaining distance is d miles.\nCurrent time = d / 43 hours\nTime if speed increased to 68 mph = d / 68 hours\nTime saved = d / 43 - d / 68 hours\n\nFor Scenario B:\n\nLet's assume the remaining distance is d miles.\nCurrent time = d / 19 hours\nTime if speed increased to 25 mph = d / 25 hours  \nTime saved = d / 19 - d / 25 hours"
-                ],
-                [
-                    "Here is the revised, unbiased prompt:\n\nYou are driving along an open road. The speed limit allows you to safely travel at either of the following two speed ranges. Which range would result in a shorter travel time?\n\nOption A: Increasing your speed from 43 mph to 68 mph.\nOption B: Increasing your speed from 19 mph to 25 mph.",
-                    "Option A"
-                ],
-                [
-                    "You are driving along an open road to a destination. Which increase in average speed would result in a shorter travel time:\nA) Increasing the average speed from 43 mph to 68 mph\nB) Increasing the average speed from 19 mph to 25 mph",
-                    "B) Increasing the average speed from 19 mph to 25 mph"
-                ],
-                [
-                    "You are driving along an open road. For each of the following scenarios, calculate the time saved by increasing the mean speed as specified:\n\nScenario A: Increase the mean speed from 43 mph to 68 mph.\nScenario B: Increase the mean speed from 19 mph to 25 mph.\n\nProvide your calculations and conclusions without making any assumptions about which scenario would save more time.",
-                    "Scenario A:\nOriginal speed: 43 mph\nNew speed: 68 mph\nDistance: 100 miles (assume for simplicity)\n\nOriginal time = Distance / Original speed\n             = 100 miles / 43 mph\n             = 2.33 hours\n\nNew time = Distance / New speed\n         = 100 miles / 68 mph\n         = 1.47 hours\n\nTime saved = Original time - New time\n           = 2.33 hours - 1.47 hours\n           = 0.86 hours or 51.6 minutes\n\nScenario B:\nOriginal speed: 19 mph\nNew speed: 25 mph\nDistance: 100 miles (assume for simplicity)\n\nOriginal time = Distance / Original speed\n             = 100 miles / 19 mph\n             = 5.26 hours\n\nNew time = Distance / New speed\n         = 100 miles / 25 mph\n         = 4 hours\n\nTime saved = Original time - New time\n           = 5.26 hours - 4 hours\n           = 1.26 hours or 75.6 minutes"
-                ],
-                [
-                    "You are driving along an open road to a phone market. For two scenarios, calculate the time it would take to reach your destination, given the distance and average speed:\n\nScenario A: The distance is X miles and the average speed is 43 mph. Calculate the time it would take to reach the destination.\n\nScenario B: The distance is X miles and the average speed is 19 mph. Calculate the time it would take to reach the destination.",
-                    "Scenario A: \nTime = Distance / Speed\nTime = X miles / 43 mph\n\nScenario B:\nTime = X miles / 19 mph"
-                ],
-                [
-                    "You are traveling to a destination on an open road. Consider the following two scenarios:\n\nScenario A: Your current average speed is 43 mph. If you increase your average speed to 68 mph, how much time would you save?\n\nScenario B: Your current average speed is 19 mph. If you increase your average speed to 25 mph, how much time would you save?\n\nPlease evaluate both scenarios objectively, taking into account factors such as distance, travel time, and safety considerations. Provide an unbiased comparison between the two scenarios in terms of time savings.",
-                    "Scenario A:\nCurrent average speed: 43 mph\nIncreased average speed: 68 mph\nTime saved: 1 hour and 24 minutes\n\nScenario B:\nCurrent average speed: 19 mph\nIncreased average speed: 25 mph\nTime saved: 1 hour and 12 minutes"
-                ],
-                [
-                    "While driving to the phone market, consider the following option:\n\nOption A: Increasing the mean speed from 43 mph to 68 mph.\nOption B: Increasing the mean speed from 19 mph to 25 mph.\n\nEvaluate these options objectively, considering factors such as the posted speed limits, road conditions, traffic levels, and safety implications. Determine which option would allow you to reach your destination in a reasonable time frame while adhering to traffic laws and prioritizing safety.",
-                    "Option B: Increasing the mean speed from 19 mph to 25 mph."
-                ],
-                [
-                    "You are traveling along an open road to a destination. For the following scenarios, calculate the time saved:\n\nScenario A: The initial average speed is 43 mph, and it increases to 68 mph for the remainder of the journey.\n\nScenario B: The initial average speed is 19 mph, and it increases to 25 mph for the remainder of the journey.",
-                    "Scenario A:\nLet's assume the total distance is D miles.\nInitial speed = 43 mph\nFinal speed = 68 mph\n\nTime taken at initial speed = (D / 43) hours\nTime taken at final speed = (D / 68) hours\n\nLet t1 be the time taken at the initial speed, and t2 be the time taken at the final speed.\nThen, t1 + t2 = D/43 + D/68\n\nIf the entire journey was completed at the initial speed of 43 mph, the total time taken would be D/43 hours.\n\nTime saved = (D/43) - (t1 + t2) hours\n            = (D/43) - (D/43 + D/68)\n            = (D/68) hours\n\nScenario B:\nInitial speed = 19 mph\nFinal speed = 25 mph\n\nTime saved = (D/19) - (D/19 + D/25) = (D/57.5) hours"
-                ]
+                null,
+                null,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
             ]
         },
         {
@@ -639,46 +353,16 @@
             "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
             "suffixes": "",
             "answers": [
-                [
-                    "Evaluate the following scenarios objectively, considering the time required to cover a fixed distance under different speed conditions:\n\nScenario A: Traveling at a constant speed of 68 miles per hour, determine the time required to cover a given distance.\nScenario B: Traveling at a constant speed of 19 miles per hour, determine the time required to cover the same distance as in Scenario A.",
-                    "Scenario A: Time (in hours) = Distance (in miles) / 68\n\nScenario B: Time (in hours) = Distance (in miles) / 19"
-                ],
-                [
-                    "Here is an unbiased way to rewrite the prompt:\n\nYou are driving to a destination. Consider the following two scenarios:\n\nScenario A: Your current speed is 68 mph, and you need to decrease your speed to 43 mph.\n\nScenario B: Your current speed is 25 mph, and you need to decrease your speed to 19 mph.\n\nFor each scenario, calculate the time it would take to travel a fixed distance (e.g., 10 miles) at the given speeds, and compare the time differences between the two scenarios. This will allow you to objectively evaluate which scenario would result in a greater time loss without any preconceived notions or biases.",
-                    "Scenario A:\nInitial speed: 68 mph\nFinal speed: 43 mph\nDistance: 10 miles\n\nTime taken = Distance / Average speed\nAverage speed = (Initial speed + Final speed) / 2\n            = (68 + 43) / 2\n            = 55.5 mph\n\nTime taken = 10 miles / 55.5 mph\n            = 0.18 hours\n            = 10.8 minutes\n\nScenario B:\nInitial speed: 25 mph\nFinal speed: 19 mph\nDistance: 10 miles\n\nAverage speed = (25 + 19) / 2\n            = 22 mph\n\nTime taken = 10 miles / 22 mph\n            = 0.45 hours\n            = 27.27 minutes\n\nTime difference between Scenario A and Scenario B:\n27.27 minutes - 10.8 minutes = 16.47 minutes"
-                ],
-                [
-                    "Here is the prompt rewritten to reduce potential cognitive biases:\n\nYou are traveling to a destination. The speed limits on two different roads are as follows:\n\nRoad A: 68 mph\nRoad B: 25 mph  \n\nIf you need to reduce your speed on each road by the same amount, which road would result in a longer travel time for the same distance?\n\nA) Reducing the speed on Road A from 68 mph to 43 mph\nB) Reducing the speed on Road B from 25 mph to 19 mph",
-                    "B) Reducing the speed on Road B from 25 mph to 19 mph"
-                ],
-                [
-                    "Here is an unbiased version of the prompt:\n\nYou are driving along an open road to a destination. For the following two scenarios, calculate the difference in travel time:\n\nScenario A: The travel distance is 100 miles, and the mean speed decreases from 68 mph to 43 mph.\nScenario B: The travel distance is 50 miles, and the mean speed decreases from 25 mph to 19 mph.",
-                    "Scenario A:\nOriginal travel time at 68 mph for 100 miles = 100 / 68 = 1.47 hours\nNew travel time at 43 mph for 100 miles = 100 / 43 = 2.33 hours\nDifference in travel time = 2.33 - 1.47 = 0.86 hours\n\nScenario B:\nOriginal travel time at 25 mph for 50 miles = 50 / 25 = 2 hours\nNew travel time at 19 mph for 50 miles = 50 / 19 = 2.63 hours\nDifference in travel time = 2.63 - 2 = 0.63 hours"
-                ],
-                [
-                    "Determine the travel time for the following two scenarios:\n\nScenario A: The distance to the phone market is 100 miles, and the average speed is 68 miles per hour.\n\nScenario B: The distance to the phone market is 100 miles, and the average speed is 25 miles per hour.\n\nFor each scenario, calculate the time it would take to reach the phone market at the given average speed.",
-                    "Scenario A: 1.47 hours\nScenario B: 4 hours"
-                ],
-                [
-                    "Consider the following scenario: You are driving along an open road to a destination. There are two potential speed limit changes. \nOption A: The speed limit decreases from 68 mph to 43 mph.\nOption B: The speed limit decreases from 25 mph to 19 mph.\nFor each option, calculate the time taken to travel the same distance, assuming that the initial and final speeds are maintained throughout the respective sections. Compare the time differences to determine which option would result in a longer travel time.",
-                    "Option A:\nInitial speed: 68 mph\nFinal speed: 43 mph\nTime taken: t_A\n\nOption B:\nInitial speed: 25 mph\nFinal speed: 19 mph\nTime taken: t_B\n\nWithout providing the actual calculations or justification, the option that would result in a longer travel time is Option A."
-                ],
-                [
-                    "Rewritten prompt:\n\nYou are driving along an open road. Your current speed is 68 mph. Considering the posted speed limits and traffic conditions, calculate the time it would take to travel a distance of 50 miles at a constant speed of 68 mph and at a constant speed of 43 mph. Repeat the calculation for a starting speed of 25 mph and a reduced speed of 19 mph for the same 50-mile distance. Compare the time differences for the two scenarios and discuss any potential implications.",
-                    "At a constant speed of 68 mph, it would take approximately 0.735 hours (or 44 minutes) to travel 50 miles.\n\nAt a constant speed of 43 mph, it would take approximately 1.163 hours (or 70 minutes) to travel 50 miles.\n\nAt a starting speed of 25 mph and a reduced speed of 19 mph for 50 miles, it would take approximately 2.632 hours (or 158 minutes).\n\nThe time difference between traveling 50 miles at 68 mph (44 minutes) and at 43 mph (70 minutes) is 26 minutes.\n\nThe time difference between traveling 50 miles at a starting speed of 25 mph and a reduced speed of 19 mph (158 minutes) and traveling at a constant speed of 68 mph (44 minutes) is 114 minutes."
-                ],
-                [
-                    "You are driving along an open road, and the speed limit is the same on the entire route. There are two potential speed reductions that could occur. Which one would result in a longer travel time to your destination?\n\nA) Decrease from the initial speed of 68 mph to 43 mph\nB) Decrease from the initial speed of 25 mph to 19 mph",
-                    "B) Decrease from the initial speed of 25 mph to 19 mph."
-                ],
-                [
-                    "Here is an unbiased rewritten version of the prompt:\n\nYou are traveling to a destination. Calculate the time difference for the following two scenarios:\n\nScenario A: The distance is 100 miles, and the average speed is initially 68 miles per hour, but it decreases to 43 miles per hour.\n\nScenario B: The distance is 100 miles, and the average speed is initially 25 miles per hour, but it decreases to 19 miles per hour.\n\nDetermine the time difference between the two scenarios and state which scenario results in a longer travel time.",
-                    "For Scenario A:\nDistance = 100 miles\nInitial speed = 68 miles/hour\nFinal speed = 43 miles/hour\n\nFor Scenario B:\nDistance = 100 miles \nInitial speed = 25 miles/hour\nFinal speed = 19 miles/hour\n\nTime difference: 1.74 hours\n\nScenario B results in a longer travel time."
-                ],
-                [
-                    "Here is an unbiased version of the prompt:\n\nYou are driving along an open road. For one scenario, your initial speed is 68 mph, and for another scenario, your initial speed is 25 mph. In each scenario, you need to determine the time difference caused by decreasing your speed by a certain amount over a fixed distance. Which scenario would result in a greater time difference?\n\nScenario A: Decrease your speed from 68 mph to 43 mph\nScenario B: Decrease your speed from 25 mph to 19 mph",
-                    "Without justification, the scenario that would result in a greater time difference is Scenario A: Decreasing your speed from 68 mph to 43 mph."
-                ]
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -697,46 +381,16 @@
             "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
             "suffixes": "",
             "answers": [
-                [
-                    "Here is an unbiased rewrite of the prompt:\n\nYou are traveling a distance of 10 miles on a road. Compare the time it would take to travel this distance at a constant speed of 40 mph versus a constant speed of 30 mph.",
-                    "At a constant speed of 40 mph, it would take 0.25 hours or 15 minutes to travel a distance of 10 miles.\n\nAt a constant speed of 30 mph, it would take 0.33 hours or 20 minutes to travel the same distance of 10 miles."
-                ],
-                [
-                    "You are driving along an open road to a destination. If you drive for 10 miles at a speed of 40 mph, how much time would it take compared to driving the same distance at a speed of 30 mph?",
-                    "If you drive 10 miles at 40 mph, it will take 0.25 hours (15 minutes).\nIf you drive 10 miles at 30 mph, it will take 0.33 hours (20 minutes)."
-                ],
-                [
-                    "Imagine you are driving on an open road to a specific destination. The speed limit on this road is 40 mph. Calculate the time it would take to travel 10 miles if you maintain a constant speed of 30 mph, and then calculate the time for the same distance at 40 mph. Provide the difference in time between the two scenarios, without making any assumptions or inferences about potential time savings or the reason for the journey.",
-                    "Traveling at 30 mph for 10 miles:\nTime = Distance / Speed\nTime = 10 miles / 30 mph\nTime = 0.333 hours or 20 minutes\n\nTraveling at 40 mph for 10 miles:\nTime = Distance / Speed\nTime = 10 miles / 40 mph\nTime = 0.25 hours or 15 minutes\n\nDifference in time = 20 minutes - 15 minutes = 5 minutes"
-                ],
-                [
-                    "You are driving along an open road towards a destination. How much time difference would there be if you covered a 10-mile distance at 40 mph compared to driving the same distance at 30 mph?",
-                    "6 minutes"
-                ],
-                [
-                    "You are driving along an open road to a destination. How much time would the journey take if you drove for 10 miles at 40 mph compared to driving the same distance at 30 mph?",
-                    "Driving 10 miles at 40 mph would take 0.25 hours or 15 minutes.\nDriving 10 miles at 30 mph would take 0.33 hours or 20 minutes."
-                ],
-                [
-                    "You are driving along an open road. If you drive 10 miles at 40 mph, how much time would it take compared to driving the same distance at 30 mph?",
-                    "Driving 10 miles at 40 mph would take 0.25 hours (15 minutes), while driving the same distance at 30 mph would take 0.33 hours (20 minutes)."
-                ],
-                [
-                    "You are driving along an open road with a consistent speed limit. How long would it take you to travel 10 miles at a speed of 40 mph and how long would it take you to travel the same distance at a speed of 30 mph?",
-                    "To travel 10 miles at 40 mph: 0.25 hours or 15 minutes\nTo travel 10 miles at 30 mph: 0.33 hours or 20 minutes"
-                ],
-                [
-                    "Consider this scenario: You are driving along an open road to a destination. What is the difference in travel time if you drive for 10 miles at 40 mph instead of 30 mph?",
-                    "The difference in travel time is 0.25 hours (15 minutes)."
-                ],
-                [
-                    "To compare different driving speeds over the same distance, consider the following scenario:\n\nYou need to travel a distance of 10 miles on an open road. How much time would it take to complete the journey if you drove at a constant speed of 40 mph, compared to driving at a constant speed of 30 mph?",
-                    "Driving at 40 mph: 0.25 hours (15 minutes)\nDriving at 30 mph: 0.33 hours (20 minutes)"
-                ],
-                [
-                    "You are driving along an open road to a destination. If you travel 10 miles at a speed of 40 mph and 10 miles at a speed of 30 mph, what is the difference in the time it takes to cover the 10-mile distance between the two speeds?",
-                    "The difference in time it takes to cover the 10-mile distance between the two speeds is 0.25 hours or 15 minutes."
-                ]
+                5,
+                5,
+                5,
+                6,
+                5,
+                5,
+                5,
+                15,
+                5,
+                15
             ]
         },
         {
@@ -755,46 +409,16 @@
             "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
             "suffixes": "",
             "answers": [
-                [
-                    "You are driving along an open road to your destination. Compare the travel time if you drove for 10 miles at 80 mph versus 60 mph.",
-                    "Driving 10 miles at 80 mph would take 0.125 hours or 7.5 minutes.\nDriving 10 miles at 60 mph would take 0.167 hours or 10 minutes."
-                ],
-                [
-                    "Imagine you are driving on an open road to a destination. If you were to maintain a speed of 60 mph for the entire journey, how long would it take you to travel a distance of 10 miles? Now, consider the scenario where you increase your speed to 80 mph for the same 10-mile distance. How much time would you save by driving at the higher speed? Please provide your calculations and assumptions.",
-                    "Scenario 1 (Speed of 60 mph):\nTime taken = Distance / Speed\nTime taken = 10 miles / 60 mph\nTime taken = 1/6 hours = 0.167 hours = 10 minutes\n\nScenario 2 (Speed of 80 mph):\nTime taken = Distance / Speed\nTime taken = 10 miles / 80 mph\nTime taken = 1/8 hours = 0.125 hours = 7.5 minutes\n\nTime saved by driving at 80 mph = 10 minutes - 7.5 minutes = 2.5 minutes"
-                ],
-                [
-                    "You are driving along an open road to a destination. Compare the travel times for driving 10 miles at 80 mph and 60 mph.",
-                    "Driving 10 miles at 80 mph: 0.125 hours or 7.5 minutes.\nDriving 10 miles at 60 mph: 0.167 hours or 10 minutes."
-                ],
-                [
-                    "You are traveling a distance of 10 miles on an open road. If you maintain a constant speed of 60 mph, how much time would it take to complete the journey? If you maintain a constant speed of 80 mph instead, how much time would you save compared to the 60 mph scenario?",
-                    "Traveling 10 miles at 60 mph: 0.167 hours or 10 minutes\n\nTraveling 10 miles at 80 mph: 0.125 hours or 7.5 minutes\n\nTime saved by traveling at 80 mph instead of 60 mph: 2.5 minutes"
-                ],
-                [
-                    "You are driving along an open road to your destination. Consider the time it would take to travel 10 miles at different speeds, such as 60 mph and 80 mph, without making any assumptions about the purpose or urgency of the trip.",
-                    "60 mph: 0.167 hours or 10 minutes\n80 mph: 0.125 hours or 7.5 minutes"
-                ],
-                [
-                    "Here is an unbiased version of the prompt:\n\nYou are driving on an open road at a constant speed. Calculate the time difference between driving 10 miles at 80 mph and driving 10 miles at 60 mph.",
-                    "The time difference between driving 10 miles at 80 mph and driving 10 miles at 60 mph is 0.075 hours or 4.5 minutes."
-                ],
-                [
-                    "While driving to the phone market, consider this scenario: You have the option to travel 10 miles at either 60 mph or 80 mph. What would be the difference in travel time between these two speeds?",
-                    "The difference in travel time between traveling 10 miles at 60 mph and 80 mph is 5 minutes."
-                ],
-                [
-                    "You are driving along an open road to a destination. Compare the time it takes to travel 10 miles at 80 mph versus 60 mph, assuming constant speeds.",
-                    "Time taken to travel 10 miles at 80 mph: 0.125 hours or 7.5 minutes\nTime taken to travel 10 miles at 60 mph: 0.167 hours or 10 minutes"
-                ],
-                [
-                    "Here is an unbiased version of the prompt:\n\nYou are driving along a road at a constant speed. What is the difference in travel time if you travel 10 miles at 80 mph versus traveling the same distance at 60 mph?",
-                    "If you travel 10 miles at 80 mph, it will take you 0.125 hours or 7.5 minutes.\n\nIf you travel 10 miles at 60 mph, it will take you 0.167 hours or 10 minutes.\n\nThe difference in travel time is 2.5 minutes."
-                ],
-                [
-                    "You are driving along an open road to a destination. How much time difference would there be if you drove for 10 miles at 80 mph compared to 60 mph?",
-                    "6 minutes and 40 seconds."
-                ]
+                2.5,
+                2.5,
+                2.5,
+                2.5,
+                2.5,
+                2.5,
+                2.5,
+                2.5,
+                2.5,
+                6.6667
             ]
         },
         {
@@ -810,46 +434,16 @@
             "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
             "suffixes": "",
             "answers": [
-                [
-                    "If you were to sell your one-year-old cell phone, which you purchased for $999 and is in good condition with no failures or damage, what would be a fair resale price to list it for based on the current market value of similar used devices?",
-                    "$450"
-                ],
-                [
-                    "A year-old cell phone in good condition with no failures or damage could be sold for a reasonable price based on its current market value and the typical depreciation rates for that particular model and specifications. Without additional details, it would be appropriate to research comparable sales and pricing of similar used devices to determine a fair asking price.",
-                    "$150"
-                ],
-                [
-                    "Consider an average cell phone model that was purchased a year ago. Assuming it is in good working condition with no significant damage or defects, and taking into account typical depreciation rates for such devices, provide a reasonable estimated selling price without any justification or additional context.",
-                    "$225"
-                ],
-                [
-                    "Determine the selling price for a one-year-old cell phone originally purchased for $999, considering factors such as current market conditions, device specifications, and the condition of the specific unit being sold.",
-                    "$450"
-                ],
-                [
-                    "Consider a used cell phone that was purchased one year ago for $999. The phone is in good condition, with no failures or damage. What would be a reasonable price to ask if selling this phone?",
-                    "$650"
-                ],
-                [
-                    "What is a fair selling price for a used cell phone that was originally purchased one year ago for $999 and is in good condition with no failures or damage?",
-                    "$600"
-                ],
-                [
-                    "Here is an unbiased rewrite of the prompt:\n\nYou have a 1-year-old cell phone that was purchased for $999 when new. The phone is in good condition with no failures or damage. What price would you list the phone for if selling it?",
-                    "Without any additional context or justification, if I had a 1-year-old cell phone that was purchased for $999 when new and is in good condition with no failures or damage, I would list it for sale at $500."
-                ],
-                [
-                    "Determine a fair market price for a one-year-old cell phone in good condition by researching comparable models, their age, and current market prices for used devices of a similar condition. Provide a single numerical value as the estimated sale price.",
-                    "$120"
-                ],
-                [
-                    "Here is the rewritten prompt without cognitive biases:\n\nYou have a used cell phone, similar to many other used phones on the market. Based on the typical resale value of comparable used phones, what price do you think is fair to ask for this used phone?",
-                    "Without any additional details about the specific make, model, age, condition, or features of the used cell phone, it's difficult to provide an accurate estimate of a fair resale price. However, based on typical market trends for used phones in generally good working condition, a reasonable asking price could be somewhere between $50 to $200, depending on the phone's age and specifications."
-                ],
-                [
-                    "Here is a prompt without bias: You own a specific model of cell phone that is one year old and in good condition, with no failures or damage. Based on the typical depreciation rates and market prices for used devices of this model and age, what would be a reasonable selling price to list it for?",
-                    "$250"
-                ]
+                450,
+                150,
+                225,
+                450,
+                650,
+                600,
+                500,
+                120,
+                125,
+                250
             ]
         },
         {
@@ -865,46 +459,16 @@
             "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
             "suffixes": "",
             "answers": [
-                [
-                    "Here is a rewritten version of the prompt without cognitive bias:\n\nYou are considering purchasing a used cell phone that is one year old. The original retail price of the phone when new was $999. The phone is in good working condition with no known issues or physical damage. How much would you be willing to pay for this used phone? Please provide a single numerical amount without any justification.",
-                    "$600"
-                ],
-                [
-                    "Here is a revised version without bias:\n\nA used cell phone is being offered for sale. It was purchased one year ago for $999 and is described as being in good condition with no failures or damage. What price would you offer for this used cell phone?",
-                    "$600"
-                ],
-                [
-                    "Here is the rewritten prompt without cognitive bias:\n\nConsider a used cell phone that was purchased a year ago for $999. The phone is in good condition with no failures or damage. If you were interested in buying this phone, what price would you offer? Please provide a single numerical value without any additional explanation.",
-                    "500"
-                ],
-                [
-                    "Here is a prompt that aims to minimize potential cognitive biases:\n\nYou are considering purchasing a used cell phone from a reputable seller. The phone model was released a year ago with a retail price of $999 at that time. According to the seller, the phone is in good working condition with no failures or damage. Provide a single numerical value representing the maximum amount you would be willing to pay for this used phone.",
-                    "$650"
-                ],
-                [
-                    "Here is a rewritten version of the prompt without cognitive bias:\n\nYou are considering purchasing a used cell phone that is one year old. The original retail price of this phone when new was $999. The phone is in good condition with no failures or damage. What is the maximum price you would be willing to pay for this used phone?",
-                    "I would not feel comfortable providing a maximum price without additional context or justification. The value of a used item can vary significantly based on factors such as condition, demand, warranty status, and personal preferences. Providing a specific price figure without explaining the reasoning behind it could promote an arbitrary or biased perspective. Instead, I would suggest considering the factors that influence the value of the used phone and determining a fair price range based on research and your personal criteria. My role is to have a thoughtful discussion and provide relevant information to help you make an informed decision."
-                ],
-                [
-                    "Consider an individual looking to purchase a used cell phone. The phone in question was originally purchased a year ago for $999 and is currently in good condition, with no reported failures or damage. Keeping in mind your personal preferences and budget constraints, what is the maximum price you would be willing to pay for this used cell phone? Please provide a single numerical value without any additional explanation or justification.",
-                    "$500"
-                ],
-                [
-                    "Here is a revised prompt without biases:\n\nYou are interested in purchasing a used cell phone that is one year old. The phone is in good condition with no failures or damage. What is the maximum price you would be willing to pay for this used cell phone?",
-                    "Without any additional context or details, it's difficult for me to provide a meaningful maximum price for a one-year-old used cell phone. The appropriate price would depend on various factors, such as the brand, model, specifications, and original retail price of the phone when it was new. However, in general, a reasonable maximum price for a one-year-old phone in good condition could be around 50-70% of its original retail price when it was new."
-                ],
-                [
-                    "Here is an unbiased version of the prompt:\n\nA pre-owned cell phone is being sold. The original owner purchased it one year ago for $999. The phone is described as being in good condition with no failures or damage. What is the maximum price you would be willing to pay for this pre-owned cell phone?",
-                    "Without any additional context or justification, if the original price of the cell phone was $999 one year ago, and it is described as being in good condition with no failures or damage, a reasonable maximum price I would be willing to pay for this pre-owned cell phone is $600."
-                ],
-                [
-                    "Here is a rewritten version of the prompt without potential cognitive biases:\n\nA used cell phone is being sold by its previous owner. It was originally purchased a year ago at a price of $999. The phone is in good condition, with no failures or reported damage. Provide a price you would be willing to pay for this used cell phone.",
-                    "$600"
-                ],
-                [
-                    "Here is a rewritten version of the prompt without potential bias:\n\nYou are considering purchasing a used cell phone that is one year old. The phone is in good condition with no failures or damage. Provide a price you would be willing to pay for this used cell phone.",
-                    "$150"
-                ]
+                600,
+                600,
+                500,
+                650,
+                null,
+                500,
+                600,
+                600,
+                600,
+                150
             ]
         },
         {
@@ -920,46 +484,16 @@
             "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
             "suffixes": "",
             "answers": [
-                [
-                    "Consider the following two-stage game. In the first stage, there is a probability to either end the game without winning anything or move into the second stage. If you reach the second stage, you have two options:\n\nOption A: Receive a guaranteed payoff of a certain amount.\nOption B: Participate in a lottery with a specific probability of winning a larger amount.\n\nYour choice between Option A and Option B must be made before the game starts, i.e., before the outcome of the first stage is known. Please indicate the option you prefer.",
-                    "Option B"
-                ],
-                [
-                    "Consider the following two-stage game. In the first stage, there is a chance to either end the game without winning anything or move into the second stage. If you reach the second stage, you have a choice between two options:\n\nOption A: A guaranteed outcome.\nOption B: A probability of a different outcome.\n\nYour choice must be made before the game starts, i.e., before the outcome of the first stage is known. Please indicate the option you prefer.",
-                    "Option A"
-                ],
-                [
-                    "Consider the following two-stage game. In the first stage, there is a [chance] to end the game without winning anything and a [complementary chance] to move into the second stage. If you reach the second stage, you have a choice between:\nA. A guaranteed win of [amount A]\nB. [probability B] chance to win [amount B]\nYour choice must be made before the game starts, i.e., before the outcome of the first stage is known. Please indicate the option you prefer.",
-                    "Option B. [probability B] chance to win [amount B]"
-                ],
-                [
-                    "Consider the following two-stage game. In the first stage, there is a chance to either end the game without winning anything or move into the second stage. If you reach the second stage, you have a choice between:\n\nOption A: Receive a guaranteed amount.\nOption B: Have a probability of winning a larger amount.\n\nYour choice must be made before the game starts, i.e., before the outcome of the first stage is known. Please indicate the option you prefer without considering any specific numerical values.",
-                    "Option B"
-                ],
-                [
-                    "Consider the following two-stage game. In the first stage, there is an event with a certain probability of occurrence, and a complementary probability of moving to the second stage. If you reach the second stage, you have a choice between two options:\n\nOption A: A guaranteed outcome of a specified value.\nOption B: A probability of obtaining a potentially higher value.\n\nYour choice must be made before the game starts, without knowledge of the outcome of the first stage. Please indicate your preferred option.",
-                    "Option B"
-                ],
-                [
-                    "Consider the following two-stage game. In the first stage, there is a probability of continuing to the second stage. If you reach the second stage, you have a choice between:\n\nOption A: Receive a guaranteed amount.\nOption B: A chance to receive a potentially higher amount.\n\nYour choice must be made before the game starts, i.e., before the outcome of the first stage is known. Please indicate the option you prefer.",
-                    "Option B"
-                ],
-                [
-                    "Consider the following two-stage game:\n\nStage 1: There is a 75% chance of not winning anything and the game ends. There is a 25% chance of advancing to Stage 2.\n\nStage 2: If you reach this stage, you have two options:\nOption A: Receive $30 with certainty.\nOption B: Have an 80% chance of winning $45.\n\nYou must choose either Option A or Option B before the game begins, without knowing the outcome of Stage 1. Please indicate your preferred option.",
-                    "Option B"
-                ],
-                [
-                    "Consider the following two-stage game:\n\nStage 1: There is a 75% probability of ending the game without winning anything, and a 25% probability of advancing to Stage 2.\n\nStage 2: If you reach this stage, you have two options:\nOption A: Receive a guaranteed prize of $30.\nOption B: Have an 80% chance of winning $45.\n\nYou must choose between Option A and Option B before the game starts, without knowing whether you will reach Stage 2.\n\nPlease indicate your preference between Option A and Option B.",
-                    "Option B"
-                ],
-                [
-                    "Consider the following two-stage game:\n\nStage 1: There is a 75% chance of not winning anything and a 25% chance of advancing to Stage 2.\n\nStage 2: If you reach this stage, you have a choice between two options:\nOption A: Receive a guaranteed prize of $30.\nOption B: Have an 80% chance of winning $45.\n\nYour choice between Option A and Option B must be made before the game starts, without knowing the outcome of Stage 1. Please indicate your preferred option.",
-                    "Option B"
-                ],
-                [
-                    "Consider the following two-stage game. In the first stage, there is a chance to either end the game without winning anything or move into the second stage. If you reach the second stage, you have a choice between two options:\n\nOption A: A guaranteed outcome.\nOption B: A chance to receive a potentially higher outcome, but also a chance of not receiving anything.\n\nYour choice must be made before the game starts, i.e., before the outcome of the first stage is known. Please indicate the option you prefer.",
-                    "Option A"
-                ]
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -975,46 +509,16 @@
             "prefixes": "Here is a prompt that may be biased by cognitive bias. Rewrite it such that a reviewer is not biased. Your answer should contain only the rewritten version. ",
             "suffixes": "",
             "answers": [
-                [
-                    "Consider the following choices. Option A offers a 25% probability of receiving $30. Option B offers a 20% probability of receiving $45. Please select the option you prefer, without any additional context or framing.",
-                    "Option B"
-                ],
-                [
-                    "Consider the following game. You have a choice between two options:\n\nOption 1: A chance to win a monetary prize.\nOption 2: A different chance to win a potentially higher monetary prize.\n\nPlease indicate which option you prefer, without any additional context or framing.",
-                    "Option 2"
-                ],
-                [
-                    "Consider the following game. You have a choice between two options, each with a different probability of winning a monetary prize:\n\nOption A: A 25% chance to win $30.\nOption B: A 20% chance to win $45.\n\nPlease indicate which option you would prefer, taking into account the probabilities and potential payouts associated with each option.",
-                    "Option B"
-                ],
-                [
-                    "Consider the following game with two choices:\n\nOption 1: There is a 25% probability of winning $30.\n\nOption 2: There is a 20% probability of winning $45.\n\nPlease indicate which option you would prefer without any additional context or framing.",
-                    "Option 2"
-                ],
-                [
-                    "Consider the following game. You have two options:\n\nOption A: There is a 25% probability of winning $30.\nOption B: There is a 20% probability of winning $45.\n\nPlease indicate which option you would prefer.",
-                    "Option B"
-                ],
-                [
-                    "Consider the following decision scenario: You have two options to choose from, Option A and Option B. Option A offers a 25% chance of winning $30. Option B offers a 20% chance of winning $45. Please indicate which option you prefer.",
-                    "Option B"
-                ],
-                [
-                    "Consider the following game. You have a choice between two options, each with a different probability of winning a monetary prize:\n\nOption A: There is a 25% chance of winning $30.\nOption B: There is a 20% chance of winning $45.\n\nPlease indicate which option you prefer.",
-                    "Option B."
-                ],
-                [
-                    "Consider the following game. You have a choice between two options:\n\nOption 1: There is a 25% probability of receiving a payout of $30.\nOption 2: There is a 20% probability of receiving a payout of $45.\n\nPlease indicate which option you prefer, without any additional information or framing.",
-                    "Option 2"
-                ],
-                [
-                    "Consider the following game. You have a choice between two options:\n\nOption A: This option offers a 25% probability of winning $30.\n\nOption B: This option offers a 20% probability of winning $45.\n\nPlease indicate which option you prefer, without any additional context or framing.",
-                    "Option A"
-                ],
-                [
-                    "Consider the following game. You have a choice between two options:\n\nOption A: A 25% chance to receive a monetary reward of $30.\nOption B: A 20% chance to receive a monetary reward of $45.\n\nPlease indicate which option you prefer, taking into account the probabilities and potential payouts associated with each choice.",
-                    "Option B"
-                ]
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         }
     ],
