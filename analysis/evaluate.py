@@ -44,13 +44,13 @@ def evaluate_dataset(output, savepath, name):
     for i in range(len(results) - 1):
         if results[i]["func"] == "d":
             results[i]["result"] = compute_clip_cohen_d(
-                results[i]["data"]["A"], results[i]["data"]["B"]
+                 results[i]["data"]["B"],results[i]["data"]["A"],
             )
 
         elif results[i]["func"] == "l":
             results[i]["result"] = compute_linear_l(
                 results[i]["data"]["A"],
-                target=results[i]["target"],
+                target=1-results[i]["target"],
                 morethan=results[i]["morethan"],
                 tot=len(results[i]["data"]["A"]),
             )
@@ -75,30 +75,33 @@ def evaluate_dataset(output, savepath, name):
     ]
     print(e)
 
-    with open(save_path, "w") as f:
-        json.dump(
-            {
-                "overview": {
-                    "name": name,
-                    "dl": dl,
-                    "e": e,
-                },
-                "details": results,
-            },
-            f,
-            indent=4,
-        )
+    # with open(save_path, "w") as f:
+    #     json.dump(
+    #         {
+    #             "overview": {
+    #                 "name": name,
+    #                 "dl": dl,
+    #                 "e": e,
+    #             },
+    #             "details": results,
+    #         },
+    #         f,
+    #         indent=4,
+    #     )
 
 
 if __name__ == "__main__":
     eva_root = "results/collected_results/data_20240428044314/"
     save_root = "analysis/stat_results"
     folders = [
-        "basic",
+        # "basic",
         # "basic_sbs",
         #   "basic_mindful_awj",
         #   "basic_rewrite_sep"
         "my_full",
+        # "my_no_analyze",
+        # "my_no_predict",
+        # "my_full_woj",
     ]
 
     for folder in folders:
@@ -116,6 +119,11 @@ if __name__ == "__main__":
                 "Claude-3" in file or "Gemini-1.5" in file or "GPT-4" in file
             ):
                 continue
+            if folder in ["my_no_analyze", "my_no_predict", "my_full_woj"] and not (
+                "GPT-4" in file
+            ):
+                continue
+
             save_path = osp.join(save_folder, "eva_" + file)
             with open(osp.join(eva_folder, file), "r") as f:
                 output = json.load(f)

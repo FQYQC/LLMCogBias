@@ -433,16 +433,16 @@
             "prefixes": "Read the question below and predict what the average person is most likely to answer, then analyze what cognitive biases affected the answer, and finally give an unbiased answer: ",
             "suffixes": "",
             "answers": [
-                500,
-                600,
-                549,
+                450,
                 500,
                 350,
-                650,
-                599,
-                450,
-                600,
-                450
+                null,
+                500,
+                549,
+                550,
+                425,
+                500,
+                500
             ]
         },
         {
@@ -458,16 +458,16 @@
             "prefixes": "Read the question below and predict what the average person is most likely to answer, then analyze what cognitive biases affected the answer, and finally give an unbiased answer: ",
             "suffixes": "",
             "answers": [
-                300,
-                300,
-                350,
+                600,
+                600,
+                600,
                 null,
+                500,
+                649,
+                400,
                 525,
-                599,
-                450,
-                null,
-                450,
-                525
+                400,
+                500
             ]
         },
         {

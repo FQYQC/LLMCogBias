@@ -194,16 +194,16 @@
             "prefixes": "Read the question below and predict what the average person is most likely to answer, then analyze what cognitive biases affected the answer, and finally give an unbiased answer: ",
             "suffixes": "",
             "answers": [
-                null,
-                4.5,
-                null,
-                null,
-                null,
+                4.3,
                 5,
                 null,
+                5,
+                3.75,
+                5.5,
+                5,
+                5.5,
                 null,
-                null,
-                5
+                null
             ]
         },
         {
@@ -280,28 +280,28 @@
             "suffixes": "",
             "answers": [
                 [
+                    5.5,
+                    null,
+                    5,
+                    null,
+                    null,
+                    null,
                     null,
                     null,
                     5.5,
-                    null,
-                    null,
-                    null,
-                    null,
-                    null,
-                    null,
                     5.5
                 ],
                 [
-                    null,
-                    null,
                     3.5,
                     null,
+                    4,
                     null,
                     null,
                     null,
                     null,
                     null,
-                    4.5
+                    4.5,
+                    4
                 ]
             ]
         },
@@ -484,14 +484,14 @@
             "prefixes": "Read the question below and predict what the average person is most likely to answer, then analyze what cognitive biases affected the answer, and finally give an unbiased answer: ",
             "suffixes": "",
             "answers": [
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0
             ]

@@ -194,16 +194,16 @@
             "prefixes": "Read the question below and predict what the average person is most likely to answer, then analyze what cognitive biases affected the answer, and finally give an unbiased answer: ",
             "suffixes": "",
             "answers": [
-                5,
-                4.5,
-                4.25,
-                5,
-                null,
                 4.5,
                 5.5,
-                null,
+                5,
                 4.5,
-                5
+                4.5,
+                4.5,
+                null,
+                5.5,
+                5,
+                4
             ]
         },
         {
@@ -282,10 +282,10 @@
                 [
                     5.5,
                     5.5,
-                    5.5,
-                    5.5,
-                    5.5,
-                    5,
+                    null,
+                    null,
+                    null,
+                    null,
                     5,
                     5,
                     5.5,
